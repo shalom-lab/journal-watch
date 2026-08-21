@@ -14,8 +14,8 @@ await installProxyFromEnv();
 async function main(): Promise<void> {
   const cmd = process.argv[2] ?? "pipeline";
 
-  if (cmd === "crawl") {
-    console.log("[done] crawl", await runCrawl());
+  if (cmd === "fetch:raw" || cmd === "fetch-raw" || cmd === "crawl") {
+    console.log("[done] fetch:raw", await runCrawl());
     return;
   }
 
@@ -24,8 +24,8 @@ async function main(): Promise<void> {
     return;
   }
 
-  if (cmd === "screen:detail" || cmd === "screen-detail") {
-    console.log("[done] screen:detail", await runScreenDetail());
+  if (cmd === "fetch:detail" || cmd === "fetch-detail") {
+    console.log("[done] fetch:detail", await runScreenDetail());
     return;
   }
 
@@ -40,14 +40,14 @@ async function main(): Promise<void> {
   }
 
   if (cmd === "pipeline") {
-    // Automated path: crawl + title screen. Human reviews, then screen:detail.
-    console.log("[done] crawl", await runCrawl());
+    // Automated path: fetch:raw + screen:title. Human reviews, then fetch:detail.
+    console.log("[done] fetch:raw", await runCrawl());
     console.log("[done] screen:title", await runScreenTitle());
     return;
   }
 
   console.error(
-    `Unknown command: ${cmd}. Use crawl | screen:title | screen:detail | screen | prune:raw | pipeline`,
+    `Unknown command: ${cmd}. Use fetch:raw | screen:title | fetch:detail | screen | prune:raw | pipeline`,
   );
   process.exitCode = 1;
 }

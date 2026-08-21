@@ -45,7 +45,7 @@ jobs:
         run: pnpm --filter @journal-watch/shared build
 
       - name: Fetch detail
-        run: pnpm screen:detail
+        run: pnpm fetch:detail
 
       - name: Commit data
         if: ${{ inputs.skip_commit != true }}

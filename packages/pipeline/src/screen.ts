@@ -14,7 +14,7 @@ function sleep(ms: number): Promise<void> {
 }
 
 /**
- * @deprecated Prefer screen:title → human review → screen:detail.
+ * @deprecated Prefer screen:title → human review → fetch:detail.
  */
 export async function runScreen(): Promise<{
   considered: number;
@@ -22,7 +22,7 @@ export async function runScreen(): Promise<{
   threshold: number;
 }> {
   console.warn(
-    "[screen] legacy one-shot; prefer: pnpm screen:title → review → pnpm screen:detail",
+    "[screen] legacy one-shot; prefer: pnpm screen:title → review → pnpm fetch:detail",
   );
   ensureDataDirs();
   const threshold = getRelevanceThreshold();

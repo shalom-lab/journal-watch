@@ -6,10 +6,11 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "typecheck": "tsc -p tsconfig.json --noEmit",
+    "fetch:raw": "tsx src/cli.ts fetch:raw",
     "crawl": "tsx src/cli.ts crawl",
     "screen": "tsx src/cli.ts screen",
     "screen:title": "tsx src/cli.ts screen:title",
-    "screen:detail": "tsx src/cli.ts screen:detail",
+    "fetch:detail": "tsx src/cli.ts fetch:detail",
     "prune:raw": "tsx src/cli.ts prune:raw",
     "pipeline": "tsx src/cli.ts pipeline"
   },

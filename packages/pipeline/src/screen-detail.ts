@@ -15,7 +15,8 @@ function sleep(ms: number): Promise<void> {
 }
 
 /**
- * Stage 2: detail AI for kept / high-score candidates → data/clean/articles.json
+ * After screen:title + human keep/drop: enrich shortlist → data/clean/articles.json
+ * CLI: pnpm fetch:detail
  */
 export async function runScreenDetail(): Promise<{
   considered: number;
@@ -26,7 +27,7 @@ export async function runScreenDetail(): Promise<{
   const candidatesFile = loadCandidates();
   const shortlist = selectForDetail(candidatesFile);
   if (shortlist.length === 0) {
-    console.log("[detail] no candidates eligible (set decision=keep or raise AI score)");
+    console.log("[fetch:detail] no candidates eligible (set decision=keep or raise AI score)");
     return { considered: 0, kept: 0, promptId: "" };
   }
 
@@ -58,7 +59,7 @@ export async function runScreenDetail(): Promise<{
 
     considered += 1;
     const article = rawFromCandidate(cand);
-    process.stdout.write(`[detail] ${article.journalId} | ${article.title.slice(0, 60)}... `);
+    process.stdout.write(`[fetch:detail] ${article.journalId} | ${article.title.slice(0, 60)}... `);
     const { result, promptId: pid } = await screenDetail(article);
     promptId = pid;
     console.log(`score=${result.relevanceScore.toFixed(2)}`);

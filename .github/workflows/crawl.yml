@@ -2,7 +2,7 @@ name: Journal Watch Jobs
 
 on:
   schedule:
-    # Monthly on the 1st at 02:00 UTC → full pipeline (crawl + title)
+    # Monthly on the 1st at 02:00 UTC → full pipeline (fetch:raw + title)
     - cron: "0 2 1 * *"
   workflow_dispatch:
     inputs:
@@ -13,7 +13,7 @@ on:
         default: pipeline
         options:
           - pipeline
-          - crawl
+          - fetch:raw
           - screen:title
           - prune:raw
       skip_commit:
@@ -67,9 +67,9 @@ jobs:
             echo "job=${{ inputs.job }}" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Crawl
-        if: ${{ steps.pick.outputs.job == 'crawl' || steps.pick.outputs.job == 'pipeline' }}
-        run: pnpm crawl
+      - name: Fetch raw
+        if: ${{ steps.pick.outputs.job == 'fetch:raw' || steps.pick.outputs.job == 'pipeline' }}
+        run: pnpm fetch:raw
 
       - name: Screen title
         if: ${{ steps.pick.outputs.job == 'screen:title' || steps.pick.outputs.job == 'pipeline' }}

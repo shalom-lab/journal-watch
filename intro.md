@@ -1,8 +1,16 @@
 # Journal Watch — 技术与业务说明
 
-个人用**呼吸道传染病流行病学**文献工作台：抓期刊最新文 → AI 两段筛 → 人工闸门 → GitHub Pages 展示 → 1–5 评分写回仓库。
+个人用**呼吸道传染病流行病学**文献工作台。
 
-抓取阶段**不做主题关键词搜索**；相关性只在筛选阶段判断。
+## 正常逻辑（主线）
+
+1. **`fetch:raw`** — 按启用刊拉取最新文的**原始条目**（题名、链接、DOI、摘要片段等）→ `data/raw/`。此步**不做主题搜索、不打相关度**。
+2. **`screen:title`** — 用 AI 对原始条目做**关联度打分** → `data/candidates.json`。
+3. **人工复核** — 在工作台 `/candidates` 上 keep / drop / 调分；人工结果与 AI 分一并写回候选池，形成**保留名单**。
+4. **`fetch:detail`** — 只针对保留条目做**详情 enrichment**（中文摘要、要点等）→ `data/clean/articles.json`。**不再筛选**。实现上当前走 AI；也可改成规则/硬编码拼装字段。
+5. **工作台展示** — `/` 读 clean 库展示优质文章；可再打 1–5 分写回 `ratings.json`。
+
+筛选只发生在第 2–3 步；第 4 步是 enrichment。`pipeline` = 第 1+2 步，方便定时跑完后等人审，再手动跑第 4 步。
 
 ---
 
@@ -12,22 +20,22 @@
 config/journals.yaml          prompts/*.md + index.json
         │                              │
         ▼                              ▼
-   pnpm crawl                    Gemini（须 GEMINI_API_KEY）
-        │                              │
-        ▼                              │
- data/raw/{journalId}_{ts}.json        │
-        │                              │
-        ▼                              │
- pnpm screen:title  ◄──────────────────┘
+   pnpm fetch:raw                 原始条目（题名等）
         │
         ▼
- data/candidates.json  ──►  前端 /candidates（keep / drop / 调分）
+ data/raw/{journalId}_{ts}.json
         │
         ▼
- pnpm screen:detail（仅 keep ∪ pending且分≥阈值）
+ pnpm screen:title  ◄──────────── Gemini 关联度打分
         │
         ▼
- data/clean/articles.json  ──►  前端 /（展示 + 1–5 评分）
+ data/candidates.json  ──►  前端 /candidates（人工 keep/drop/调分）
+        │                     更新保留条目
+        ▼
+ pnpm fetch:detail（仅保留名单；AI 或硬编码 enrichment）
+        │
+        ▼
+ data/clean/articles.json  ──►  前端 /（优质文章工作台 + 1–5 评分）
         │
         ▼
  data/ratings.json（PAT 写回或本机草稿）
@@ -35,15 +43,15 @@ config/journals.yaml          prompts/*.md + index.json
 
 | 命令 | 作用 |
 |------|------|
-| `pnpm crawl` | 按启用刊抓最新文 → `data/raw/` |
-| `pnpm screen:title` | 标题初筛 → `data/candidates.json` |
-| `pnpm screen:detail` | 详评摘要 → `data/clean/articles.json` |
-| `pnpm pipeline` | = crawl + screen:title（**不含**详评） |
+| `pnpm fetch:raw` | 拉原始条目 → `data/raw/`（别名 `crawl`） |
+| `pnpm screen:title` | AI 关联度打分 → `data/candidates.json` |
+| `pnpm fetch:detail` | 对保留条目 enrichment → `data/clean/`（非筛选） |
+| `pnpm pipeline` | = fetch:raw + screen:title（**不含** detail） |
 | `pnpm prune:raw` | 删超过 `RAW_RETENTION_MONTHS`（默认 3）的旧 raw |
-| `pnpm screen` | 遗留一键筛（不推荐） |
+| `pnpm screen` | 遗留一键详评（不推荐） |
 | `pnpm sync:data` | 把 `data/`、`config/` 拷到 `web/public/` 供本地/Pages |
 
-定时任务：`.github/workflows/crawl.yml`（每月 cron = `pipeline`；也可手动选单步）。详评：`.github/workflows/fetch-detail.yml`（仅手动，**Fetch Detail**）。Pages：`.github/workflows/pages.yml`（**仅手动** Deploy）。
+定时：`.github/workflows/crawl.yml`（每月 cron = `pipeline`；可选手动单步）。详情：`.github/workflows/fetch-detail.yml`（仅手动 **Fetch Detail**）。站点：`.github/workflows/pages.yml`（仅手动 Deploy）。
 
 ---
 
@@ -67,7 +75,7 @@ journal-watch/
 │   └── pipeline/                 # Node 爬取 / 筛选 CLI
 ├── web/                          # React + Vite + i18n 工作台
 ├── scripts/sync-data.mjs         # data → web/public
-└── .github/workflows/            # crawl + pages
+└── .github/workflows/            # Journal Watch Jobs + fetch-detail + pages
 ```
 
 ---
@@ -95,10 +103,10 @@ journal-watch/
 
 | 模块 | 职责 |
 |------|------|
-| `crawl.ts` | 读启用刊 → 调 adapter → `writeRawBatch` → 更新 `meta.json` |
+| `crawl.ts` | `fetch:raw`：读启用刊 → adapter → `writeRawBatch` → `meta.json` |
 | `adapters/` | `rss` / `crossref` / `playwright`；统一返回 `RawArticle` |
 | `screen-title.ts` | 合并最新 raw → 标题筛 → 写 `candidates.json`（保留人工字段） |
-| `screen-detail.ts` | `selectForDetail` 短名单 → 详评 → 写 `clean/articles.json` |
+| `screen-detail.ts` | `fetch:detail`：短名单详评 → 写 `clean/articles.json` |
 | `prune-raw.ts` | 按 mtime 删旧 raw 批次 |
 | `ai/gemini.ts` | 读 active prompt；**必须** `GEMINI_API_KEY`，按稳定 id 去重不重复调 |
 | `lib/paths.ts` | 仓库路径与 JSON 读写 |
@@ -138,7 +146,7 @@ journal-watch/
 
 同 `id` 多批次时，**后读文件覆盖**（`loadLatestRawArticles` 按文件名排序合并）。
 
-`id` 优先为 `doi:{doi}`（小写规范化）；无 DOI 时为 `hash:…`。`fetchedAt` 只是本次抓取时间戳，**不参与** AI 去重。`screen:title` / `screen:detail` 只要同 `id` 已筛过就跳过，只刷新元数据。
+`id` 优先为 `doi:{doi}`（小写规范化）；无 DOI 时为 `hash:…`。`fetchedAt` 只是本次抓取时间戳，**不参与** AI 去重。`screen:title` / `fetch:detail` 只要同 `id` 已处理过就跳过，只刷新元数据。
 
 ### `data/candidates.json`
 
@@ -221,6 +229,6 @@ prompts/index.json  →  active.titleScreen / active.detailScreen
 ## 设计要点（业务）
 
 1. **全量最新，不按主题搜** — Crossref 按 ISSN + 时间窗拉新文，避免关键词漏文。  
-2. **两段 AI + 人工闸门** — 标题批量初筛（默认 80 篇/次请求）→ 人调 keep/drop → 再对短名单逐篇详评，省额度。同一 DOI（`id`）只筛一次。标题 token 很少，免费档主要卡的是日请求次数（RPD），不是上下文长度。  
+2. **初筛 + 人工 + 详评** — `screen:title` 批量初筛（默认 80 篇/次）→ 人调 keep/drop → `fetch:detail` 对短名单逐篇详评（enrich，不是再筛）。同一 DOI（`id`）各阶段只处理一次。标题 token 很少，免费档主要卡的是日请求次数（RPD），不是上下文长度。  
 3. **个人仓库即数据库** — 无后端；JSON 进 git；评分/候选可用 PAT 写回。  
 4. **契约单一** — 字段以 `packages/shared` 为准；前后端、CI 同形状。

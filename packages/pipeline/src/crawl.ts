@@ -32,7 +32,7 @@ export async function runCrawl(): Promise<{
   let totalRaw = 0;
 
   for (const journal of journals) {
-    process.stdout.write(`[crawl] ${journal.id} via ${journal.adapter} ... `);
+    process.stdout.write(`[fetch:raw] ${journal.id} via ${journal.adapter} ... `);
     try {
       const articles = dedupe(await fetchJournal(journal));
       writeRawBatch(journal.id, articles);
