@@ -1,0 +1,2 @@
+# Keep raw crawl snapshots in git for traceability (optional; large files can be pruned).
+!.gitkeep

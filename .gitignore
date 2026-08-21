@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+.env
+.env.*
+web/dist/
+packages/*/dist/
+.playwright/
+.cache/
+*.local
+.vite/
+web/public/data/
+web/public/config/

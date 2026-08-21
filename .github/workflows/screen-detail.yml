@@ -1,0 +1,61 @@
+name: Screen Detail
+
+on:
+  workflow_dispatch:
+    inputs:
+      skip_commit:
+        description: "Skip committing data/ back to the repo"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: journal-watch-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  detail:
+    runs-on: ubuntu-latest
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-3.1-flash-lite' }}
+      RELEVANCE_THRESHOLD: ${{ vars.RELEVANCE_THRESHOLD || '0.45' }}
+      TITLE_KEEP_THRESHOLD: ${{ vars.TITLE_KEEP_THRESHOLD || '0.45' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install
+        run: pnpm install
+
+      - name: Build shared
+        run: pnpm --filter @journal-watch/shared build
+
+      - name: Screen detail
+        run: pnpm screen:detail
+
+      - name: Commit data
+        if: ${{ inputs.skip_commit != true }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No data changes"
+          else
+            git commit -m "chore(data): screen:detail $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi

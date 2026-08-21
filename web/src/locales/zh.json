@@ -1,0 +1,81 @@
+{
+  "appName": "Journal Watch",
+  "tagline": "呼吸道病毒流行病学文献雷达",
+  "nav": {
+    "articles": "最新文章",
+    "candidates": "候选复核",
+    "journals": "期刊列表",
+    "settings": "设置"
+  },
+  "sync": {
+    "now": "同步到仓库",
+    "syncing": "同步中…",
+    "pendingAuto": "已暂存，稍后自动同步到 GitHub",
+    "pendingManual": "已暂存本地，请点「同步到仓库」"
+  },
+  "articles": {
+    "title": "筛选后的最新文章",
+    "empty": "暂无文章。请先运行 pipeline，或等待 GitHub Action。",
+    "lastCrawl": "上次爬取",
+    "score": "相关分",
+    "rating": "我的评分",
+    "open": "原文",
+    "criteria": "命中标准",
+    "filterMinScore": "最低相关分",
+    "search": "搜索标题 / 摘要",
+    "notePlaceholder": "可选备注",
+    "saveOk": "评分已同步到仓库",
+    "saveLocal": "评分已暂存本地（未配置 PAT）",
+    "download": "下载 ratings.json"
+  },
+  "journals": {
+    "title": "期刊配置",
+    "tier": "Tier",
+    "adapter": "适配器",
+    "enabled": "已启用",
+    "disabled": "未启用",
+    "raw": "原始条数",
+    "kept": "保留条数",
+    "lastCrawl": "上次爬取",
+    "error": "错误"
+  },
+  "settings": {
+    "title": "设置",
+    "language": "界面语言",
+    "pat": "GitHub Token（PAT）",
+    "patHint": "浏览网站不必填。只有想从网页把评分/候选写回 GitHub 仓库时才需要。Token 只存在本机 localStorage，不会提交进仓库。权限：contents:write。",
+    "storageKeys": "启动时读取：gh_token_journal-watch、gh_repo_journal-watch（可提前注入）",
+    "repoFull": "仓库（owner/repo）",
+    "syncReady": "已配置写回 → {{repo}}",
+    "syncBrowseOnly": "仅浏览（未检测到 Token / owner/repo）",
+    "syncMode": "写回方式",
+    "syncAuto": "自动（防抖合并多次修改后再推）",
+    "syncManual": "手动（改完后点「同步到仓库」）",
+    "debounceMs": "自动同步等待毫秒",
+    "save": "保存设置",
+    "saved": "已保存"
+  },
+  "criteria": {
+    "interest": "感兴趣",
+    "influential": "有影响力",
+    "groupRelevant": "组内相关",
+    "reusableMethods": "可复用方法",
+    "dubious": "存疑"
+  },
+  "candidates": {
+    "title": "标题初筛候选",
+    "hint": "先 AI 打分，再人工 keep/drop；确认后跑 screen:detail",
+    "empty": "暂无候选。请先运行 screen:title。",
+    "filter": "状态",
+    "all": "全部",
+    "pending": "待定",
+    "keep": "保留",
+    "drop": "排除",
+    "minScore": "最低分",
+    "search": "搜索标题",
+    "human": "人工分",
+    "saveOk": "候选已同步到仓库",
+    "saveLocal": "候选已暂存本地（未配置 PAT）",
+    "download": "下载 candidates.json"
+  }
+}

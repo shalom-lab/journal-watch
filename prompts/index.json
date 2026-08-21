@@ -1,0 +1,18 @@
+{
+  "active": {
+    "titleScreen": "screen-title.v1",
+    "detailScreen": "screen-detail.v1"
+  },
+  "prompts": {
+    "screen-title.v1": {
+      "file": "screen-title.v1.md",
+      "stage": "title",
+      "description": "Title-only first pass; cheap relevance score"
+    },
+    "screen-detail.v1": {
+      "file": "screen-detail.v1.md",
+      "stage": "detail",
+      "description": "Detail pass for kept papers; abstract + Chinese summary"
+    }
+  }
+}

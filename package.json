@@ -1,0 +1,23 @@
+{
+  "name": "journal-watch",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Respiratory virus epidemiology journal watch workbench",
+  "packageManager": "pnpm@10.8.0",
+  "scripts": {
+    "build": "pnpm -r run build",
+    "crawl": "pnpm --filter @journal-watch/pipeline crawl",
+    "screen": "pnpm --filter @journal-watch/pipeline screen",
+    "screen:title": "pnpm --filter @journal-watch/pipeline screen:title",
+    "screen:detail": "pnpm --filter @journal-watch/pipeline screen:detail",
+    "prune:raw": "pnpm --filter @journal-watch/pipeline prune:raw",
+    "pipeline": "pnpm --filter @journal-watch/pipeline run pipeline",
+    "dev:web": "pnpm sync:data && pnpm --filter @journal-watch/web dev",
+    "build:web": "pnpm sync:data && pnpm --filter @journal-watch/web build",
+    "sync:data": "node scripts/sync-data.mjs",
+    "typecheck": "pnpm -r run typecheck"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

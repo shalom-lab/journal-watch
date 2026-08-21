@@ -1,0 +1,32 @@
+{
+  "name": "@journal-watch/pipeline",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "crawl": "tsx src/cli.ts crawl",
+    "screen": "tsx src/cli.ts screen",
+    "screen:title": "tsx src/cli.ts screen:title",
+    "screen:detail": "tsx src/cli.ts screen:detail",
+    "prune:raw": "tsx src/cli.ts prune:raw",
+    "pipeline": "tsx src/cli.ts pipeline"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "@journal-watch/shared": "workspace:*",
+    "dotenv": "^16.4.7",
+    "fast-xml-parser": "^5.0.9",
+    "js-yaml": "^4.1.0",
+    "playwright": "^1.51.0",
+    "undici": "^7.29.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}

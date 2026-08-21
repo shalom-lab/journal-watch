@@ -1,0 +1,322 @@
+journals:
+  # ── Tier 1 ──────────────────────────────────────────────
+  - id: nejm
+    name: NEJM
+    tier: 1
+    issn: "0028-4793"
+    # RSS often Cloudflare-blocked in CI; Crossref is the reliable default
+    adapter: crossref
+    feedUrl: "https://www.nejm.org/action/showFeed?jc=nejm&type=etoc&feed=rss"
+    homepageUrl: "https://www.nejm.org/"
+    enabled: true
+
+  - id: lancet
+    name: Lancet
+    tier: 1
+    issn: "0140-6736"
+    adapter: crossref
+    feedUrl: "https://www.thelancet.com/rssfeed/lancet_current.xml"
+    homepageUrl: "https://www.thelancet.com/"
+    enabled: true
+
+  - id: jama
+    name: JAMA
+    tier: 1
+    issn: "0098-7484"
+    adapter: rss
+    feedUrl: "https://jamanetwork.com/rss/site_3/67.xml"
+    homepageUrl: "https://jamanetwork.com/journals/jama"
+    enabled: true
+
+  - id: science
+    name: Science
+    tier: 1
+    issn: "0036-8075"
+    adapter: crossref
+    homepageUrl: "https://www.science.org/journal/science"
+    enabled: false
+
+  - id: nature
+    name: Nature
+    tier: 1
+    issn: "0028-0836"
+    adapter: crossref
+    homepageUrl: "https://www.nature.com/nature"
+    enabled: false
+
+  # ── Tier 2 ──────────────────────────────────────────────
+  - id: nature-medicine
+    name: Nature Medicine
+    tier: 2
+    issn: "1078-8956"
+    adapter: crossref
+    homepageUrl: "https://www.nature.com/nm"
+    enabled: false
+
+  - id: lancet-infectious-diseases
+    name: Lancet Infectious Diseases
+    tier: 2
+    issn: "1473-3099"
+    adapter: crossref
+    homepageUrl: "https://www.thelancet.com/journals/laninf"
+    enabled: false
+
+  - id: lancet-respiratory-medicine
+    name: Lancet Respiratory Medicine
+    tier: 2
+    issn: "2213-2600"
+    adapter: crossref
+    homepageUrl: "https://www.thelancet.com/journals/lanres"
+    enabled: false
+
+  - id: lancet-global-health
+    name: Lancet Global Health
+    tier: 2
+    issn: "2214-109X"
+    adapter: crossref
+    homepageUrl: "https://www.thelancet.com/journals/langlo"
+    enabled: false
+
+  - id: bmj
+    name: BMJ
+    tier: 2
+    issn: "1756-1833"
+    adapter: crossref
+    feedUrl: "https://www.bmj.com/rss/recent.xml"
+    homepageUrl: "https://www.bmj.com/"
+    enabled: true
+
+  - id: lancet-digital-health
+    name: Lancet Digital Health
+    tier: 2
+    issn: "2589-7500"
+    adapter: crossref
+    homepageUrl: "https://www.thelancet.com/journals/landig"
+    enabled: false
+
+  - id: lancet-microbe
+    name: Lancet Microbe
+    tier: 2
+    issn: "2666-5247"
+    adapter: crossref
+    homepageUrl: "https://www.thelancet.com/journals/lanmic"
+    enabled: false
+
+  # ── Tier 3 ──────────────────────────────────────────────
+  - id: nature-human-behaviour
+    name: Nature Human Behaviour
+    tier: 3
+    issn: "2397-3374"
+    adapter: crossref
+    homepageUrl: "https://www.nature.com/nathumbehav"
+    enabled: false
+
+  - id: lancet-public-health
+    name: Lancet Public Health
+    tier: 3
+    issn: "2468-2667"
+    adapter: crossref
+    homepageUrl: "https://www.thelancet.com/journals/lanpub"
+    enabled: false
+
+  - id: lancet-planetary-health
+    name: Lancet Planetary Health
+    tier: 3
+    issn: "2542-5196"
+    adapter: crossref
+    homepageUrl: "https://www.thelancet.com/journals/lanplh"
+    enabled: false
+
+  - id: science-translational-medicine
+    name: Science Translational Medicine
+    tier: 3
+    issn: "1946-6234"
+    adapter: crossref
+    homepageUrl: "https://www.science.org/journal/stm"
+    enabled: false
+
+  - id: science-advances
+    name: Science Advances
+    tier: 3
+    issn: "2375-2548"
+    adapter: crossref
+    homepageUrl: "https://www.science.org/journal/sciadv"
+    enabled: false
+
+  - id: nature-communications
+    name: Nature Communications
+    tier: 3
+    issn: "2041-1723"
+    adapter: crossref
+    homepageUrl: "https://www.nature.com/ncomms"
+    enabled: false
+
+  - id: european-respiratory-journal
+    name: European Respiratory Journal
+    tier: 3
+    issn: "0903-1936"
+    adapter: crossref
+    homepageUrl: "https://erj.ersjournals.com/"
+    enabled: false
+
+  # ── Tier 4 ──────────────────────────────────────────────
+  - id: plos-medicine
+    name: PLoS Medicine
+    tier: 4
+    issn: "1549-1277"
+    adapter: crossref
+    homepageUrl: "https://journals.plos.org/plosmedicine/"
+    enabled: false
+
+  - id: lancet-regional-health-western-pacific
+    name: Lancet Regional Health Western Pacific
+    tier: 4
+    issn: "2666-6065"
+    adapter: crossref
+    homepageUrl: "https://www.thelancet.com/journals/lanwpc"
+    enabled: false
+
+  - id: clinical-microbiology-and-infection
+    name: Clinical Microbiology and Infection
+    tier: 4
+    issn: "1198-743X"
+    adapter: crossref
+    homepageUrl: "https://www.clinicalmicrobiologyandinfection.com/"
+    enabled: false
+
+  - id: clinical-infectious-diseases
+    name: Clinical Infectious Diseases
+    tier: 4
+    issn: "1058-4838"
+    adapter: crossref
+    homepageUrl: "https://academic.oup.com/cid"
+    enabled: false
+
+  - id: journal-of-infectious-diseases
+    name: Journal of Infectious Diseases
+    tier: 4
+    issn: "0022-1899"
+    adapter: crossref
+    homepageUrl: "https://academic.oup.com/jid"
+    enabled: false
+
+  - id: journal-of-infection
+    name: Journal of Infection
+    tier: 4
+    issn: "0163-4453"
+    adapter: crossref
+    homepageUrl: "https://www.journalofinfection.com/"
+    enabled: false
+
+  - id: pnas
+    name: PNAS
+    tier: 4
+    issn: "0027-8424"
+    adapter: crossref
+    homepageUrl: "https://www.pnas.org/"
+    enabled: false
+
+  - id: thorax
+    name: Thorax
+    tier: 4
+    issn: "0040-6376"
+    adapter: crossref
+    homepageUrl: "https://thorax.bmj.com/"
+    enabled: false
+
+  - id: emerging-infectious-diseases
+    name: Emerging Infectious Diseases
+    tier: 4
+    issn: "1080-6040"
+    adapter: crossref
+    homepageUrl: "https://wwwnc.cdc.gov/eid/"
+    enabled: false
+
+  - id: eurosurveillance
+    name: Eurosurveillance
+    tier: 4
+    issn: "1560-7917"
+    adapter: crossref
+    homepageUrl: "https://www.eurosurveillance.org/"
+    enabled: false
+
+  - id: bmc-medicine
+    name: BMC Medicine
+    tier: 4
+    issn: "1741-7015"
+    adapter: crossref
+    homepageUrl: "https://bmcmedicine.biomedcentral.com/"
+    enabled: false
+
+  - id: eclinicalmedicine
+    name: EClinicalMedicine
+    tier: 4
+    issn: "2589-5370"
+    adapter: crossref
+    homepageUrl: "https://www.thelancet.com/journals/eclinm"
+    enabled: false
+
+  - id: jama-network-open
+    name: JAMA Network Open
+    tier: 4
+    issn: "2574-3805"
+    adapter: crossref
+    homepageUrl: "https://jamanetwork.com/journals/jamanetworkopen"
+    enabled: false
+
+  - id: communications-medicine
+    name: Communications Medicine
+    tier: 4
+    issn: "2730-664X"
+    adapter: crossref
+    homepageUrl: "https://www.nature.com/commsmed"
+    enabled: false
+
+  - id: american-journal-of-epidemiology
+    name: American Journal of Epidemiology
+    tier: 4
+    issn: "0002-9262"
+    adapter: crossref
+    homepageUrl: "https://academic.oup.com/aje"
+    enabled: false
+
+  - id: epidemiology
+    name: Epidemiology
+    tier: 4
+    issn: "1044-3983"
+    adapter: crossref
+    homepageUrl: "https://journals.lww.com/epidem"
+    enabled: false
+
+  # ── Tier 5 ──────────────────────────────────────────────
+  - id: international-journal-of-infectious-diseases
+    name: International Journal of Infectious Diseases
+    tier: 5
+    issn: "1201-9712"
+    adapter: crossref
+    homepageUrl: "https://www.ijidonline.com/"
+    enabled: false
+
+  - id: influenza-other-resp-viruses
+    name: Influenza and Other Respiratory Viruses
+    tier: 5
+    issn: "1750-2640"
+    adapter: crossref
+    homepageUrl: "https://onlinelibrary.wiley.com/journal/17502659"
+    enabled: true
+
+  - id: vaccine
+    name: Vaccine
+    tier: 5
+    issn: "0264-410X"
+    adapter: crossref
+    homepageUrl: "https://www.sciencedirect.com/journal/vaccine"
+    enabled: true
+
+  - id: open-forum-infectious-diseases
+    name: Open Forum Infectious Diseases
+    tier: 5
+    issn: "2328-8957"
+    adapter: crossref
+    homepageUrl: "https://academic.oup.com/ofid"
+    enabled: false

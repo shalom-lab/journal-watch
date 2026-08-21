@@ -1,0 +1,81 @@
+{
+  "appName": "Journal Watch",
+  "tagline": "Respiratory virus epidemiology radar",
+  "nav": {
+    "articles": "Articles",
+    "candidates": "Candidates",
+    "journals": "Journals",
+    "settings": "Settings"
+  },
+  "sync": {
+    "now": "Sync to repo",
+    "syncing": "Syncing…",
+    "pendingAuto": "Saved locally; will auto-sync to GitHub shortly",
+    "pendingManual": "Saved locally — click Sync to push"
+  },
+  "articles": {
+    "title": "Screened latest papers",
+    "empty": "No articles yet. Run the pipeline or wait for GitHub Actions.",
+    "lastCrawl": "Last crawl",
+    "score": "Relevance",
+    "rating": "My rating",
+    "open": "Open",
+    "criteria": "Criteria",
+    "filterMinScore": "Min score",
+    "search": "Search title / abstract",
+    "notePlaceholder": "Optional note",
+    "saveOk": "Ratings synced to repo",
+    "saveLocal": "Ratings saved locally (no PAT)",
+    "download": "Download ratings.json"
+  },
+  "journals": {
+    "title": "Journal roster",
+    "tier": "Tier",
+    "adapter": "Adapter",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "raw": "Raw",
+    "kept": "Kept",
+    "lastCrawl": "Last crawl",
+    "error": "Error"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "pat": "GitHub Token (PAT)",
+    "patHint": "Not required for browsing. Only needed to write ratings/candidates back to the GitHub repo from this page. Stored in localStorage only (never committed). Needs contents:write.",
+    "storageKeys": "Read on startup: gh_token_journal-watch, gh_repo_journal-watch (pre-inject OK)",
+    "repoFull": "Repository (owner/repo)",
+    "syncReady": "Write-back ready → {{repo}}",
+    "syncBrowseOnly": "Browse-only (no Token / owner/repo detected)",
+    "syncMode": "Write-back mode",
+    "syncAuto": "Auto (debounce — batch edits into one push)",
+    "syncManual": "Manual (click Sync after edits)",
+    "debounceMs": "Auto-sync delay (ms)",
+    "save": "Save settings",
+    "saved": "Saved"
+  },
+  "criteria": {
+    "interest": "Interest",
+    "influential": "Influential",
+    "groupRelevant": "Group-relevant",
+    "reusableMethods": "Reusable methods",
+    "dubious": "Dubious"
+  },
+  "candidates": {
+    "title": "Title-screen candidates",
+    "hint": "AI scores first; you keep/drop; then run screen:detail",
+    "empty": "No candidates yet. Run screen:title.",
+    "filter": "Status",
+    "all": "All",
+    "pending": "Pending",
+    "keep": "Keep",
+    "drop": "Drop",
+    "minScore": "Min score",
+    "search": "Search title",
+    "human": "Human score",
+    "saveOk": "Candidates synced to repo",
+    "saveLocal": "Candidates saved locally (no PAT)",
+    "download": "Download candidates.json"
+  }
+}

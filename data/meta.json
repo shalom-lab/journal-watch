@@ -1,0 +1,35 @@
+{
+  "lastCrawlAt": "2026-08-21T06:29:44.038Z",
+  "journals": {
+    "nejm": {
+      "lastCrawlAt": "2026-08-21T06:29:44.038Z",
+      "rawCount": 100,
+      "keptCount": 0
+    },
+    "lancet": {
+      "lastCrawlAt": "2026-08-21T06:29:44.038Z",
+      "rawCount": 100,
+      "keptCount": 0
+    },
+    "jama": {
+      "lastCrawlAt": "2026-08-21T06:29:44.038Z",
+      "rawCount": 36,
+      "keptCount": 1
+    },
+    "bmj": {
+      "lastCrawlAt": "2026-08-21T06:29:44.038Z",
+      "rawCount": 100,
+      "keptCount": 0
+    },
+    "influenza-other-resp-viruses": {
+      "lastCrawlAt": "2026-08-21T06:29:44.038Z",
+      "rawCount": 40,
+      "keptCount": 26
+    },
+    "vaccine": {
+      "lastCrawlAt": "2026-08-21T06:29:44.038Z",
+      "rawCount": 100,
+      "keptCount": 1
+    }
+  }
+}
