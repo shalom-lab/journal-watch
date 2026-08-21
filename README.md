@@ -18,7 +18,7 @@
 - 可复用适配器：`rss` · `crossref` · `playwright`（模板）
 - 统一 TypeScript 接口（`@journal-watch/shared`）
 - Prompt：`prompts/*.md` + `prompts/index.json`（可版本切换）
-- GitHub Actions：定时 `pipeline`（raw + 标题打分）；人工后手动 Fetch Detail / Deploy Pages
+- GitHub Actions：一步一 workflow（`fetch:raw` / `screen:title` / `fetch:detail` / `prune:raw` / `deploy:pages`）；`pipeline` 编排 raw→title→prune
 - React + Vite + i18n 工作台（文章 / 候选复核 / 期刊 / 设置）
 
 ## 快速开始
@@ -63,10 +63,11 @@ prompts/
 1. 推送到 GitHub，Settings → Pages → Source = **GitHub Actions**
 2. Secrets：`GEMINI_API_KEY`
 3. 可选 Variables：`RELEVANCE_THRESHOLD`、`TITLE_KEEP_THRESHOLD`、`GEMINI_MODEL`、`TITLE_BATCH_SIZE`、`CROSSREF_MAILTO`、`RAW_RETENTION_MONTHS`
-4. Actions：
-   - **Journal Watch Jobs**：选 `pipeline` / `fetch:raw` / `screen:title` / `prune:raw`（定时默认 `pipeline`）
-   - **Fetch Detail**：人工复核候选后，单独跑详评摘要（不是再筛选）
-   - **Deploy GitHub Pages**：需要刷新站点时手动跑（不会随 push 自动部署）
+4. Actions（文件名连字符，显示名与 CLI 一致）：
+   - **`pipeline`** — 定时/手动编排：`fetch:raw` → `screen:title` → `prune:raw`
+   - **`fetch:raw`** / **`screen:title`** / **`prune:raw`** — 可单独手动跑
+   - **`fetch:detail`** — 人工复核后 enrichment（不是再筛选）
+   - **`deploy:pages`** — 刷新站点（不会随 push 自动部署）
 
 ### 评分 / 候选写回
 

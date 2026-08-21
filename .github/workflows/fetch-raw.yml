@@ -1,5 +1,5 @@
-# Enrich kept / high-score candidates → data/clean/ (not a filter step)
-name: fetch:detail
+# Pull latest journal entries → data/raw/
+name: fetch:raw
 
 on:
   workflow_dispatch:
@@ -27,14 +27,11 @@ jobs:
   run:
     runs-on: ubuntu-latest
     env:
-      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-      GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-3.1-flash-lite' }}
-      RELEVANCE_THRESHOLD: ${{ vars.RELEVANCE_THRESHOLD || '0.45' }}
-      TITLE_KEEP_THRESHOLD: ${{ vars.TITLE_KEEP_THRESHOLD || '0.45' }}
+      CROSSREF_MAILTO: ${{ vars.CROSSREF_MAILTO || 'journal-watch@users.noreply.github.com' }}
     steps:
       - uses: actions/checkout@v5
       - uses: ./.github/actions/setup-pnpm
-      - run: pnpm fetch:detail
+      - run: pnpm fetch:raw
       - name: Commit data
         if: ${{ inputs.skip_commit != true }}
         run: |
@@ -44,6 +41,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No data changes"
           else
-            git commit -m "chore(data): fetch:detail $(date -u +%Y-%m-%dT%H:%MZ)"
+            git commit -m "chore(data): fetch:raw $(date -u +%Y-%m-%dT%H:%MZ)"
             git push
           fi

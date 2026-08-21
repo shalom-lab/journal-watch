@@ -1,0 +1,14 @@
+name: Setup pnpm + shared
+
+runs:
+  using: composite
+  steps:
+    - uses: pnpm/action-setup@v4
+    - uses: actions/setup-node@v5
+      with:
+        node-version: 24
+        cache: pnpm
+    - run: pnpm install
+      shell: bash
+    - run: pnpm --filter @journal-watch/shared build
+      shell: bash

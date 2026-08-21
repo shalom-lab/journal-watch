@@ -1,5 +1,5 @@
-# Enrich kept / high-score candidates → data/clean/ (not a filter step)
-name: fetch:detail
+# AI relevance scores on raw entries → data/candidates.json
+name: screen:title
 
 on:
   workflow_dispatch:
@@ -29,12 +29,13 @@ jobs:
     env:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-3.1-flash-lite' }}
+      TITLE_BATCH_SIZE: ${{ vars.TITLE_BATCH_SIZE || '80' }}
       RELEVANCE_THRESHOLD: ${{ vars.RELEVANCE_THRESHOLD || '0.45' }}
       TITLE_KEEP_THRESHOLD: ${{ vars.TITLE_KEEP_THRESHOLD || '0.45' }}
     steps:
       - uses: actions/checkout@v5
       - uses: ./.github/actions/setup-pnpm
-      - run: pnpm fetch:detail
+      - run: pnpm screen:title
       - name: Commit data
         if: ${{ inputs.skip_commit != true }}
         run: |
@@ -44,6 +45,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No data changes"
           else
-            git commit -m "chore(data): fetch:detail $(date -u +%Y-%m-%dT%H:%MZ)"
+            git commit -m "chore(data): screen:title $(date -u +%Y-%m-%dT%H:%MZ)"
             git push
           fi

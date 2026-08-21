@@ -1,0 +1,41 @@
+# Orchestrate: fetch:raw → screen:title → prune:raw (no fetch:detail — human gate)
+name: pipeline
+
+on:
+  schedule:
+    # Monthly on the 1st at 02:00 UTC
+    - cron: "0 2 1 * *"
+  workflow_dispatch:
+    inputs:
+      skip_commit:
+        description: "Skip committing data/ back to the repo"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: journal-watch-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  fetch-raw:
+    uses: ./.github/workflows/fetch-raw.yml
+    secrets: inherit
+    with:
+      skip_commit: ${{ inputs.skip_commit == true }}
+
+  screen-title:
+    needs: fetch-raw
+    uses: ./.github/workflows/screen-title.yml
+    secrets: inherit
+    with:
+      skip_commit: ${{ inputs.skip_commit == true }}
+
+  prune-raw:
+    needs: screen-title
+    uses: ./.github/workflows/prune-raw.yml
+    secrets: inherit
+    with:
+      skip_commit: ${{ inputs.skip_commit == true }}

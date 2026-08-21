@@ -51,7 +51,16 @@ config/journals.yaml          prompts/*.md + index.json
 | `pnpm screen` | 遗留一键详评（不推荐） |
 | `pnpm sync:data` | 把 `data/`、`config/` 拷到 `web/public/` 供本地/Pages |
 
-定时：`.github/workflows/crawl.yml`（每月 cron = `pipeline`；可选手动单步）。详情：`.github/workflows/fetch-detail.yml`（仅手动 **Fetch Detail**）。站点：`.github/workflows/pages.yml`（仅手动 Deploy）。
+Actions（一步一文件，`pipeline` 用 `workflow_call` 编排）：
+
+| Workflow 文件 | 显示名 | 触发 |
+|------|------|------|
+| `fetch-raw.yml` | `fetch:raw` | 手动；也被 pipeline 调用 |
+| `screen-title.yml` | `screen:title` | 手动；也被 pipeline 调用 |
+| `prune-raw.yml` | `prune:raw` | 手动；也被 pipeline 调用 |
+| `fetch-detail.yml` | `fetch:detail` | 仅手动（人工闸门之后） |
+| `pipeline.yml` | `pipeline` | 每月 cron + 手动：raw → title → prune |
+| `deploy-pages.yml` | `deploy:pages` | 仅手动部署站点 |
 
 ---
 
@@ -75,7 +84,9 @@ journal-watch/
 │   └── pipeline/                 # Node 爬取 / 筛选 CLI
 ├── web/                          # React + Vite + i18n 工作台
 ├── scripts/sync-data.mjs         # data → web/public
-└── .github/workflows/            # Journal Watch Jobs + fetch-detail + pages
+└── .github/
+    ├── actions/setup-pnpm/       # 共用 pnpm + shared build
+    └── workflows/                # fetch-raw / screen-title / fetch-detail / prune-raw / pipeline / deploy-pages
 ```
 
 ---
