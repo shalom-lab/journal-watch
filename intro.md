@@ -43,7 +43,7 @@ config/journals.yaml          prompts/*.md + index.json
 | `pnpm screen` | 遗留一键筛（不推荐） |
 | `pnpm sync:data` | 把 `data/`、`config/` 拷到 `web/public/` 供本地/Pages |
 
-定时任务：`.github/workflows/crawl.yml`（每月 cron = `pipeline`；也可手动选单步）。详评：`.github/workflows/screen-detail.yml`（仅手动）。Pages：`.github/workflows/pages.yml`。
+定时任务：`.github/workflows/crawl.yml`（每月 cron = `pipeline`；也可手动选单步）。详评：`.github/workflows/fetch-detail.yml`（仅手动，**Fetch Detail**）。Pages：`.github/workflows/pages.yml`（**仅手动** Deploy）。
 
 ---
 

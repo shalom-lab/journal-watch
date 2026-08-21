@@ -56,7 +56,8 @@ prompts/
 3. 可选 Variables：`RELEVANCE_THRESHOLD`、`TITLE_KEEP_THRESHOLD`、`GEMINI_MODEL`、`TITLE_BATCH_SIZE`、`CROSSREF_MAILTO`、`RAW_RETENTION_MONTHS`
 4. Actions：
    - **Journal Watch Jobs**：选 `pipeline` / `crawl` / `screen:title` / `prune:raw`（定时默认 `pipeline`）
-   - **Screen Detail**：人工复核候选后，单独跑详评
+   - **Fetch Detail**：人工复核候选后，单独跑详评摘要（不是再筛选）
+   - **Deploy GitHub Pages**：需要刷新站点时手动跑（不会随 push 自动部署）
 
 ### 评分 / 候选写回
 

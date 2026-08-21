@@ -1,16 +1,7 @@
 name: Deploy GitHub Pages
 
+# Manual only — run from Actions when you want to refresh the site.
 on:
-  push:
-    branches: [main, master]
-    paths:
-      - "web/**"
-      - "data/**"
-      - "config/**"
-      - "packages/shared/**"
-      - ".github/workflows/pages.yml"
-      - "package.json"
-      - "pnpm-lock.yaml"
   workflow_dispatch:
 
 permissions:
@@ -26,13 +17,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - uses: pnpm/action-setup@v4
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
-          node-version: 22
+          node-version: 24
           cache: pnpm
 
       - run: pnpm install

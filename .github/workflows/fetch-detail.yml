@@ -1,4 +1,6 @@
-name: Screen Detail
+# Fetch AI detail summaries for kept / high-score candidates (after human review).
+# Filtering already happened in screen:title + keep/drop — this step enriches, not screens.
+name: Fetch Detail
 
 on:
   workflow_dispatch:
@@ -25,15 +27,15 @@ jobs:
       TITLE_KEEP_THRESHOLD: ${{ vars.TITLE_KEEP_THRESHOLD || '0.45' }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: 22
+          node-version: 24
           cache: pnpm
 
       - name: Install
@@ -42,7 +44,7 @@ jobs:
       - name: Build shared
         run: pnpm --filter @journal-watch/shared build
 
-      - name: Screen detail
+      - name: Fetch detail
         run: pnpm screen:detail
 
       - name: Commit data
@@ -54,6 +56,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No data changes"
           else
-            git commit -m "chore(data): screen:detail $(date -u +%Y-%m-%dT%H:%MZ)"
+            git commit -m "chore(data): fetch-detail $(date -u +%Y-%m-%dT%H:%MZ)"
             git push
           fi

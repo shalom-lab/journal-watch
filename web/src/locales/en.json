@@ -64,7 +64,7 @@
   },
   "candidates": {
     "title": "Title-screen candidates",
-    "hint": "AI scores first; you keep/drop; then run screen:detail",
+    "hint": "AI scores first; you keep/drop; then run Fetch Detail",
     "empty": "No candidates yet. Run screen:title.",
     "filter": "Status",
     "all": "All",
