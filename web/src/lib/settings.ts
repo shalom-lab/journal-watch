@@ -10,6 +10,7 @@ export const LS = {
   lang: "jw.lang",
   ratingsDraft: "jw.ratings.draft",
   candidatesDraft: "jw.candidates.draft",
+  promptsDraft: "jw.prompts.draft",
   legacySettings: "jw.settings",
 } as const;
 

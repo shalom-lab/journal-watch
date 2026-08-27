@@ -5,13 +5,26 @@
     "articles": "Articles",
     "candidates": "Candidates",
     "journals": "Journals",
-    "settings": "Settings"
+    "prompts": "Prompts",
+    "settings": "Settings",
+    "githubRepo": "GitHub repository"
   },
   "sync": {
     "now": "Sync to repo",
     "syncing": "Syncing…",
     "pendingAuto": "Saved locally; will auto-sync to GitHub shortly",
     "pendingManual": "Saved locally — click Sync to push"
+  },
+  "prompts": {
+    "title": "Prompt manager",
+    "hint": "Still stored as prompts/*.md in the repo; edit here and push with a PAT. For a new version, add *.v2.md and register it in index.json.",
+    "activeTitle": "Active · title screen",
+    "activeDetail": "Active · detail",
+    "edit": "Edit file",
+    "download": "Download .md",
+    "placeholder": "Markdown prompt…",
+    "saveLocal": "Saved locally (no PAT)",
+    "saveOk": "Prompts written back to the repo"
   },
   "articles": {
     "title": "Screened latest papers",
@@ -43,7 +56,7 @@
     "title": "Settings",
     "language": "Language",
     "pat": "GitHub Token (PAT)",
-    "patHint": "Not required for browsing. Only needed to write ratings/candidates back to the GitHub repo from this page. Stored in localStorage only (never committed). Needs contents:write.",
+    "patHint": "Not required for browsing. Needed to write ratings / candidates / prompts back to the repo. Stored in localStorage only (never committed). Needs contents:write.",
     "storageKeys": "Read on startup: gh_token_journal-watch, gh_repo_journal-watch (pre-inject OK)",
     "repoFull": "Repository (owner/repo)",
     "syncReady": "Write-back ready → {{repo}}",

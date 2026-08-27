@@ -5,13 +5,26 @@
     "articles": "最新文章",
     "candidates": "候选复核",
     "journals": "期刊列表",
-    "settings": "设置"
+    "prompts": "Prompt",
+    "settings": "设置",
+    "githubRepo": "GitHub 仓库"
   },
   "sync": {
     "now": "同步到仓库",
     "syncing": "同步中…",
     "pendingAuto": "已暂存，稍后自动同步到 GitHub",
     "pendingManual": "已暂存本地，请点「同步到仓库」"
+  },
+  "prompts": {
+    "title": "Prompt 管理",
+    "hint": "仍保存在仓库 prompts/*.md；网页可编辑并用 PAT 写回。新建版本请加 *.v2.md 并登记 index.json。",
+    "activeTitle": "启用 · 标题初筛",
+    "activeDetail": "启用 · 详评",
+    "edit": "编辑文件",
+    "download": "下载 .md",
+    "placeholder": "Markdown prompt…",
+    "saveLocal": "已暂存本地（未配置 PAT）",
+    "saveOk": "Prompt 已写回仓库"
   },
   "articles": {
     "title": "筛选后的最新文章",
@@ -43,7 +56,7 @@
     "title": "设置",
     "language": "界面语言",
     "pat": "GitHub Token（PAT）",
-    "patHint": "浏览网站不必填。只有想从网页把评分/候选写回 GitHub 仓库时才需要。Token 只存在本机 localStorage，不会提交进仓库。权限：contents:write。",
+    "patHint": "浏览不必填。要从网页写回评分 / 候选 / Prompt 到仓库时需要。Token 只存本机 localStorage，不会进 git。权限：contents:write。",
     "storageKeys": "启动时读取：gh_token_journal-watch、gh_repo_journal-watch（可提前注入）",
     "repoFull": "仓库（owner/repo）",
     "syncReady": "已配置写回 → {{repo}}",

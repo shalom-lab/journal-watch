@@ -1,8 +1,9 @@
 import { canSyncToGithub, loadSettings, parseRepoFull, type AppSettings } from "./settings";
 
-export async function putRepoJson(
+/** Write a UTF-8 text file to the repo via Contents API. */
+export async function putRepoText(
   path: string,
-  data: unknown,
+  text: string,
   message: string,
   settings: AppSettings = loadSettings(),
 ): Promise<void> {
@@ -28,7 +29,7 @@ export async function putRepoJson(
     throw new Error(`GitHub GET ${path} failed: ${getRes.status}`);
   }
 
-  const content = btoa(unescape(encodeURIComponent(JSON.stringify(data, null, 2) + "\n")));
+  const content = btoa(unescape(encodeURIComponent(text)));
   const putRes = await fetch(apiBase, {
     method: "PUT",
     headers: { ...headers, "Content-Type": "application/json" },
@@ -38,6 +39,15 @@ export async function putRepoJson(
   if (!putRes.ok) {
     throw new Error(`GitHub PUT ${path} failed: ${putRes.status} ${await putRes.text()}`);
   }
+}
+
+export async function putRepoJson(
+  path: string,
+  data: unknown,
+  message: string,
+  settings: AppSettings = loadSettings(),
+): Promise<void> {
+  await putRepoText(path, `${JSON.stringify(data, null, 2)}\n`, message, settings);
 }
 
 type Timer = ReturnType<typeof setTimeout>;

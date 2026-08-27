@@ -10,9 +10,17 @@ You are doing a **cheap first-pass** screen for a research group focused on:
 ## Rules
 
 - Use **title (+ journal id) only**. Do NOT invent abstracts.
-- Prefer original research and systematic reviews.
-- Deprioritize commentaries, editorials, narrative reviews, animal-only studies, and unrelated clinical case reports.
-- Be inclusive on borderline epidemiology / modelling / vaccine / surveillance papers — humans will review next.
+- **Keep only original research articles** (and systematic reviews / meta-analyses when clearly research).
+- **Exclude non-original article types** even if the topic looks relevant. From the title (and common title cues), drop:
+  - Comment / Commentary / Reply / Response
+  - Letter / Correspondence / Correspondence reply
+  - Editorial / Editor's note / Guest editorial
+  - News / Perspective / Viewpoint / Opinion / Essay
+  - Narrative review / Invited review (unless it is clearly a systematic review or meta-analysis)
+  - Protocol-only announcements, errata, corrections, retractions notices
+  - Animal-only studies and unrelated single clinical case reports
+- If the title strongly signals one of the excluded types above, set `relevanceScore` **≤ 0.2** and say so in `reason` / `summaryZh`.
+- Be inclusive on borderline **original** epidemiology / modelling / vaccine / surveillance papers — humans will review next.
 - Score **each paper independently**. Do not let one paper influence another.
 - You will usually receive a **batch** of papers. Return one result object per input `id`.
 
@@ -56,5 +64,7 @@ Single-paper fallback (same fields, no wrapper):
 }
 ```
 
-`relevanceScore` is 0–1. Papers clearly off-topic should be < 0.35. Clearly on-topic epi/modelling should be ≥ 0.55.
+`relevanceScore` is 0–1.
+- Excluded non-original types (comment / letter / editorial / etc.) or clearly off-topic: **≤ 0.2** (prefer < 0.35).
+- Clearly on-topic **original** epi/modelling research: **≥ 0.55**.
 Every input `id` must appear exactly once in `results`.
