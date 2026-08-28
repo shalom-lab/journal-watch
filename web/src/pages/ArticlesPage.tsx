@@ -155,7 +155,7 @@ export default function ArticlesPage() {
       </div>
 
       <div className="toolbar">
-        <label>
+        <label className="filter-journal">
           {t("articles.filterJournal")}
           <select value={journalFilter} onChange={(e) => setJournalFilter(e.target.value)}>
             <option value="all">{t("articles.allJournals")}</option>

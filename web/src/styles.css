@@ -306,6 +306,16 @@ h1 {
   font-size: 0.76rem;
 }
 
+.toolbar select {
+  min-width: 9rem;
+  max-width: 14rem;
+}
+
+.toolbar .filter-journal select {
+  min-width: 11rem;
+  max-width: 18rem;
+}
+
 input,
 button,
 select {
@@ -427,6 +437,13 @@ button:disabled {
 
 .article-list-2col {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.55rem;
+}
+
+@media (min-width: 1100px) {
+  .article-list-2col {
+    gap: 0.65rem;
+  }
 }
 
 .article {

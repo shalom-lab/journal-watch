@@ -124,7 +124,11 @@ export default function CandidatesPage() {
         <div>
           <h1>{t("candidates.title")}</h1>
           <p className="muted">
-            {t("candidates.hint")} · keep {keepN} / drop {dropN} / pending {pendingN}
+            {t("candidates.hint")} · {t("candidates.showing", {
+              shown: list.length,
+              total: file.candidates.length,
+            })}{" "}
+            · keep {keepN} / drop {dropN} / pending {pendingN}
           </p>
         </div>
         <div className="btn-row">
@@ -145,7 +149,7 @@ export default function CandidatesPage() {
       </div>
 
       <div className="toolbar">
-        <label>
+        <label className="filter-journal">
           {t("candidates.filterJournal")}
           <select value={journalFilter} onChange={(e) => setJournalFilter(e.target.value)}>
             <option value="all">{t("candidates.allJournals")}</option>

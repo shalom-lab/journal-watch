@@ -1,7 +1,16 @@
 name: deploy:pages
 
-# Manual only — run from Actions when you want to refresh the site.
+# Auto on push to master (web/data); also manual.
 on:
+  push:
+    branches: [master]
+    paths:
+      - "web/**"
+      - "scripts/sync-data.mjs"
+      - "packages/shared/**"
+      - "data/**"
+      - "config/**"
+      - "prompts/**"
   workflow_dispatch:
 
 permissions:
