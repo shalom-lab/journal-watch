@@ -5,10 +5,11 @@ import type {
   CleanDatabase,
   CrawlMeta,
   CriteriaTag,
+  JournalConfig,
   RatingsFile,
   ScreenedArticle,
 } from "@journal-watch/shared";
-import { fetchArticles, fetchMeta, fetchRatings } from "../lib/data";
+import { fetchArticles, fetchJournals, fetchMeta, fetchRatings } from "../lib/data";
 import {
   downloadRatings,
   loadDraftRatings,
@@ -33,7 +34,9 @@ export default function ArticlesPage() {
   const [meta, setMeta] = useState<CrawlMeta | null>(null);
   const [ratings, setRatings] = useState<RatingsFile>({ updatedAt: "", ratings: [] });
   const [minScore, setMinScore] = useState(0.45);
+  const [journalFilter, setJournalFilter] = useState("all");
   const [q, setQ] = useState("");
+  const [journals, setJournals] = useState<JournalConfig[]>([]);
   const [status, setStatus] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [dirty, setDirty] = useState(false);
@@ -42,13 +45,15 @@ export default function ArticlesPage() {
   useEffect(() => {
     void (async () => {
       try {
-        const [articles, m, r] = await Promise.all([
+        const [articles, m, r, j] = await Promise.all([
           fetchArticles(),
           fetchMeta(),
           fetchRatings(),
+          fetchJournals(),
         ]);
         setDb(articles);
         setMeta(m);
+        setJournals(j);
         const draft = loadDraftRatings();
         if (draft && draft.updatedAt > (r.updatedAt || "")) {
           setRatings(draft);
@@ -68,15 +73,24 @@ export default function ArticlesPage() {
     return map;
   }, [ratings]);
 
+  const journalOptions = useMemo(() => {
+    const ids = new Set((db?.articles ?? []).map((a) => a.journalId));
+    const nameById = new Map(journals.map((j) => [j.id, j.name]));
+    return [...ids]
+      .sort((a, b) => (nameById.get(a) ?? a).localeCompare(nameById.get(b) ?? b))
+      .map((id) => ({ id, name: nameById.get(id) ?? id }));
+  }, [db, journals]);
+
   const filtered = useMemo(() => {
     const list = db?.articles ?? [];
     const query = q.trim().toLowerCase();
     return list.filter((a) => {
+      if (journalFilter !== "all" && a.journalId !== journalFilter) return false;
       if (a.relevanceScore < minScore) return false;
       if (!query) return true;
       return `${a.title} ${a.abstract ?? ""} ${a.summaryZh}`.toLowerCase().includes(query);
     });
-  }, [db, minScore, q]);
+  }, [db, journalFilter, minScore, q]);
 
   function onRate(article: ScreenedArticle, score: 1 | 2 | 3 | 4 | 5, note: string) {
     setError(null);
@@ -142,6 +156,17 @@ export default function ArticlesPage() {
 
       <div className="toolbar">
         <label>
+          {t("articles.filterJournal")}
+          <select value={journalFilter} onChange={(e) => setJournalFilter(e.target.value)}>
+            <option value="all">{t("articles.allJournals")}</option>
+            {journalOptions.map((j) => (
+              <option key={j.id} value={j.id}>
+                {j.name}
+              </option>
+            ))}
+          </select>
+        </label>
+        <label>
           {t("articles.filterMinScore")}
           <input
             type="range"
@@ -167,7 +192,7 @@ export default function ArticlesPage() {
       {filtered.length === 0 ? (
         <p className="muted">{t("articles.empty")}</p>
       ) : (
-        <ul className="article-list">
+        <ul className="article-list article-list-2col">
           {filtered.map((a) => (
             <ArticleCard key={a.id} article={a} rating={ratingMap.get(a.id)} onRate={onRate} />
           ))}

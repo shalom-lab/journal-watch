@@ -4,8 +4,9 @@ import type {
   CandidateArticle,
   CandidateDecision,
   CandidatesFile,
+  JournalConfig,
 } from "@journal-watch/shared";
-import { fetchCandidates } from "../lib/data";
+import { fetchCandidates, fetchJournals } from "../lib/data";
 import {
   downloadCandidates,
   loadDraftCandidates,
@@ -22,8 +23,10 @@ export default function CandidatesPage() {
   const { t } = useTranslation();
   const [file, setFile] = useState<CandidatesFile | null>(null);
   const [filter, setFilter] = useState<"all" | CandidateDecision>("all");
+  const [journalFilter, setJournalFilter] = useState("all");
   const [minScore, setMinScore] = useState(0);
   const [q, setQ] = useState("");
+  const [journals, setJournals] = useState<JournalConfig[]>([]);
   const [status, setStatus] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [dirty, setDirty] = useState(false);
@@ -32,7 +35,7 @@ export default function CandidatesPage() {
   useEffect(() => {
     void (async () => {
       try {
-        const remote = await fetchCandidates();
+        const [remote, j] = await Promise.all([fetchCandidates(), fetchJournals()]);
         const draft = loadDraftCandidates();
         if (draft && draft.updatedAt > (remote.updatedAt || "")) {
           setFile(draft);
@@ -40,24 +43,35 @@ export default function CandidatesPage() {
         } else {
           setFile(remote);
         }
+        setJournals(j);
       } catch (e) {
         setError(e instanceof Error ? e.message : String(e));
       }
     })();
   }, []);
 
+  const journalOptions = useMemo(() => {
+    if (!file) return [];
+    const ids = new Set(file.candidates.map((c) => c.journalId));
+    const nameById = new Map(journals.map((j) => [j.id, j.name]));
+    return [...ids]
+      .sort((a, b) => (nameById.get(a) ?? a).localeCompare(nameById.get(b) ?? b))
+      .map((id) => ({ id, name: nameById.get(id) ?? id }));
+  }, [file, journals]);
+
   const list = useMemo(() => {
     if (!file) return [];
     const query = q.trim().toLowerCase();
     return file.candidates
       .filter((c) => (filter === "all" ? true : c.decision === filter))
+      .filter((c) => (journalFilter === "all" ? true : c.journalId === journalFilter))
       .filter((c) => scoreOf(c) >= minScore)
       .filter((c) => {
         if (!query) return true;
         return `${c.title} ${c.summaryZh} ${c.reason}`.toLowerCase().includes(query);
       })
       .sort((a, b) => scoreOf(b) - scoreOf(a));
-  }, [file, filter, minScore, q]);
+  }, [file, filter, journalFilter, minScore, q]);
 
   function patch(
     articleId: string,
@@ -132,6 +146,17 @@ export default function CandidatesPage() {
 
       <div className="toolbar">
         <label>
+          {t("candidates.filterJournal")}
+          <select value={journalFilter} onChange={(e) => setJournalFilter(e.target.value)}>
+            <option value="all">{t("candidates.allJournals")}</option>
+            {journalOptions.map((j) => (
+              <option key={j.id} value={j.id}>
+                {j.name}
+              </option>
+            ))}
+          </select>
+        </label>
+        <label>
           {t("candidates.filter")}
           <select value={filter} onChange={(e) => setFilter(e.target.value as typeof filter)}>
             <option value="all">{t("candidates.all")}</option>
@@ -166,7 +191,7 @@ export default function CandidatesPage() {
       {list.length === 0 ? (
         <p className="muted">{t("candidates.empty")}</p>
       ) : (
-        <ul className="article-list">
+        <ul className="article-list article-list-2col">
           {list.map((c) => (
             <li key={c.articleId} className="article">
               <div className="article-meta">
