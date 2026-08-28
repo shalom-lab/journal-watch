@@ -16,7 +16,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: journal-watch-${{ github.ref }}
+  group: pipeline-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:

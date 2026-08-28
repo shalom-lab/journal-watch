@@ -19,8 +19,10 @@ on:
 permissions:
   contents: write
 
+# No shared concurrency with pipeline — reusable workflow_call + same group = deadlock.
+# Standalone dispatch still serializes on this workflow's own group.
 concurrency:
-  group: journal-watch-${{ github.ref }}
+  group: ${{ github.workflow }}-${{ github.event_name == 'workflow_call' && github.run_id || github.ref }}
   cancel-in-progress: false
 
 jobs:

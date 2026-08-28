@@ -20,7 +20,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: journal-watch-${{ github.ref }}
+  group: fetch-detail-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:

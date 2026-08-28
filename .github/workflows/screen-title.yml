@@ -19,8 +19,9 @@ on:
 permissions:
   contents: write
 
+# No shared concurrency with pipeline — reusable workflow_call + same group = deadlock.
 concurrency:
-  group: journal-watch-${{ github.ref }}
+  group: ${{ github.workflow }}-${{ github.event_name == 'workflow_call' && github.run_id || github.ref }}
   cancel-in-progress: false
 
 jobs:
