@@ -1,35 +1,60 @@
 {
-  "lastCrawlAt": "2026-08-21T06:29:44.038Z",
+  "lastCrawlAt": "2026-08-28T08:17:35.817Z",
   "journals": {
     "nejm": {
-      "lastCrawlAt": "2026-08-21T06:29:44.038Z",
+      "lastCrawlAt": "2026-08-28T08:17:35.817Z",
       "rawCount": 100,
       "keptCount": 0
     },
     "lancet": {
-      "lastCrawlAt": "2026-08-21T06:29:44.038Z",
+      "lastCrawlAt": "2026-08-28T08:17:35.817Z",
       "rawCount": 100,
       "keptCount": 0
     },
     "jama": {
-      "lastCrawlAt": "2026-08-21T06:29:44.038Z",
-      "rawCount": 36,
+      "lastCrawlAt": "2026-08-28T08:17:35.817Z",
+      "rawCount": 38,
       "keptCount": 1
     },
     "bmj": {
-      "lastCrawlAt": "2026-08-21T06:29:44.038Z",
+      "lastCrawlAt": "2026-08-28T08:17:35.817Z",
       "rawCount": 100,
       "keptCount": 0
     },
     "influenza-other-resp-viruses": {
-      "lastCrawlAt": "2026-08-21T06:29:44.038Z",
-      "rawCount": 40,
+      "lastCrawlAt": "2026-08-28T08:17:35.817Z",
+      "rawCount": 42,
       "keptCount": 26
     },
     "vaccine": {
-      "lastCrawlAt": "2026-08-21T06:29:44.038Z",
+      "lastCrawlAt": "2026-08-28T08:17:35.817Z",
       "rawCount": 100,
       "keptCount": 1
+    },
+    "nature-medicine": {
+      "lastCrawlAt": "2026-08-28T08:17:35.817Z",
+      "rawCount": 100,
+      "keptCount": 0
+    },
+    "lancet-infectious-diseases": {
+      "lastCrawlAt": "2026-08-28T08:17:35.817Z",
+      "rawCount": 100,
+      "keptCount": 0
+    },
+    "lancet-respiratory-medicine": {
+      "lastCrawlAt": "2026-08-28T08:17:35.817Z",
+      "rawCount": 90,
+      "keptCount": 0
+    },
+    "lancet-public-health": {
+      "lastCrawlAt": "2026-08-28T08:17:35.817Z",
+      "rawCount": 49,
+      "keptCount": 0
+    },
+    "european-respiratory-journal": {
+      "lastCrawlAt": "2026-08-28T08:17:35.817Z",
+      "rawCount": 94,
+      "keptCount": 0
     }
   }
 }
