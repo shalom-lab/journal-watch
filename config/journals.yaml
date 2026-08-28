@@ -51,7 +51,7 @@ journals:
     issn: "1078-8956"
     adapter: crossref
     homepageUrl: "https://www.nature.com/nm"
-    enabled: false
+    enabled: true
 
   - id: lancet-infectious-diseases
     name: Lancet Infectious Diseases
@@ -59,7 +59,7 @@ journals:
     issn: "1473-3099"
     adapter: crossref
     homepageUrl: "https://www.thelancet.com/journals/laninf"
-    enabled: false
+    enabled: true
 
   - id: lancet-respiratory-medicine
     name: Lancet Respiratory Medicine
@@ -67,7 +67,7 @@ journals:
     issn: "2213-2600"
     adapter: crossref
     homepageUrl: "https://www.thelancet.com/journals/lanres"
-    enabled: false
+    enabled: true
 
   - id: lancet-global-health
     name: Lancet Global Health
@@ -117,7 +117,7 @@ journals:
     issn: "2468-2667"
     adapter: crossref
     homepageUrl: "https://www.thelancet.com/journals/lanpub"
-    enabled: false
+    enabled: true
 
   - id: lancet-planetary-health
     name: Lancet Planetary Health
@@ -157,7 +157,7 @@ journals:
     issn: "0903-1936"
     adapter: crossref
     homepageUrl: "https://erj.ersjournals.com/"
-    enabled: false
+    enabled: true
 
   # ── Tier 4 ──────────────────────────────────────────────
   - id: plos-medicine
