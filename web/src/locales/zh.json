@@ -94,6 +94,14 @@
     "human": "人工分",
     "saveOk": "候选已同步到仓库",
     "saveLocal": "候选已暂存本地（未配置 PAT）",
-    "download": "下载 candidates.json"
+    "download": "下载 candidates.json",
+    "selectAllVisible": "全选当前筛选 ({{count}})",
+    "selectOne": "选中",
+    "selectedCount": "已选 {{count}} 条",
+    "bulkKeep": "批量保留",
+    "bulkDrop": "批量排除",
+    "bulkPending": "批量待定",
+    "clearSelection": "取消选择",
+    "bulkDone": "已将 {{count}} 条设为「{{decision}}」"
   }
 }

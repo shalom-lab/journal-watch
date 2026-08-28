@@ -481,6 +481,76 @@ button:disabled {
   opacity: 1;
 }
 
+.article.is-selected {
+  border-color: rgba(15, 118, 110, 0.45);
+  background: linear-gradient(180deg, #f6fcfb 0%, #fff 100%);
+  box-shadow: 0 0 0 1px rgba(15, 118, 110, 0.12);
+}
+
+.article-top {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.4rem;
+}
+
+.pick-check {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 0.05rem;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.pick-check input {
+  width: 0.9rem;
+  height: 0.9rem;
+  accent-color: var(--jade);
+  cursor: pointer;
+}
+
+.article-top .article-meta {
+  flex: 1;
+  min-width: 0;
+}
+
+.bulk-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 0.5rem;
+  margin: 0 0 0.55rem;
+  padding: 0.4rem 0.55rem;
+  border: 1px solid rgba(15, 118, 110, 0.25);
+  border-radius: var(--radius);
+  background: var(--jade-soft);
+}
+
+.bulk-check {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.76rem;
+  font-weight: 550;
+  color: var(--jade-deep);
+  cursor: pointer;
+}
+
+.bulk-check input {
+  accent-color: var(--jade);
+  cursor: pointer;
+}
+
+.bulk-sep {
+  width: 1px;
+  height: 1.1rem;
+  background: rgba(15, 118, 110, 0.25);
+}
+
+.bulk-count {
+  font-size: 0.74rem;
+  min-width: 4.5rem;
+}
+
 .article h2 {
   margin: 0.18rem 0 0.12rem;
   font-family: var(--font-brand);

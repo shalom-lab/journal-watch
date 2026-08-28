@@ -27,6 +27,7 @@ export default function CandidatesPage() {
   const [minScore, setMinScore] = useState(0);
   const [q, setQ] = useState("");
   const [journals, setJournals] = useState<JournalConfig[]>([]);
+  const [selected, setSelected] = useState<Set<string>>(() => new Set());
   const [status, setStatus] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [dirty, setDirty] = useState(false);
@@ -73,26 +74,76 @@ export default function CandidatesPage() {
       .sort((a, b) => scoreOf(b) - scoreOf(a));
   }, [file, filter, journalFilter, minScore, q]);
 
-  function patch(
-    articleId: string,
-    next: Partial<Pick<CandidateArticle, "decision" | "humanScore" | "note">>,
-  ) {
-    if (!file) return;
-    setError(null);
-    const now = new Date().toISOString();
-    const updated: CandidatesFile = {
-      ...file,
-      updatedAt: now,
-      candidates: file.candidates.map((c) =>
-        c.articleId === articleId ? { ...c, ...next, updatedAt: now } : c,
-      ),
-    };
+  const visibleIds = useMemo(() => list.map((c) => c.articleId), [list]);
+  const selectedCount = selected.size;
+  const allVisibleSelected =
+    visibleIds.length > 0 && visibleIds.every((id) => selected.has(id));
+  const someVisibleSelected = visibleIds.some((id) => selected.has(id));
+
+  function persist(updated: CandidatesFile) {
     const { sync } = saveCandidatesLocal(updated);
     setFile(updated);
     setDirty(sync !== "skipped");
     if (sync === "scheduled") setStatus(t("sync.pendingAuto"));
     else if (sync === "manual") setStatus(t("sync.pendingManual"));
     else setStatus(t("candidates.saveLocal"));
+  }
+
+  function patchMany(
+    ids: string[],
+    next: Partial<Pick<CandidateArticle, "decision" | "humanScore" | "note">>,
+  ) {
+    if (!file || ids.length === 0) return;
+    setError(null);
+    const idSet = new Set(ids);
+    const now = new Date().toISOString();
+    persist({
+      ...file,
+      updatedAt: now,
+      candidates: file.candidates.map((c) =>
+        idSet.has(c.articleId) ? { ...c, ...next, updatedAt: now } : c,
+      ),
+    });
+  }
+
+  function patch(
+    articleId: string,
+    next: Partial<Pick<CandidateArticle, "decision" | "humanScore" | "note">>,
+  ) {
+    patchMany([articleId], next);
+  }
+
+  function toggleOne(articleId: string) {
+    setSelected((prev) => {
+      const next = new Set(prev);
+      if (next.has(articleId)) next.delete(articleId);
+      else next.add(articleId);
+      return next;
+    });
+  }
+
+  function toggleSelectAllVisible() {
+    setSelected((prev) => {
+      const next = new Set(prev);
+      if (allVisibleSelected) {
+        for (const id of visibleIds) next.delete(id);
+      } else {
+        for (const id of visibleIds) next.add(id);
+      }
+      return next;
+    });
+  }
+
+  function bulkDecision(decision: CandidateDecision) {
+    const ids = [...selected];
+    if (ids.length === 0) return;
+    patchMany(ids, { decision });
+    setSelected(new Set());
+    setStatus(t("candidates.bulkDone", { count: ids.length, decision: t(`candidates.${decision}`) }));
+  }
+
+  function clearSelection() {
+    setSelected(new Set());
   }
 
   async function onSync() {
@@ -124,11 +175,9 @@ export default function CandidatesPage() {
         <div>
           <h1>{t("candidates.title")}</h1>
           <p className="muted">
-            {t("candidates.hint")} · {t("candidates.showing", {
-              shown: list.length,
-              total: file.candidates.length,
-            })}{" "}
-            · keep {keepN} / drop {dropN} / pending {pendingN}
+            {t("candidates.hint")} ·{" "}
+            {t("candidates.showing", { shown: list.length, total: file.candidates.length })} · keep{" "}
+            {keepN} / drop {dropN} / pending {pendingN}
           </p>
         </div>
         <div className="btn-row">
@@ -189,6 +238,58 @@ export default function CandidatesPage() {
         />
       </div>
 
+      {list.length > 0 && (
+        <div className="bulk-bar">
+          <label className="bulk-check">
+            <input
+              type="checkbox"
+              checked={allVisibleSelected}
+              ref={(el) => {
+                if (el) el.indeterminate = someVisibleSelected && !allVisibleSelected;
+              }}
+              onChange={toggleSelectAllVisible}
+            />
+            {t("candidates.selectAllVisible", { count: visibleIds.length })}
+          </label>
+          <span className="bulk-sep" aria-hidden />
+          <span className="muted bulk-count">
+            {t("candidates.selectedCount", { count: selectedCount })}
+          </span>
+          <button
+            type="button"
+            className="star on"
+            disabled={selectedCount === 0}
+            onClick={() => bulkDecision("keep")}
+          >
+            {t("candidates.bulkKeep")}
+          </button>
+          <button
+            type="button"
+            className="star"
+            disabled={selectedCount === 0}
+            onClick={() => bulkDecision("drop")}
+          >
+            {t("candidates.bulkDrop")}
+          </button>
+          <button
+            type="button"
+            className="star"
+            disabled={selectedCount === 0}
+            onClick={() => bulkDecision("pending")}
+          >
+            {t("candidates.bulkPending")}
+          </button>
+          <button
+            type="button"
+            className="ghost"
+            disabled={selectedCount === 0}
+            onClick={clearSelection}
+          >
+            {t("candidates.clearSelection")}
+          </button>
+        </div>
+      )}
+
       {status && <p className="ok">{status}</p>}
       {error && <p className="error">{error}</p>}
 
@@ -197,17 +298,29 @@ export default function CandidatesPage() {
       ) : (
         <ul className="article-list article-list-2col">
           {list.map((c) => (
-            <li key={c.articleId} className="article">
-              <div className="article-meta">
-                <span className="pill">{c.journalId}</span>
-                <span className="muted">{c.publishedAt ?? "—"}</span>
-                <span className="score">
-                  AI {(c.aiScore * 100).toFixed(0)}%
-                  {c.humanScore != null
-                    ? ` · ${t("candidates.human")} ${(c.humanScore * 100).toFixed(0)}%`
-                    : ""}
-                </span>
-                <span className="pill">{t(`candidates.${c.decision}`)}</span>
+            <li
+              key={c.articleId}
+              className={`article${selected.has(c.articleId) ? " is-selected" : ""}`}
+            >
+              <div className="article-top">
+                <label className="pick-check" title={t("candidates.selectOne")}>
+                  <input
+                    type="checkbox"
+                    checked={selected.has(c.articleId)}
+                    onChange={() => toggleOne(c.articleId)}
+                  />
+                </label>
+                <div className="article-meta">
+                  <span className="pill">{c.journalId}</span>
+                  <span className="muted">{c.publishedAt ?? "—"}</span>
+                  <span className="score">
+                    AI {(c.aiScore * 100).toFixed(0)}%
+                    {c.humanScore != null
+                      ? ` · ${t("candidates.human")} ${(c.humanScore * 100).toFixed(0)}%`
+                      : ""}
+                  </span>
+                  <span className="pill">{t(`candidates.${c.decision}`)}</span>
+                </div>
               </div>
               <h2>
                 <a href={c.url} target="_blank" rel="noreferrer">

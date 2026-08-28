@@ -94,6 +94,14 @@
     "human": "Human score",
     "saveOk": "Candidates synced to repo",
     "saveLocal": "Candidates saved locally (no PAT)",
-    "download": "Download candidates.json"
+    "download": "Download candidates.json",
+    "selectAllVisible": "Select all in view ({{count}})",
+    "selectOne": "Select",
+    "selectedCount": "{{count}} selected",
+    "bulkKeep": "Bulk keep",
+    "bulkDrop": "Bulk drop",
+    "bulkPending": "Bulk pending",
+    "clearSelection": "Clear selection",
+    "bulkDone": "Set {{count}} to \"{{decision}}\""
   }
 }
