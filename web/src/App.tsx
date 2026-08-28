@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import { getSettingsStatus } from "./lib/settings";
 import ArticlesPage from "./pages/ArticlesPage";
 import CandidatesPage from "./pages/CandidatesPage";
+import JobsPage from "./pages/JobsPage";
 import JournalsPage from "./pages/JournalsPage";
 import PromptsPage from "./pages/PromptsPage";
 import SettingsPage from "./pages/SettingsPage";
@@ -24,6 +25,7 @@ export default function App() {
           </NavLink>
           <NavLink to="/candidates">{t("nav.candidates")}</NavLink>
           <NavLink to="/journals">{t("nav.journals")}</NavLink>
+          <NavLink to="/jobs">{t("nav.jobs")}</NavLink>
           <NavLink to="/prompts">{t("nav.prompts")}</NavLink>
           <NavLink to="/settings">{t("nav.settings")}</NavLink>
         </nav>
@@ -60,6 +62,7 @@ export default function App() {
           <Route path="/" element={<ArticlesPage />} />
           <Route path="/candidates" element={<CandidatesPage />} />
           <Route path="/journals" element={<JournalsPage />} />
+          <Route path="/jobs" element={<JobsPage />} />
           <Route path="/prompts" element={<PromptsPage />} />
           <Route path="/settings" element={<SettingsPage />} />
         </Routes>

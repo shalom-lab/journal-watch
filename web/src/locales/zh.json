@@ -5,9 +5,53 @@
     "articles": "最新文章",
     "candidates": "候选复核",
     "journals": "期刊列表",
+    "jobs": "任务",
     "prompts": "Prompt",
     "settings": "设置",
     "githubRepo": "GitHub 仓库"
+  },
+  "jobs": {
+    "title": "运行任务",
+    "hint": "用 PAT 触发 GitHub Actions（workflow_dispatch）。跑在云端，需等几分钟；结果会写回仓库。PAT 需要 contents:write + actions:write。",
+    "needPat": "请先在「设置」填入 Token 与 owner/repo，并确保 PAT 含 actions:write。",
+    "skipCommit": "跳过写回 commit（仅试跑）",
+    "run": "运行",
+    "triggering": "触发中…",
+    "dispatched": "已触发「{{name}}」，请在下方或 Actions 查看进度",
+    "openActions": "打开 Actions",
+    "refresh": "刷新列表",
+    "refreshing": "刷新中…",
+    "recent": "最近运行",
+    "noRuns": "暂无运行记录",
+    "colName": "任务",
+    "colStatus": "状态",
+    "colTime": "时间",
+    "colLink": "链接",
+    "view": "查看",
+    "fetch-raw": {
+      "label": "fetch:raw",
+      "desc": "按启用刊抓最新文 → data/raw/"
+    },
+    "screen-title": {
+      "label": "screen:title",
+      "desc": "AI 标题关联度打分 → data/candidates.json"
+    },
+    "fetch-detail": {
+      "label": "fetch:detail",
+      "desc": "对保留名单详评 enrichment → data/clean/"
+    },
+    "prune-raw": {
+      "label": "prune:raw",
+      "desc": "删除过期 raw 批次"
+    },
+    "pipeline": {
+      "label": "pipeline",
+      "desc": "编排：fetch:raw → screen:title → prune:raw"
+    },
+    "deploy-pages": {
+      "label": "deploy:pages",
+      "desc": "构建并部署 GitHub Pages 站点"
+    }
   },
   "sync": {
     "now": "同步到仓库",
@@ -58,7 +102,7 @@
     "title": "设置",
     "language": "界面语言",
     "pat": "GitHub Token（PAT）",
-    "patHint": "浏览不必填。要从网页写回评分 / 候选 / Prompt 到仓库时需要。Token 只存本机 localStorage，不会进 git。权限：contents:write。",
+    "patHint": "浏览不必填。要从网页写回评分 / 候选 / Prompt，或触发「任务」页 Actions 时需要。Token 只存本机 localStorage。权限：contents:write；触发任务还需 actions:write。",
     "storageKeys": "启动时读取：gh_token_journal-watch、gh_repo_journal-watch（可提前注入）",
     "repoFull": "仓库（owner/repo）",
     "syncReady": "已配置写回 → {{repo}}",

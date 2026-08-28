@@ -5,9 +5,53 @@
     "articles": "Articles",
     "candidates": "Candidates",
     "journals": "Journals",
+    "jobs": "Jobs",
     "prompts": "Prompts",
     "settings": "Settings",
     "githubRepo": "GitHub repository"
+  },
+  "jobs": {
+    "title": "Run jobs",
+    "hint": "Trigger GitHub Actions via PAT (workflow_dispatch). Runs in the cloud; wait a few minutes. Needs contents:write + actions:write.",
+    "needPat": "Add Token and owner/repo in Settings first. PAT must include actions:write.",
+    "skipCommit": "Skip committing data/ (dry run)",
+    "run": "Run",
+    "triggering": "Triggering…",
+    "dispatched": "Triggered \"{{name}}\" — check below or Actions for progress",
+    "openActions": "Open Actions",
+    "refresh": "Refresh",
+    "refreshing": "Refreshing…",
+    "recent": "Recent runs",
+    "noRuns": "No runs yet",
+    "colName": "Job",
+    "colStatus": "Status",
+    "colTime": "Time",
+    "colLink": "Link",
+    "view": "View",
+    "fetch-raw": {
+      "label": "fetch:raw",
+      "desc": "Pull latest entries → data/raw/"
+    },
+    "screen-title": {
+      "label": "screen:title",
+      "desc": "AI title relevance → data/candidates.json"
+    },
+    "fetch-detail": {
+      "label": "fetch:detail",
+      "desc": "Enrich kept shortlist → data/clean/"
+    },
+    "prune-raw": {
+      "label": "prune:raw",
+      "desc": "Delete expired raw batches"
+    },
+    "pipeline": {
+      "label": "pipeline",
+      "desc": "Orchestrate: fetch:raw → screen:title → prune:raw"
+    },
+    "deploy-pages": {
+      "label": "deploy:pages",
+      "desc": "Build and deploy GitHub Pages"
+    }
   },
   "sync": {
     "now": "Sync to repo",
@@ -58,7 +102,7 @@
     "title": "Settings",
     "language": "Language",
     "pat": "GitHub Token (PAT)",
-    "patHint": "Not required for browsing. Needed to write ratings / candidates / prompts back to the repo. Stored in localStorage only (never committed). Needs contents:write.",
+    "patHint": "Not required for browsing. Needed to write ratings / candidates / prompts, or to trigger Jobs. Stored in localStorage only. Permissions: contents:write; Jobs also need actions:write (fine-grained) or repo+workflow (classic).",
     "storageKeys": "Read on startup: gh_token_journal-watch, gh_repo_journal-watch (pre-inject OK)",
     "repoFull": "Repository (owner/repo)",
     "syncReady": "Write-back ready → {{repo}}",
