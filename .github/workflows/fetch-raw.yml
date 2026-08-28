@@ -31,7 +31,7 @@ jobs:
     env:
       CROSSREF_MAILTO: ${{ vars.CROSSREF_MAILTO || 'journal-watch@users.noreply.github.com' }}
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - uses: ./.github/actions/setup-pnpm
       - run: pnpm fetch:raw
       - name: Commit data

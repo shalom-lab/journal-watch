@@ -34,7 +34,7 @@ jobs:
       RELEVANCE_THRESHOLD: ${{ vars.RELEVANCE_THRESHOLD || '0.45' }}
       TITLE_KEEP_THRESHOLD: ${{ vars.TITLE_KEEP_THRESHOLD || '0.45' }}
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - uses: ./.github/actions/setup-pnpm
       - run: pnpm screen:title
       - name: Commit data
