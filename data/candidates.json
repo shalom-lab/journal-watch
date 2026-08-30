@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T10:10:12.993Z",
+  "updatedAt": "2026-08-30T10:10:15.906Z",
   "titlePromptId": "screen-title.v1",
   "threshold": 0.45,
   "candidates": [
@@ -921,8 +921,8 @@
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:01:54.647Z",
       "decision": "pending",
-      "updatedAt": "2026-08-30T10:10:12.993Z",
-      "humanScore": 0.8
+      "updatedAt": "2026-08-30T10:10:15.906Z",
+      "humanScore": 0
     },
     {
       "articleId": "doi:10.1111/irv.70271",
