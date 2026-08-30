@@ -139,7 +139,7 @@
     "drop": "Drop",
     "minScore": "Min score",
     "search": "Search title",
-    "human": "Human score",
+    "human": "Score",
     "saveOk": "Candidates synced to repo",
     "saveLocal": "Candidates saved locally (no PAT)",
     "download": "Download candidates.json",

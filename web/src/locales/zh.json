@@ -139,7 +139,7 @@
     "drop": "排除",
     "minScore": "最低分",
     "search": "搜索标题",
-    "human": "人工分",
+    "human": "分值",
     "saveOk": "候选已同步到仓库",
     "saveLocal": "候选已暂存本地（未配置 PAT）",
     "download": "下载 candidates.json",

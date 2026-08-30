@@ -297,10 +297,13 @@ export default function CandidatesPage() {
         <p className="muted">{t("candidates.empty")}</p>
       ) : (
         <ul className="article-list article-list-2col">
-          {list.map((c) => (
+          {list.map((c) => {
+            const scoreT = Math.min(1, Math.max(0, c.humanScore ?? c.aiScore ?? 0));
+            return (
             <li
               key={c.articleId}
               className={`article${selected.has(c.articleId) ? " is-selected" : ""}`}
+              style={{ ["--score-t" as string]: String(scoreT) }}
             >
               <div className="article-top">
                 <label className="pick-check" title={t("candidates.selectOne")}>
@@ -350,7 +353,7 @@ export default function CandidatesPage() {
                 >
                   {t("candidates.pending")}
                 </button>
-                <label>
+                <label className="score-field">
                   {t("candidates.human")}
                   <input
                     type="number"
@@ -366,10 +369,14 @@ export default function CandidatesPage() {
                       });
                     }}
                   />
+                  <span className="score-meter" aria-hidden>
+                    <span />
+                  </span>
                 </label>
               </div>
             </li>
-          ))}
+            );
+          })}
         </ul>
       )}
     </section>
