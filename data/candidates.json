@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T10:09:41.976Z",
+  "updatedAt": "2026-08-30T10:10:02.459Z",
   "titlePromptId": "screen-title.v1",
   "threshold": 0.45,
   "candidates": [
@@ -921,7 +921,8 @@
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:01:54.647Z",
       "decision": "pending",
-      "updatedAt": "2026-08-21T09:01:54.647Z"
+      "updatedAt": "2026-08-30T10:10:02.459Z",
+      "humanScore": 0
     },
     {
       "articleId": "doi:10.1111/irv.70271",
@@ -2123,7 +2124,8 @@
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:01:54.647Z",
       "decision": "pending",
-      "updatedAt": "2026-08-21T09:01:54.647Z"
+      "updatedAt": "2026-08-30T10:09:44.680Z",
+      "humanScore": 0.05
     },
     {
       "articleId": "doi:10.1111/irv.70277",
@@ -2144,7 +2146,8 @@
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:01:54.647Z",
       "decision": "pending",
-      "updatedAt": "2026-08-21T09:01:54.647Z"
+      "updatedAt": "2026-08-30T10:09:45.545Z",
+      "humanScore": 0.05
     },
     {
       "articleId": "doi:10.1016/s0140-6736(26)01646-6",
