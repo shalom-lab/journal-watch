@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T10:10:15.906Z",
+  "updatedAt": "2026-08-30T10:24:14.593Z",
   "titlePromptId": "screen-title.v1",
   "threshold": 0.45,
   "candidates": [
@@ -21,8 +21,8 @@
       "summaryZh": "mRNA季节性流感疫苗的有效性与安全性研究，直接相关。",
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:02:43.145Z",
-      "decision": "pending",
-      "updatedAt": "2026-08-21T09:02:43.145Z"
+      "decision": "keep",
+      "updatedAt": "2026-08-30T10:24:14.593Z"
     },
     {
       "articleId": "doi:10.1016/j.vaccine.2026.128993",
@@ -43,8 +43,8 @@
       "summaryZh": "COVID-19疫苗针对Omicron变异株有效性的系统综述。",
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:03:45.134Z",
-      "decision": "pending",
-      "updatedAt": "2026-08-21T09:03:45.134Z"
+      "decision": "keep",
+      "updatedAt": "2026-08-30T10:24:14.593Z"
     },
     {
       "articleId": "doi:10.1016/j.vaccine.2026.128786",
@@ -64,8 +64,8 @@
       "summaryZh": "加拿大老年人COVID-19疫苗有效性研究。",
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:03:45.134Z",
-      "decision": "pending",
-      "updatedAt": "2026-08-21T09:03:45.134Z"
+      "decision": "keep",
+      "updatedAt": "2026-08-30T10:24:14.593Z"
     },
     {
       "articleId": "doi:10.1016/j.vaccine.2026.128964",
@@ -85,8 +85,8 @@
       "summaryZh": "日本老年人JN.1疫苗有效性中期分析。",
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:03:45.134Z",
-      "decision": "pending",
-      "updatedAt": "2026-08-21T09:03:45.134Z"
+      "decision": "keep",
+      "updatedAt": "2026-08-30T10:24:14.593Z"
     },
     {
       "articleId": "doi:10.1136/bmj-2026-100576",
@@ -106,8 +106,8 @@
       "summaryZh": "关于RSV疫苗计划对婴儿ICU入院率影响的流行病学研究。",
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:01:28.574Z",
-      "decision": "pending",
-      "updatedAt": "2026-08-21T09:01:28.574Z"
+      "decision": "keep",
+      "updatedAt": "2026-08-30T10:24:14.593Z"
     },
     {
       "articleId": "doi:10.1111/irv.70303",
@@ -128,8 +128,8 @@
       "summaryZh": "流感疫苗有效性及保护时长研究，高度相关。",
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:01:54.647Z",
-      "decision": "pending",
-      "updatedAt": "2026-08-21T09:01:54.647Z"
+      "decision": "keep",
+      "updatedAt": "2026-08-30T10:24:14.593Z"
     },
     {
       "articleId": "doi:10.1111/irv.70307",
@@ -149,8 +149,8 @@
       "summaryZh": "儿童呼吸道感染病原体动态及风险因素研究，高度相关。",
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:01:54.647Z",
-      "decision": "pending",
-      "updatedAt": "2026-08-21T09:01:54.647Z"
+      "decision": "keep",
+      "updatedAt": "2026-08-30T10:24:14.593Z"
     },
     {
       "articleId": "doi:10.1111/irv.70306",
@@ -171,8 +171,8 @@
       "summaryZh": "利用宏转录组测序进行呼吸道病毒监测，方法论先进。",
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:01:54.647Z",
-      "decision": "pending",
-      "updatedAt": "2026-08-21T09:01:54.647Z"
+      "decision": "keep",
+      "updatedAt": "2026-08-30T10:24:14.593Z"
     },
     {
       "articleId": "doi:10.1111/irv.70301",
@@ -193,8 +193,8 @@
       "summaryZh": "非药物干预对流感负担影响的系统综述，高度相关。",
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:01:54.647Z",
-      "decision": "pending",
-      "updatedAt": "2026-08-21T09:01:54.647Z"
+      "decision": "keep",
+      "updatedAt": "2026-08-30T10:24:14.593Z"
     },
     {
       "articleId": "doi:10.1111/irv.70291",
@@ -215,8 +215,8 @@
       "summaryZh": "基于集成模型的RSV住院率估算，方法论具有参考价值。",
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:01:54.647Z",
-      "decision": "pending",
-      "updatedAt": "2026-08-21T09:01:54.647Z"
+      "decision": "keep",
+      "updatedAt": "2026-08-30T10:24:14.593Z"
     },
     {
       "articleId": "doi:10.1111/irv.70290",
@@ -236,8 +236,8 @@
       "summaryZh": "塞内加尔人类偏肺病毒的流行病学与基因组多样性研究。",
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:01:54.647Z",
-      "decision": "pending",
-      "updatedAt": "2026-08-21T09:01:54.647Z"
+      "decision": "keep",
+      "updatedAt": "2026-08-30T10:24:14.593Z"
     },
     {
       "articleId": "doi:10.1111/irv.70274",
@@ -258,8 +258,8 @@
       "summaryZh": "德国Nirsevimab推荐后RSV负担下降的研究。",
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:01:54.647Z",
-      "decision": "pending",
-      "updatedAt": "2026-08-21T09:01:54.647Z"
+      "decision": "keep",
+      "updatedAt": "2026-08-30T10:24:14.593Z"
     },
     {
       "articleId": "doi:10.1111/irv.70270",
@@ -280,8 +280,8 @@
       "summaryZh": "封闭社区RSV传播的系统综述。",
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:01:54.647Z",
-      "decision": "pending",
-      "updatedAt": "2026-08-21T09:01:54.647Z"
+      "decision": "keep",
+      "updatedAt": "2026-08-30T10:24:14.593Z"
     },
     {
       "articleId": "doi:10.1001/jama.2026.9486",
@@ -302,8 +302,8 @@
       "summaryZh": "流感疫苗对儿童死亡率的保护作用，高度相关。",
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:01:54.647Z",
-      "decision": "pending",
-      "updatedAt": "2026-08-21T09:01:54.647Z"
+      "decision": "keep",
+      "updatedAt": "2026-08-30T10:24:14.593Z"
     },
     {
       "articleId": "doi:10.1016/s0140-6736(26)00879-2",
@@ -323,8 +323,8 @@
       "summaryZh": "儿童肺炎抗生素治疗试验，高度相关。",
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:02:16.952Z",
-      "decision": "pending",
-      "updatedAt": "2026-08-21T09:02:16.952Z"
+      "decision": "keep",
+      "updatedAt": "2026-08-30T10:24:14.593Z"
     },
     {
       "articleId": "doi:10.1016/s0140-6736(26)00760-9",
@@ -343,8 +343,8 @@
       "summaryZh": "抗生素耐药性临床试验，高度相关。",
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:02:16.952Z",
-      "decision": "pending",
-      "updatedAt": "2026-08-21T09:02:16.952Z"
+      "decision": "keep",
+      "updatedAt": "2026-08-30T10:24:14.593Z"
     },
     {
       "articleId": "doi:10.1016/s0140-6736(26)00510-6",
@@ -364,8 +364,8 @@
       "summaryZh": "美国甲肝预防与疫苗接种策略，属于传染病流行病学与公共卫生干预。",
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:02:43.145Z",
-      "decision": "pending",
-      "updatedAt": "2026-08-21T09:02:43.145Z"
+      "decision": "keep",
+      "updatedAt": "2026-08-30T10:24:14.593Z"
     },
     {
       "articleId": "doi:10.1016/s0140-6736(26)01557-6",
@@ -384,8 +384,8 @@
       "summaryZh": "HIV抗逆转录病毒治疗研究，属于传染病流行病学与干预。",
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:02:43.145Z",
-      "decision": "pending",
-      "updatedAt": "2026-08-21T09:02:43.145Z"
+      "decision": "keep",
+      "updatedAt": "2026-08-30T10:24:14.593Z"
     },
     {
       "articleId": "doi:10.1056/nejme2606675",
@@ -405,8 +405,8 @@
       "summaryZh": "关于急诊室学龄前儿童喘息不应使用阿奇霉素的建议，涉及呼吸道感染管理。",
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:02:43.145Z",
-      "decision": "pending",
-      "updatedAt": "2026-08-21T09:02:43.145Z"
+      "decision": "keep",
+      "updatedAt": "2026-08-30T10:24:14.593Z"
     },
     {
       "articleId": "doi:10.1056/nejmicm2603855",
@@ -425,8 +425,8 @@
       "summaryZh": "严重恶性疟疾病例，属于传染病领域。",
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:02:43.145Z",
-      "decision": "pending",
-      "updatedAt": "2026-08-21T09:02:43.145Z"
+      "decision": "keep",
+      "updatedAt": "2026-08-30T10:24:14.593Z"
     },
     {
       "articleId": "doi:10.1056/nejmx260025",
@@ -445,8 +445,8 @@
       "summaryZh": "抗逆转录病毒治疗综述，属于传染病领域。",
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:02:43.145Z",
-      "decision": "pending",
-      "updatedAt": "2026-08-21T09:02:43.145Z"
+      "decision": "keep",
+      "updatedAt": "2026-08-30T10:24:14.593Z"
     },
     {
       "articleId": "doi:10.1056/nejmoa2516505",
@@ -466,8 +466,8 @@
       "summaryZh": "学龄前儿童喘息与阿奇霉素治疗的临床试验，属于呼吸道感染干预。",
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:02:43.145Z",
-      "decision": "pending",
-      "updatedAt": "2026-08-21T09:02:43.145Z"
+      "decision": "keep",
+      "updatedAt": "2026-08-30T10:24:14.593Z"
     },
     {
       "articleId": "doi:10.1056/nejmc2607455",
@@ -487,8 +487,8 @@
       "summaryZh": "结核病检测新技术研究，属于传染病诊断与流行病学。",
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:02:43.145Z",
-      "decision": "pending",
-      "updatedAt": "2026-08-21T09:02:43.145Z"
+      "decision": "keep",
+      "updatedAt": "2026-08-30T10:24:14.593Z"
     },
     {
       "articleId": "doi:10.1056/nejmp2605547",
@@ -508,8 +508,8 @@
       "summaryZh": "晚期HIV的长效治疗与公共卫生优先事项，属于传染病领域。",
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:02:43.145Z",
-      "decision": "pending",
-      "updatedAt": "2026-08-21T09:02:43.145Z"
+      "decision": "keep",
+      "updatedAt": "2026-08-30T10:24:14.593Z"
     },
     {
       "articleId": "doi:10.1056/nejmc2607311",
@@ -529,8 +529,8 @@
       "summaryZh": "相关，新冠药物治疗研究。",
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:03:07.121Z",
-      "decision": "pending",
-      "updatedAt": "2026-08-21T09:03:07.121Z"
+      "decision": "keep",
+      "updatedAt": "2026-08-30T10:24:14.593Z"
     },
     {
       "articleId": "doi:10.1016/j.vaccine.2026.129001",
@@ -550,8 +550,8 @@
       "summaryZh": "相关，新冠感染与疫苗接种后的心脏安全性队列研究。",
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:03:07.121Z",
-      "decision": "pending",
-      "updatedAt": "2026-08-21T09:03:07.121Z"
+      "decision": "keep",
+      "updatedAt": "2026-08-30T10:24:14.593Z"
     },
     {
       "articleId": "doi:10.1016/j.vaccine.2026.129007",
@@ -571,8 +571,8 @@
       "summaryZh": "相关，流感疫苗安全性监测方法学研究。",
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:03:07.121Z",
-      "decision": "pending",
-      "updatedAt": "2026-08-21T09:03:07.121Z"
+      "decision": "keep",
+      "updatedAt": "2026-08-30T10:24:14.593Z"
     },
     {
       "articleId": "doi:10.1016/j.vaccine.2026.129040",
@@ -592,8 +592,8 @@
       "summaryZh": "相关，麻疹疫情成本的量化模型研究。",
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:03:07.121Z",
-      "decision": "pending",
-      "updatedAt": "2026-08-21T09:03:07.121Z"
+      "decision": "keep",
+      "updatedAt": "2026-08-30T10:24:14.593Z"
     },
     {
       "articleId": "doi:10.1016/j.vaccine.2026.129009",
@@ -613,8 +613,8 @@
       "summaryZh": "相关，新冠疫苗有效性的队列研究。",
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:03:07.121Z",
-      "decision": "pending",
-      "updatedAt": "2026-08-21T09:03:07.121Z"
+      "decision": "keep",
+      "updatedAt": "2026-08-30T10:24:14.593Z"
     },
     {
       "articleId": "doi:10.1016/j.vaccine.2026.129030",
@@ -633,8 +633,8 @@
       "summaryZh": "相关，新冠疫苗对JN.1变异株的有效性研究。",
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:03:07.121Z",
-      "decision": "pending",
-      "updatedAt": "2026-08-21T09:03:07.121Z"
+      "decision": "keep",
+      "updatedAt": "2026-08-30T10:24:14.593Z"
     },
     {
       "articleId": "doi:10.1016/j.vaccine.2026.129023",
@@ -654,8 +654,8 @@
       "summaryZh": "针对老年人RSV疫苗的成本效益分析，直接相关。",
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:03:45.134Z",
-      "decision": "pending",
-      "updatedAt": "2026-08-21T09:03:45.134Z"
+      "decision": "keep",
+      "updatedAt": "2026-08-30T10:24:14.593Z"
     },
     {
       "articleId": "doi:10.1016/j.vaccine.2026.128978",
@@ -674,8 +674,8 @@
       "summaryZh": "荷兰百日咳疫苗有效性研究。",
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:03:45.134Z",
-      "decision": "pending",
-      "updatedAt": "2026-08-21T09:03:45.134Z"
+      "decision": "keep",
+      "updatedAt": "2026-08-30T10:24:14.593Z"
     },
     {
       "articleId": "doi:10.1016/j.vaccine.2026.128954",
@@ -694,8 +694,8 @@
       "summaryZh": "COVID-19疫苗真实世界有效性研究。",
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:03:45.134Z",
-      "decision": "pending",
-      "updatedAt": "2026-08-21T09:03:45.134Z"
+      "decision": "keep",
+      "updatedAt": "2026-08-30T10:24:14.593Z"
     },
     {
       "articleId": "doi:10.1016/j.vaccine.2026.128869",
@@ -714,8 +714,8 @@
       "summaryZh": "儿童流感疫苗有效性研究。",
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:03:45.134Z",
-      "decision": "pending",
-      "updatedAt": "2026-08-21T09:03:45.134Z"
+      "decision": "keep",
+      "updatedAt": "2026-08-30T10:24:14.593Z"
     },
     {
       "articleId": "doi:10.1016/j.vaccine.2026.128974",
@@ -734,8 +734,8 @@
       "summaryZh": "巴西儿童COVID-19疫苗有效性研究。",
       "titlePromptId": "screen-title.v1",
       "screenedAt": "2026-08-21T09:03:45.134Z",
-      "decision": "pending",
-      "updatedAt": "2026-08-21T09:03:45.134Z"
+      "decision": "keep",
+      "updatedAt": "2026-08-30T10:24:14.593Z"
     },
     {
       "articleId": "doi:10.1136/bmj-2026-100628",
