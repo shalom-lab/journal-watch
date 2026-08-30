@@ -1,4 +1,24 @@
 {
-  "updatedAt": "1970-01-01T00:00:00.000Z",
-  "articles": []
+  "updatedAt": "2026-08-30T11:05:52.540Z",
+  "articles": [
+    {
+      "id": "doi:10.1056/nejmc2607826",
+      "journalId": "nejm",
+      "title": "Efficacy and Safety of an mRNA Seasonal Influenza Vaccine in Adults",
+      "publishedAt": "2026-08-13",
+      "url": "https://doi.org/10.1056/nejmc2607826",
+      "doi": "10.1056/nejmc2607826",
+      "fetchedAt": "2026-08-21T06:29:46.108Z",
+      "source": "crossref",
+      "relevanceScore": 0.65,
+      "criteriaMatched": [
+        "interest",
+        "influential",
+        "groupRelevant"
+      ],
+      "summaryZh": "该研究评估了mRNA季节性流感疫苗在成人中的有效性与安全性。作为呼吸道病毒疫苗领域的重要进展，其临床试验结果对于评估新型疫苗平台在流感防控中的潜力具有重要参考价值。对本组而言，该研究提供了关于疫苗保护效力评估的实证数据，有助于后续开展流感疫苗接种策略的数学建模与负担分析。",
+      "reason": "NEJM发表的疫苗临床试验，属于呼吸道病毒流行病学与干预研究的核心范畴，具有较高的公共卫生参考价值。",
+      "screenedAt": "2026-08-30T11:05:52.540Z"
+    }
+  ]
 }
