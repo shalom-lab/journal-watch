@@ -62,7 +62,7 @@ prompts/
 
 1. 推送到 GitHub，Settings → Pages → Source = **GitHub Actions**
 2. Secrets：`GEMINI_API_KEY`
-3. 可选 Variables：`RELEVANCE_THRESHOLD`、`TITLE_KEEP_THRESHOLD`、`GEMINI_MODEL`、`TITLE_BATCH_SIZE`、`CROSSREF_MAILTO`、`RAW_RETENTION_MONTHS`
+3. 可选 Variables：`RELEVANCE_THRESHOLD`、`TITLE_KEEP_THRESHOLD`、`GEMINI_MODEL`、`TITLE_BATCH_SIZE`、`GEMINI_DELAY_MS`、`CROSSREF_MAILTO`、`RAW_RETENTION_MONTHS`
 4. Actions（文件名连字符，显示名与 CLI 一致）：
    - **`pipeline`** — 定时/手动编排：`fetch:raw` → `screen:title` → `prune:raw`
    - **`fetch:raw`** / **`screen:title`** / **`prune:raw`** — 可单独手动跑

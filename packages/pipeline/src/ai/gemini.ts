@@ -93,6 +93,40 @@ function isNetworkError(err: unknown): boolean {
   );
 }
 
+function isQuotaError(err: unknown): boolean {
+  if (err && typeof err === "object" && "status" in err && (err as { status?: number }).status === 429) {
+    return true;
+  }
+  const msg = err instanceof Error ? err.message : String(err);
+  return /429|too many requests|quota|rate[- ]?limit/i.test(msg);
+}
+
+function parseRetryDelayMs(err: unknown): number | null {
+  if (err && typeof err === "object" && "errorDetails" in err) {
+    const details = (err as { errorDetails?: unknown[] }).errorDetails;
+    if (Array.isArray(details)) {
+      for (const item of details) {
+        if (item && typeof item === "object" && "retryDelay" in item) {
+          const raw = String((item as { retryDelay: unknown }).retryDelay);
+          const m = raw.match(/(\d+(?:\.\d+)?)\s*s/i);
+          if (m) return Math.ceil(Number(m[1]) * 1000);
+        }
+      }
+    }
+  }
+  if (err instanceof Error) {
+    const m = err.message.match(/retry in\s+(\d+(?:\.\d+)?)\s*s/i);
+    if (m) return Math.ceil(Number(m[1]) * 1000);
+  }
+  return null;
+}
+
+/** Pause between Gemini calls. Free-tier flash-lite is 15 RPM → default 5s. */
+export function getGeminiDelayMs(): number {
+  const n = Number(process.env.GEMINI_DELAY_MS ?? "5000");
+  return Number.isFinite(n) && n >= 0 ? Math.floor(n) : 5000;
+}
+
 function networkHint(err: unknown): Error {
   const cause =
     err instanceof Error && err.cause instanceof Error
@@ -122,7 +156,7 @@ function getModel() {
 
 async function generateWithRetry(fullPrompt: string, label: string): Promise<string> {
   const model = getModel();
-  const retries = Math.max(1, Number(process.env.GEMINI_RETRIES ?? 3));
+  const retries = Math.max(1, Number(process.env.GEMINI_RETRIES ?? 6));
   let lastErr: unknown;
   for (let attempt = 1; attempt <= retries; attempt++) {
     try {
@@ -130,9 +164,18 @@ async function generateWithRetry(fullPrompt: string, label: string): Promise<str
       return result.response.text();
     } catch (err) {
       lastErr = err;
-      if (!isNetworkError(err) || attempt === retries) break;
-      const wait = 800 * attempt;
-      console.warn(`[gemini] network retry ${attempt}/${retries} for ${label} in ${wait}ms`);
+      const quota = isQuotaError(err);
+      const network = isNetworkError(err);
+      if ((!quota && !network) || attempt === retries) break;
+      const hinted = quota ? parseRetryDelayMs(err) : null;
+      const wait = hinted
+        ? hinted + 1000
+        : quota
+          ? 40_000 * attempt
+          : 800 * attempt;
+      console.warn(
+        `[gemini] ${quota ? "quota" : "network"} retry ${attempt}/${retries} for ${label} in ${wait}ms`,
+      );
       await sleep(wait);
     }
   }

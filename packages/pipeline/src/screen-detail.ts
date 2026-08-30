@@ -1,5 +1,5 @@
 import type { ScreenedArticle } from "@journal-watch/shared";
-import { screenDetail } from "./ai/gemini.js";
+import { getGeminiDelayMs, screenDetail } from "./ai/gemini.js";
 import { rawFromCandidate, selectForDetail } from "./screen-title.js";
 import {
   ensureDataDirs,
@@ -12,6 +12,36 @@ import {
 
 function sleep(ms: number): Promise<void> {
   return new Promise((r) => setTimeout(r, ms));
+}
+
+function persistDetail(
+  keptById: Map<string, ScreenedArticle>,
+  meta: ReturnType<typeof loadMeta>,
+): void {
+  const articles = [...keptById.values()].sort((a, b) => {
+    const da = a.publishedAt ?? a.fetchedAt;
+    const db = b.publishedAt ?? b.fetchedAt;
+    return db.localeCompare(da);
+  });
+
+  saveCleanDb({
+    updatedAt: new Date().toISOString(),
+    articles,
+  });
+
+  const counts: Record<string, number> = {};
+  for (const a of articles) {
+    counts[a.journalId] = (counts[a.journalId] ?? 0) + 1;
+  }
+  for (const [journalId, keptCount] of Object.entries(counts)) {
+    meta.journals[journalId] = {
+      lastCrawlAt: meta.journals[journalId]?.lastCrawlAt ?? meta.lastCrawlAt,
+      rawCount: meta.journals[journalId]?.rawCount ?? 0,
+      keptCount,
+      error: meta.journals[journalId]?.error,
+    };
+  }
+  saveMeta(meta);
 }
 
 /**
@@ -74,34 +104,12 @@ export async function runScreenDetail(): Promise<{
     };
     keptById.set(screened.id, screened);
     newlyKept += 1;
+    persistDetail(keptById, meta);
 
-    await sleep(Number(process.env.GEMINI_DELAY_MS ?? 400));
+    await sleep(getGeminiDelayMs());
   }
 
-  const articles = [...keptById.values()].sort((a, b) => {
-    const da = a.publishedAt ?? a.fetchedAt;
-    const db = b.publishedAt ?? b.fetchedAt;
-    return db.localeCompare(da);
-  });
-
-  saveCleanDb({
-    updatedAt: new Date().toISOString(),
-    articles,
-  });
-
-  const counts: Record<string, number> = {};
-  for (const a of articles) {
-    counts[a.journalId] = (counts[a.journalId] ?? 0) + 1;
-  }
-  for (const [journalId, keptCount] of Object.entries(counts)) {
-    meta.journals[journalId] = {
-      lastCrawlAt: meta.journals[journalId]?.lastCrawlAt ?? meta.lastCrawlAt,
-      rawCount: meta.journals[journalId]?.rawCount ?? 0,
-      keptCount,
-      error: meta.journals[journalId]?.error,
-    };
-  }
-  saveMeta(meta);
+  persistDetail(keptById, meta);
 
   return { considered, kept: newlyKept, promptId };
 }

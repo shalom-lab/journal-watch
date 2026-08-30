@@ -1,5 +1,5 @@
 import type { ScreenedArticle } from "@journal-watch/shared";
-import { getRelevanceThreshold, screenArticle } from "./ai/gemini.js";
+import { getGeminiDelayMs, getRelevanceThreshold, screenArticle } from "./ai/gemini.js";
 import {
   ensureDataDirs,
   loadCleanDb,
@@ -74,7 +74,7 @@ export async function runScreen(): Promise<{
       newlyKept += 1;
     }
 
-    await sleep(Number(process.env.GEMINI_DELAY_MS ?? 400));
+    await sleep(getGeminiDelayMs());
   }
 
   const articles = [...keptById.values()].sort((a, b) => {

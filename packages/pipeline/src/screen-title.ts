@@ -1,5 +1,10 @@
 import type { CandidateArticle, CandidatesFile, RawArticle } from "@journal-watch/shared";
-import { getTitleBatchSize, getTitleKeepThreshold, screenTitleBatch } from "./ai/gemini.js";
+import {
+  getGeminiDelayMs,
+  getTitleBatchSize,
+  getTitleKeepThreshold,
+  screenTitleBatch,
+} from "./ai/gemini.js";
 import {
   ensureDataDirs,
   loadCandidates,
@@ -100,7 +105,7 @@ export async function runScreenTitle(): Promise<{
     }
 
     if (i + batchSize < toScreen.length) {
-      await sleep(Number(process.env.GEMINI_DELAY_MS ?? 400));
+      await sleep(getGeminiDelayMs());
     }
   }
 

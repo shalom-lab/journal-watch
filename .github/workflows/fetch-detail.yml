@@ -29,6 +29,8 @@ jobs:
     env:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-3.1-flash-lite' }}
+      GEMINI_DELAY_MS: ${{ vars.GEMINI_DELAY_MS || '5000' }}
+      GEMINI_RETRIES: ${{ vars.GEMINI_RETRIES || '6' }}
       RELEVANCE_THRESHOLD: ${{ vars.RELEVANCE_THRESHOLD || '0.45' }}
       TITLE_KEEP_THRESHOLD: ${{ vars.TITLE_KEEP_THRESHOLD || '0.45' }}
     steps:
@@ -36,7 +38,7 @@ jobs:
       - uses: ./.github/actions/setup-pnpm
       - run: pnpm fetch:detail
       - name: Commit data
-        if: ${{ inputs.skip_commit != true }}
+        if: ${{ always() && inputs.skip_commit != true }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

@@ -227,8 +227,8 @@ prompts/index.json  →  active.titleScreen / active.detailScreen
 | `GEMINI_API_KEY` | AI 筛选（必填；缺失则报错退出） |
 | `GEMINI_MODEL` | 默认 `gemini-3.1-flash-lite`（免费档日请求通常最宽） |
 | `TITLE_BATCH_SIZE` | 标题初筛每请求篇数（默认 80；配额主要按请求次数计） |
-| `GEMINI_DELAY_MS` | 批次间调 API 间隔 |
-| `GEMINI_RETRIES` | 网络失败重试次数（默认 3） |
+| `GEMINI_DELAY_MS` | 请求间隔（默认 5000ms；免费档 flash-lite 限 15 RPM） |
+| `GEMINI_RETRIES` | 网络 / 429 配额重试次数（默认 6） |
 | `RELEVANCE_THRESHOLD` / `TITLE_KEEP_THRESHOLD` | 初筛入详评阈值 |
 | `CROSSREF_MAILTO` | Crossref 礼貌池（非密钥） |
 | `RAW_RETENTION_MONTHS` | raw 保留月数 |

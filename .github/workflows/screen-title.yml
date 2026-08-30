@@ -29,6 +29,8 @@ jobs:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-3.1-flash-lite' }}
       TITLE_BATCH_SIZE: ${{ vars.TITLE_BATCH_SIZE || '80' }}
+      GEMINI_DELAY_MS: ${{ vars.GEMINI_DELAY_MS || '5000' }}
+      GEMINI_RETRIES: ${{ vars.GEMINI_RETRIES || '6' }}
       RELEVANCE_THRESHOLD: ${{ vars.RELEVANCE_THRESHOLD || '0.45' }}
       TITLE_KEEP_THRESHOLD: ${{ vars.TITLE_KEEP_THRESHOLD || '0.45' }}
     steps:
