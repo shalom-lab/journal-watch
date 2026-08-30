@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -p tsconfig.app.json --noEmit && vite build",
+    "build": "tsc -p tsconfig.app.json --noEmit && vite build && node ../scripts/spa-404.mjs",
     "preview": "vite preview",
     "typecheck": "tsc -p tsconfig.app.json --noEmit"
   },
