@@ -68,7 +68,11 @@
     "download": "Download .md",
     "placeholder": "Markdown prompt…",
     "saveLocal": "Saved locally (no PAT)",
-    "saveOk": "Prompts written back to the repo"
+    "saveOk": "Prompts written back to the repo",
+    "reload": "Reload from repo",
+    "reloaded": "Loaded repo version (local draft cleared)",
+    "staleDraft": "An older local draft was ignored; showing the repo version. Restore it if you still need those edits.",
+    "restoreDraft": "Restore local draft"
   },
   "articles": {
     "title": "Screened latest papers",

@@ -7,12 +7,12 @@
     "screen-title.v1": {
       "file": "screen-title.v1.md",
       "stage": "title",
-      "description": "Title-only first pass; cheap relevance score"
+      "description": "标题初筛：中文正向纳入 + 反向排除；廉价相关度打分"
     },
     "screen-detail.v1": {
       "file": "screen-detail.v1.md",
       "stage": "detail",
-      "description": "Detail pass for kept papers; abstract + Chinese summary"
+      "description": "详评 enrichment：中文正向价值 + 反向降权；摘要与理由"
     }
   }
 }

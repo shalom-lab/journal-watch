@@ -45,6 +45,19 @@ export function saveDraftPrompts(draft: PromptsDraft): void {
   localStorage.setItem(LS.promptsDraft, JSON.stringify(draft));
 }
 
+export function clearDraftPrompts(): void {
+  localStorage.removeItem(LS.promptsDraft);
+}
+
+function draftFingerprint(d: PromptsDraft): string {
+  return JSON.stringify({ index: d.index, bodies: d.bodies });
+}
+
+/** True when local draft content differs from the bundled (remote) prompts. */
+export function draftDiffersFromRemote(local: PromptsDraft, remote: PromptsDraft): boolean {
+  return draftFingerprint(local) !== draftFingerprint(remote);
+}
+
 export async function fetchPromptsBundle(): Promise<PromptsDraft> {
   const indexRes = await fetch(url("prompts/index.json"), { cache: "no-store" });
   if (!indexRes.ok) throw new Error(`Failed to load prompts/index.json: ${indexRes.status}`);

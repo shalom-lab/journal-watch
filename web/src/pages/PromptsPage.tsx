@@ -1,10 +1,13 @@
 import { useEffect, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
 import {
+  clearDraftPrompts,
   downloadPromptMarkdown,
+  draftDiffersFromRemote,
   fetchPromptsBundle,
   listPromptIds,
   loadDraftPrompts,
+  saveDraftPrompts,
   savePromptsLocal,
   syncPromptsNow,
   type PromptsDraft,
@@ -14,22 +17,29 @@ import { canSyncToGithub, loadSettings } from "../lib/settings";
 export default function PromptsPage() {
   const { t } = useTranslation();
   const [draft, setDraft] = useState<PromptsDraft | null>(null);
+  const [stashedDraft, setStashedDraft] = useState<PromptsDraft | null>(null);
   const [selectedId, setSelectedId] = useState<string>("");
   const [status, setStatus] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [dirty, setDirty] = useState(false);
   const [syncing, setSyncing] = useState(false);
+  const [reloading, setReloading] = useState(false);
 
   useEffect(() => {
     void (async () => {
       try {
         const remote = await fetchPromptsBundle();
         const local = loadDraftPrompts();
-        if (local) {
-          setDraft(local);
-          setDirty(true);
-          setSelectedId(Object.keys(local.index.prompts)[0] ?? "");
+        if (local && draftDiffersFromRemote(local, remote)) {
+          // Prefer repo / deployed files so updates are visible; keep draft restorable.
+          clearDraftPrompts();
+          setStashedDraft(local);
+          setDraft(remote);
+          setDirty(false);
+          setSelectedId(Object.keys(remote.index.prompts)[0] ?? "");
+          setStatus(t("prompts.staleDraft"));
         } else {
+          if (local) clearDraftPrompts();
           setDraft(remote);
           setSelectedId(Object.keys(remote.index.prompts)[0] ?? "");
         }
@@ -37,7 +47,7 @@ export default function PromptsPage() {
         setError(e instanceof Error ? e.message : String(e));
       }
     })();
-  }, []);
+  }, [t]);
 
   const ids = useMemo(
     () => (draft ? listPromptIds(draft.index) : []),
@@ -53,6 +63,7 @@ export default function PromptsPage() {
     const { draft: saved, sync } = savePromptsLocal(next);
     setDraft(saved);
     setDirty(sync !== "skipped");
+    setStashedDraft(null);
     if (sync === "scheduled") setStatus(t("sync.pendingAuto"));
     else if (sync === "manual") setStatus(t("sync.pendingManual"));
     else setStatus(t("prompts.saveLocal"));
@@ -75,6 +86,34 @@ export default function PromptsPage() {
         active: { ...draft.index.active, [slot]: id },
       },
     });
+  }
+
+  async function onReload() {
+    setReloading(true);
+    setError(null);
+    try {
+      clearDraftPrompts();
+      const remote = await fetchPromptsBundle();
+      setStashedDraft(null);
+      setDraft(remote);
+      setDirty(false);
+      setSelectedId(Object.keys(remote.index.prompts)[0] ?? "");
+      setStatus(t("prompts.reloaded"));
+    } catch (e) {
+      setError(e instanceof Error ? e.message : String(e));
+    } finally {
+      setReloading(false);
+    }
+  }
+
+  function onRestoreDraft() {
+    if (!stashedDraft) return;
+    saveDraftPrompts(stashedDraft);
+    setDraft(stashedDraft);
+    setDirty(true);
+    setSelectedId(Object.keys(stashedDraft.index.prompts)[0] ?? "");
+    setStashedDraft(null);
+    setStatus(t("prompts.saveLocal"));
   }
 
   async function onSync() {
@@ -106,6 +145,19 @@ export default function PromptsPage() {
           <p className="muted">{t("prompts.hint")}</p>
         </div>
         <div className="btn-row">
+          <button
+            type="button"
+            className="ghost"
+            disabled={reloading}
+            onClick={() => void onReload()}
+          >
+            {reloading ? "…" : t("prompts.reload")}
+          </button>
+          {stashedDraft && (
+            <button type="button" className="ghost" onClick={onRestoreDraft}>
+              {t("prompts.restoreDraft")}
+            </button>
+          )}
           {canSync && (
             <button
               type="button"

@@ -68,7 +68,11 @@
     "download": "下载 .md",
     "placeholder": "Markdown prompt…",
     "saveLocal": "已暂存本地（未配置 PAT）",
-    "saveOk": "Prompt 已写回仓库"
+    "saveOk": "Prompt 已写回仓库",
+    "reload": "重新加载仓库版",
+    "reloaded": "已加载仓库当前版本（已清除本地草稿）",
+    "staleDraft": "检测到旧本地草稿，已改用仓库版。若不需要草稿可忽略；需要可点「恢复本地草稿」。",
+    "restoreDraft": "恢复本地草稿"
   },
   "articles": {
     "title": "筛选后的最新文章",

@@ -1,38 +1,64 @@
-# Detail-screen prompt (stage: detail)
+# 详评 Prompt（阶段：detail）
 
-You are doing a **detail pass** for papers already shortlisted by title screen + human review.
+你对已经过**标题初筛 + 人工 keep/drop**的短名单做**详情 enrichment**（不是再筛选一轮）。根据标题、摘要（若有）、期刊、DOI/URL 写中文要点，并给出相关度。
 
-Group focus:
+## 课题关注方向
 
-- Human infectious-disease epidemiology
-- Mathematical modelling of respiratory viruses (influenza, RSV, SARS-CoV-2, etc.)
-- Public-health relevant observational / interventional epidemiology
-- Transferable methods, data, code, models, and theory
+- 人类传染病流行病学
+- 呼吸道病毒（流感、RSV、SARS-CoV-2 等）的数学建模
+- 与公共卫生相关的观察性 / 干预性研究
+- 可迁移的方法、数据、代码、模型与理论
 
-## Rules
+---
 
-- Use title, abstract (if present), journal, and DOI/URL.
-- Prefer original research and systematic reviews.
-- Deprioritize commentaries, editorials, narrative reviews, animal-only work.
-- Write a useful Chinese summary for group discussion.
+## 正向设置（应强化 / 写清价值）
 
-## Criteria tags
+摘要与说明应突出下列价值（相关则 `relevanceScore` 可偏高，并打上对应标签）：
 
-1. `interest`
-2. `influential`
-3. `groupRelevant`
-4. `reusableMethods`
+1. **研究问题**清晰，且落在呼吸道病毒 epi、建模、疫苗/监测、可迁移方法上  
+2. **设计扎实**：队列、病例对照、RCT、准实验、系统综述/Meta、严谨建模框架  
+3. **关键发现**可讨论：效应量、传播参数、预测表现、策略含义等  
+4. **对本组的启发**：数据源、方法、代码、可复现流程、可借鉴的理论  
+5. **公共卫生含义**明确（负担、风险、干预、公平性等）
+
+## 反向设置（应弱化 / 标明局限）
+
+若短名单中仍混入或摘要显示下列情况，应压低分数并在 `summaryZh` / `reason` 中写明：
+
+1. 实质是**评论、来信、社论、观点、叙述性综述**（非系统综述）  
+2. **纯动物 / 体外**研究，缺乏人群流行病学含义  
+3. 与课题方向**明显无关**，或仅有极弱关联  
+4. 方法学严重存疑（可打 `dubious`）  
+5. 信息过少、无法判断贡献（诚实说明，勿编造结果）
+
+---
+
+## 判定规则
+
+- 使用标题、摘要（若有）、期刊、DOI/URL；**不要编造**摘要中没有的数据或结论。  
+- 优先按**原创研究 / 系统综述**来写；若明显非原创，相关分宜 **≤ 0.35** 并说明。  
+- 写 **2–4 句中文摘要**，便于组内讨论：问题 → 设计 → 发现 → 对本组启发。  
+- `reason` 也用中文，简要说明为何值得（或不值得）保留讨论。
+
+## 标签 `criteriaMatched`
+
+1. `interest`  
+2. `influential`  
+3. `groupRelevant`  
+4. `reusableMethods`  
 5. `dubious`
 
-## Output
+## 输出格式
 
-Return STRICT JSON only (no markdown fences):
+只返回严格 JSON（不要 markdown 代码围栏）：
 
 ```json
 {
   "relevanceScore": 0.0,
   "criteriaMatched": ["groupRelevant", "reusableMethods"],
-  "summaryZh": "2–4 句中文摘要：研究问题、设计、关键发现、对本组的启发",
-  "reason": "short English why keep for discussion"
+  "summaryZh": "2–4 句中文：研究问题、设计、关键发现、对本组的启发",
+  "reason": "一两句中文：为何保留讨论（或为何应降权）"
 }
 ```
+
+`relevanceScore` 取值 0–1：正向价值高可 ≥ 0.55；反向/离题/非原创宜 ≤ 0.35。
