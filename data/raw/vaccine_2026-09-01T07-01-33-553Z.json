@@ -1,0 +1,1989 @@
+{
+  "journalId": "vaccine",
+  "fetchedAt": "2026-09-01T07:01:33.553Z",
+  "articles": [
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129039",
+      "journalId": "vaccine",
+      "title": "Scaling up vaccination for people living in prisons: a global person-centred need for public health",
+      "authors": [
+        "Esergita Thanasi",
+        "Joseph McGregor-Harper",
+        "Maria Paola Tramonti Fantozzi",
+        "Nicola Cocco",
+        "Roberto Ranieri",
+        "Emma Plugge",
+        "Erica De Vita",
+        "Lara Tavoschi"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129039",
+      "doi": "10.1016/j.vaccine.2026.129039",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129078",
+      "journalId": "vaccine",
+      "title": "Measles outbreak risk in Afghanistan: provincial immunity gaps and epidemic potential following immunisation system disruption",
+      "authors": [
+        "Rajeev Ranjan",
+        "Palwasha Anwari",
+        "Abigail Colson",
+        "Robert van der Meer"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129078",
+      "doi": "10.1016/j.vaccine.2026.129078",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129067",
+      "journalId": "vaccine",
+      "title": "Cell culture-derived vaccine for rabbit haemorrhagic disease virus 2",
+      "authors": [
+        "Elena Smertina",
+        "Madi Rutherford",
+        "Megan Pavy",
+        "Nina Huang",
+        "Tiffany O'Connor",
+        "Maria Jenckel",
+        "Ina L. Smith",
+        "Tanja Strive"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129067",
+      "doi": "10.1016/j.vaccine.2026.129067",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129106",
+      "journalId": "vaccine",
+      "title": "A recombinant attenuated PRRSV vaccine expressing the PCV2 capsid protein confers protective immunity in pigs",
+      "authors": [
+        "Shuo-Lei Gao",
+        "Jie-Cong Yan",
+        "Juan Wang",
+        "Qing-Yan Liu",
+        "Xin-Li Rong",
+        "Yan-Ru Xing",
+        "Rong-Lin Chen",
+        "Wen-Hao Fei",
+        "Tong-Ling Shan",
+        "Yan-Jun Zhou",
+        "Wu Tong",
+        "Hao Zheng",
+        "Ning Kong",
+        "Guang-Zhi Tong",
+        "Hai Yu"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129106",
+      "doi": "10.1016/j.vaccine.2026.129106",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129081",
+      "journalId": "vaccine",
+      "title": "A cohort study to assess the safety and coverage of COVID-19, influenza, and pertussis vaccine in Australian pregnant women",
+      "authors": [
+        "Hassen Mohammed",
+        "Prabha Andraweera",
+        "Helen S. Marshall"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129081",
+      "doi": "10.1016/j.vaccine.2026.129081",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129069",
+      "journalId": "vaccine",
+      "title": "Systematic review of the mutations in the active antigenic site Ø of the prefusion F protein of the Respiratory Syncytial Virus (RSV) following the implementation of monoclonal antibody prophylaxis",
+      "authors": [
+        "Maria M. Berikopoulou",
+        "Elizabeth-Barbara Tatsi",
+        "Tania Siahanidou",
+        "Athanasios Michos"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129069",
+      "doi": "10.1016/j.vaccine.2026.129069",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129102",
+      "journalId": "vaccine",
+      "title": "Ethical considerations of incentive structures in vaccine acceptance research",
+      "authors": [
+        "Mohamed Amer Musrati",
+        "Salem Shenaisheh",
+        "Mohamed A. Elemraid"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129102",
+      "doi": "10.1016/j.vaccine.2026.129102",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129059",
+      "journalId": "vaccine",
+      "title": "Wuhan-ancestral multi-antigen SARS-CoV-2 virus-like particles protect against the omicron sublineage JN.1 variant",
+      "authors": [
+        "Seung-Ji Kim",
+        "Ho-Won Kim",
+        "Seung-Eun Son",
+        "Jin-Ha Song",
+        "Sun-Min Ahn",
+        "So-Jeong Lim",
+        "Ha-Na Park",
+        "Hyeon-Jin Sa",
+        "Na-Yon Kim",
+        "Jung-Joon Kim",
+        "Yong-Baek Kim",
+        "Hyuk-Joon Kwon",
+        "Kang-Seuk Choi"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129059",
+      "doi": "10.1016/j.vaccine.2026.129059",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129060",
+      "journalId": "vaccine",
+      "title": "Mandates or “Medical Freedom”? What Florida parents' attitudes suggest about the future of childhood vaccination",
+      "authors": [
+        "Amelia M. Jamison",
+        "Samee Saiyed",
+        "Lauren M. Gardner"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129060",
+      "doi": "10.1016/j.vaccine.2026.129060",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129044",
+      "journalId": "vaccine",
+      "title": "The role of socioeconomic status and attitude in the association between herpes zoster knowledge and practice among residents in China: A moderated mediation model",
+      "authors": [
+        "Ke Han",
+        "Dan Hu",
+        "Xiaofan Li",
+        "Yiqi Xia",
+        "Sicheng Hao",
+        "Feng Yang"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129044",
+      "doi": "10.1016/j.vaccine.2026.129044",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129095",
+      "journalId": "vaccine",
+      "title": "A multi-center, open-labelled, randomized controlled extended phase III non-inferiority clinical trial to evaluate the immunogenicity and tolerability of poliomyelitis vaccine (Vero cells), inactivated, Sabin strains administered with or without routine infant vaccines",
+      "authors": [
+        "Muhammad Atiqul Islam",
+        "Syeda Mahjabeen Zehra",
+        "Zaubina Kazi",
+        "Salman Ather",
+        "Sabeena Ahmed",
+        "Rehnuma Tabassum Timu",
+        "Aneeta Hotwani",
+        "Mohammad Sharif Hossain",
+        "Aimon Tahir",
+        "Qianqian Xin",
+        "Weixiao Han",
+        "Wasif Ali Khan",
+        "Ali Faisal Saleem"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129095",
+      "doi": "10.1016/j.vaccine.2026.129095",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129064",
+      "journalId": "vaccine",
+      "title": "Diphtheria in Switzerland, 1877–2022: long-term epidemiology and the impact of mid-20th-century vaccination programs",
+      "authors": [
+        "Sarah-Maria Tuor",
+        "Katarina L. Matthes",
+        "Phung Lang",
+        "Jan Fehr",
+        "Maarten van Wijhe",
+        "Kaspar Staub"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129064",
+      "doi": "10.1016/j.vaccine.2026.129064",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.128994",
+      "journalId": "vaccine",
+      "title": "Lessons learnt from one-year cold chain support for COVID-19 vaccination in 5 middle income countries of North Africa",
+      "authors": [
+        "Srihari Dutta",
+        "Daniel Ngemera",
+        "Philippe Jaillard",
+        "Sumeet Juneja"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.128994",
+      "doi": "10.1016/j.vaccine.2026.128994",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129036",
+      "journalId": "vaccine",
+      "title": "A health-economic assessment of the impact of different RSVpreF maternal vaccine strategies to prevent RSV infections among young infants, in France: EPIPACT",
+      "authors": [
+        "Yasmine Fahfouhi",
+        "Stéphane Fiévez",
+        "Robert Cohen",
+        "Corinne Levy",
+        "Marta C. Nunes",
+        "Louis Chillotti",
+        "Romain Moreau",
+        "William Greenwood",
+        "Emmanuelle Blanc",
+        "Amy Law"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129036",
+      "doi": "10.1016/j.vaccine.2026.129036",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129042",
+      "journalId": "vaccine",
+      "title": "Elevating immunization as a political and economic priority in Africa: Reflections from the continental consensus on Africa's continental immunization strategy in november 2025 in Kigali, Rwanda",
+      "authors": [
+        "Antoinette Eleonore Ba",
+        "Fidele Ngabo",
+        "Charles Shey Wiysonge",
+        "Chris Ngwa Akonwi",
+        "Tetanye Ekoe",
+        "Modou Njai",
+        "Elias Mekuria",
+        "Ahmed Ismail",
+        "Roland Nuotol Kuuzagr",
+        "Mahamadou Diawara",
+        "Faith Joseph-Amayo",
+        "Meheret Ellas",
+        "Folake Olayinka",
+        "Landry Tsague"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129042",
+      "doi": "10.1016/j.vaccine.2026.129042",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129085",
+      "journalId": "vaccine",
+      "title": "Measles resurgence in Indonesia: the intersection of immunity gaps, subnational heterogeneity, and vaccine confidence",
+      "authors": [
+        "Timotius Ivan Hariyanto"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129085",
+      "doi": "10.1016/j.vaccine.2026.129085",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129086",
+      "journalId": "vaccine",
+      "title": "Myth-busting influenza and fear of adverse reactions in healthcare workers: two experimental studies on vaccination intentions",
+      "authors": [
+        "Lewis Bott",
+        "Jiawen Liu",
+        "Aimee Challenger",
+        "Eryl Powell",
+        "Petroc Sumner"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129086",
+      "doi": "10.1016/j.vaccine.2026.129086",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129070",
+      "journalId": "vaccine",
+      "title": "Maternal vaccination with RSVpreF and risk of hypertensive disorders of pregnancy: a systematic review and meta-analysis",
+      "authors": [
+        "Abdallah Alami",
+        "Meghan Lewis",
+        "Darine El-Chaâr",
+        "Mark Walker",
+        "Shi Wu Wen",
+        "Daniel Krewski"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129070",
+      "doi": "10.1016/j.vaccine.2026.129070",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129074",
+      "journalId": "vaccine",
+      "title": "Virus-like particle display of consensus α-neurotoxins does not enhance neutralising antibody responses against elapid venoms",
+      "authors": [
+        "Rebecca J. Edge",
+        "Rohit N. Patel",
+        "Emma L. Stars",
+        "Mark C. Wilkinson",
+        "Janet Storm",
+        "Charlotte A. Dawson",
+        "Laura O. Albulescu",
+        "Lloyd D.W. King",
+        "Nicholas R. Casewell",
+        "Simon J. Draper",
+        "Stuart Ainsworth"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129074",
+      "doi": "10.1016/j.vaccine.2026.129074",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.128969",
+      "journalId": "vaccine",
+      "title": "Immunogenicity of type 2 novel oral poliovirus vaccine administered in outbreak response, Kenya 2023: an observational cohort study",
+      "authors": [
+        "Abhijeet Anand",
+        "Damaris Jepkosgei",
+        "Christina Mwachari",
+        "Rose Jalang'o",
+        "Lynn Kitwan",
+        "Cyrus Kagecha",
+        "Ian Leboo",
+        "Abubakar Hussein",
+        "Boniface Kitungulu",
+        "Hudson Kigen",
+        "Pius Mutuku",
+        "Farrell A. Tobolowsky",
+        "Basit Jafri",
+        "Daniel Lang'at",
+        "Bernardo A. Mainou",
+        "Eric Wiesen",
+        "Sam Wafula",
+        "Qian An",
+        "Jamal Ahmed",
+        "Amy Herman-Roloff",
+        "Emily Koech"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.128969",
+      "doi": "10.1016/j.vaccine.2026.128969",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129076",
+      "journalId": "vaccine",
+      "title": "Muscle size matters: making paediatric vaccination safe for all - a pilot study",
+      "authors": [
+        "Laura Jane Mackenzie",
+        "Jaquelin Anne Bousie",
+        "Phillip Newman",
+        "Peter Preston",
+        "John Edward Cunningham",
+        "Catriona Fleming",
+        "Kate Leary",
+        "Mary-Jessimine Ann Bushell"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129076",
+      "doi": "10.1016/j.vaccine.2026.129076",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.128963",
+      "journalId": "vaccine",
+      "title": "The return of H1N1: Reemergence of the influenza virus A subtype H1N1 in 1977",
+      "authors": [
+        "Enikő Hermann",
+        "Florian Krammer"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.128963",
+      "doi": "10.1016/j.vaccine.2026.128963",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129077",
+      "journalId": "vaccine",
+      "title": "Evaluating the potential lifetime health and economic impact of PCV21, an adult-specific 21-valent pneumococcal conjugate vaccine, on invasive pneumococcal disease in adults aged ≥45 years in Spain",
+      "authors": [
+        "Muloongo Simuzingili",
+        "Silvia Fernández-Soberón",
+        "Zinan Yi",
+        "Nicole Cossrow",
+        "Kelly D. Johnson",
+        "Kwame Owusu-Edusei"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129077",
+      "doi": "10.1016/j.vaccine.2026.129077",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129065",
+      "journalId": "vaccine",
+      "title": "Ethiopia missed opportunities for vaccination study: Cluster-randomized evaluation of 5-dose measles vaccine vials and a flexible open-vial policy, 2021–2022",
+      "authors": [
+        "Aaron S. Wallace",
+        "Ciara Sugerman",
+        "Bezawit Getachew",
+        "Almea Matanock",
+        "Mekonnen Admassu",
+        "Tesfaye Kassahun",
+        "Habtamu Teklie Wubie",
+        "Mulat Nigus Alemu",
+        "Yohannes Lakew Tefera",
+        "Melkamu Ayalew Kokebie"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129065",
+      "doi": "10.1016/j.vaccine.2026.129065",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129096",
+      "journalId": "vaccine",
+      "title": "Effectiveness of COVID-19 vaccination schedules against severe COVID-19 in children aged 6 months to 4 years in Brazil: A population-based cohort study (2023–2024)",
+      "authors": [
+        "Isaac Negretto Schrarstzhaupt",
+        "Fredi Alexander Diaz-Quijano"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129096",
+      "doi": "10.1016/j.vaccine.2026.129096",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129080",
+      "journalId": "vaccine",
+      "title": "Residual DNA in COVID-19 mRNA vaccines: Regulatory context and misinformation",
+      "authors": [
+        "Takeshi Nitta",
+        "Taku Kashiyama",
+        "Yoshihisa Matsumoto",
+        "Tetsuya Toyoda",
+        "Takayuki Miyazawa",
+        "Yukari Kamijima",
+        "Hideki Kakeya"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129080",
+      "doi": "10.1016/j.vaccine.2026.129080",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129001",
+      "journalId": "vaccine",
+      "title": "Cardiac outcomes following SARS-CoV-2 infection versus BNT162b2 vaccination in adolescents and young adults: a cohort study of 4 million individuals",
+      "authors": [
+        "Eman A. Toraih",
+        "Mohammad H. Hussein",
+        "Stephen J. Thomas",
+        "Hani Aiash"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129001",
+      "doi": "10.1016/j.vaccine.2026.129001",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129024",
+      "journalId": "vaccine",
+      "title": "Heterogeneity among the vaccine hesitant: A secondary analysis of the national CEAL Common Survey data",
+      "authors": [
+        "Marie Campbell Statler",
+        "Jessica Bishop-Royse",
+        "Asia T. Sampson",
+        "Molly Martin"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129024",
+      "doi": "10.1016/j.vaccine.2026.129024",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129040",
+      "journalId": "vaccine",
+      "title": "Quantifying the cost of measles outbreaks in the U.S. and how costs scale with outbreak size",
+      "authors": [
+        "Salin Sriudomporn",
+        "Bryan Patenaude"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129040",
+      "doi": "10.1016/j.vaccine.2026.129040",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129063",
+      "journalId": "vaccine",
+      "title": "Temporal patterns and potential missed opportunities in pneumococcal vaccination among adults with diabetes: A population-based cohort study",
+      "authors": [
+        "Jacopo Lenzi",
+        "Marco Montalti",
+        "Zeno Di Valerio",
+        "Valeria Frassineti",
+        "Paolo Benetti",
+        "Rossella Messina",
+        "Simona Rosa",
+        "Andrea Casadei",
+        "Maria Pia Fantini",
+        "Paolo Di Bartolo",
+        "Davide Gori",
+        "Giulia Silvestrini"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129063",
+      "doi": "10.1016/j.vaccine.2026.129063",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129028",
+      "journalId": "vaccine",
+      "title": "Recombinant Marek's disease virus expressing the VP2 gene provides effective protection against novel variant infectious bursal disease virus",
+      "authors": [
+        "Zibo Zhang",
+        "Yuntong Chen",
+        "Wenrui Fan",
+        "Xiaole Qi",
+        "Yanping Zhang",
+        "Changjun Liu",
+        "Longbo Wu",
+        "Yumeng Li",
+        "Yongzhen Liu",
+        "Suyan Wang",
+        "Hongyu Cui",
+        "Yulu Duan",
+        "Yulong Gao"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129028",
+      "doi": "10.1016/j.vaccine.2026.129028",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129097",
+      "journalId": "vaccine",
+      "title": "Evaluating the influence of vaccine archetypes and epidemiological conditions on clinical trial metrics for tuberculosis vaccine candidates",
+      "authors": [
+        "Jason R. Andrews",
+        "Sabine Hermans",
+        "Richard G. White",
+        "Alberto L. García-Basteiro",
+        "Julio Croda",
+        "Frank Cobelens"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129097",
+      "doi": "10.1016/j.vaccine.2026.129097",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129066",
+      "journalId": "vaccine",
+      "title": "AS04-adjuvanted semisynthetic glycoconjugate vaccine against Pseudomonas aeruginosa",
+      "authors": [
+        "Xiaotong Wang",
+        "Xiang Ji",
+        "Haiyue Zheng",
+        "Mengying Ru",
+        "Junbao Zhang",
+        "Yumeng Zhang",
+        "Lvfeng Zhang",
+        "Shengqing Li",
+        "Liming Zhao",
+        "Biao Yu",
+        "You Yang"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129066",
+      "doi": "10.1016/j.vaccine.2026.129066",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129046",
+      "journalId": "vaccine",
+      "title": "Overestimation of racial ingroup worry about the COVID-19 vaccine and medical racism",
+      "authors": [
+        "Samantha L. Heiman",
+        "Nathaniel Geiger"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129046",
+      "doi": "10.1016/j.vaccine.2026.129046",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129104",
+      "journalId": "vaccine",
+      "title": "An immunoinformatics-based multi-epitope vaccine candidate confers cross-protection against two Actinobacillus pleuropneumoniae serovars",
+      "authors": [
+        "Libin Tan",
+        "Yilin Fang",
+        "Peifan Liu",
+        "Mengmeng Su",
+        "Xinkun Zhao",
+        "Buyun Xu",
+        "Chenxi Li",
+        "Xiaoyue Li",
+        "Yuan Wang",
+        "Wei Zhang"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129104",
+      "doi": "10.1016/j.vaccine.2026.129104",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129079",
+      "journalId": "vaccine",
+      "title": "Comparing the potential impacts of seasonal immunisation against year-round immunisation to prevent RSV infant hospitalisations in Japan: A modelling study",
+      "authors": [
+        "Ayaka Monoi",
+        "Akira Endo",
+        "Matej Kriznar",
+        "Motoi Suzuki",
+        "Stefan Flasche"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129079",
+      "doi": "10.1016/j.vaccine.2026.129079",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129058",
+      "journalId": "vaccine",
+      "title": "Human papillomavirus (HPV) Vaccination programmes across European countries: time-harmonized coverage among adolescent females, socioeconomic predictors, and impact on public interest",
+      "authors": [
+        "Grazia Pavia",
+        "Angela Quirino",
+        "Nadia Marascio",
+        "Francesca Licata",
+        "Giovanni Matera",
+        "Aida Bianco",
+        "Gianfranco Di Gennaro"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129058",
+      "doi": "10.1016/j.vaccine.2026.129058",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129048",
+      "journalId": "vaccine",
+      "title": "A novel candidate vaccine virus derived from Japan's first mammalian case of clade 2.3.4.4b A/H5N1 highly pathogenic avian influenza virus",
+      "authors": [
+        "Yasushi Suzuki",
+        "Tomoko Arita",
+        "Masayuki Shirakura",
+        "Noriko Kishida",
+        "Kaori Sano",
+        "Shinji Watanabe",
+        "Noriyo Nagata",
+        "Yusuke Sakai",
+        "Naoko Iwata-Yoshikawa",
+        "Tadaki Suzuki",
+        "Hideki Hasegawa",
+        "Hideki Asanuma"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129048",
+      "doi": "10.1016/j.vaccine.2026.129048",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129073",
+      "journalId": "vaccine",
+      "title": "Synergistic effect of AddaS03 and poly I:C adjuvants on antibody titers and Th1-biased T cell responses following RBD vaccination in BALB/c mice",
+      "authors": [
+        "João Pedro da Silva Nunes",
+        "Isabela Pazotti Daher",
+        "Armando da Silva Pires",
+        "Marcio Massao Yamamoto",
+        "Fernando Bandeira Sulczewski",
+        "Brenno Fernandes da Cunha Lima",
+        "Beatriz Moreira Rodrigues",
+        "Rodolfo Ferreira Marques",
+        "Luiz Mario Ramos Janini",
+        "Juliana Terzi Maricato",
+        "Edecio Cunha- Neto",
+        "Jorge Kalil",
+        "Silvia Beatriz Boscardin",
+        "Daniela Santoro Rosa"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129073",
+      "doi": "10.1016/j.vaccine.2026.129073",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129061",
+      "journalId": "vaccine",
+      "title": "Publication of prespecified outcomes in Bandim health project trials: A response to Støvring et al",
+      "authors": [
+        "Christine Stabell Benn",
+        "Sebastian Nielsen",
+        "Peter Aaby"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129061",
+      "doi": "10.1016/j.vaccine.2026.129061",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129026",
+      "journalId": "vaccine",
+      "title": "Psychometric validity evidence for a measure of trust in U.S. public health actors for vaccine information",
+      "authors": [
+        "Amanda M. Gutierrez",
+        "My H. Do",
+        "Matthew Motta"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129026",
+      "doi": "10.1016/j.vaccine.2026.129026",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129007",
+      "journalId": "vaccine",
+      "title": "Enhanced passive safety surveillance (EPSS) of a seasonal intranasal influenza vaccine (Fluenz® Tetra) in children in England: methodology, results and lessons learned from eight influenza seasons (2015/2016 to 2022/2023)",
+      "authors": [
+        "Sandeep Dhanda",
+        "Denise E Morris",
+        "Kathryn Morton",
+        "Lorna Hazell",
+        "Linda Härmark"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129007",
+      "doi": "10.1016/j.vaccine.2026.129007",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129084",
+      "journalId": "vaccine",
+      "title": "Central nervous system safety risks and evaluation strategies for mucosal vaccines: A review",
+      "authors": [
+        "Qianying Li",
+        "Guohui Bai"
+      ],
+      "publishedAt": "2026-10-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129084",
+      "doi": "10.1016/j.vaccine.2026.129084",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129047",
+      "journalId": "vaccine",
+      "title": "Risk-aware artificial intelligence for translational vaccine design",
+      "authors": [
+        "Francisca Villanueva-Flores",
+        "Igor Garcia-Atutxa"
+      ],
+      "publishedAt": "2026-09-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129047",
+      "doi": "10.1016/j.vaccine.2026.129047",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129035",
+      "journalId": "vaccine",
+      "title": "Antibodies elicited by a chimeric peritrophin antigen reduce Aedes aegypti survival after blood feeding",
+      "authors": [
+        "Idalia Pérez Leyva",
+        "Marianela García Alba",
+        "Laura A. Basile",
+        "Gabriel Rocha Palma",
+        "Florencia Malamud",
+        "Carla S. Sproviero",
+        "María P. Huertas",
+        "Federico J. Wolman",
+        "Valentina Hjelt",
+        "Luciano Benavides",
+        "Mara S. Roset",
+        "Gabriel Briones"
+      ],
+      "publishedAt": "2026-09-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129035",
+      "doi": "10.1016/j.vaccine.2026.129035",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129011",
+      "journalId": "vaccine",
+      "title": "Functional neutralizing and bactericidal antibody responses induced by dual-target immunization with SARS-CoV-2 RBD and Neisseria meningitidis antigens in mice",
+      "authors": [
+        "Amanda Izeli Portilho",
+        "Robert Andreata-Santos",
+        "Márcia Duarte-Barbosa",
+        "Ana Paula Cunha Chaves",
+        "Hernan Hermes Monteiro da Costa",
+        "Nicoly Simões de Melo",
+        "Ana Flavia Segati",
+        "Giovanna Santos Oliveira",
+        "Carlos Roberto Prudencio",
+        "Luiz Mario Ramos Janini",
+        "Elizabeth De Gaspari"
+      ],
+      "publishedAt": "2026-09-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129011",
+      "doi": "10.1016/j.vaccine.2026.129011",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129008",
+      "journalId": "vaccine",
+      "title": "Cost-effectiveness and budget impact analyses of introducing typhoid conjugate vaccine into Indonesia's national immunisation program",
+      "authors": [
+        "Jonathan Hasian Haposan",
+        "Jarir At Thobari",
+        "Emma Watts",
+        "Virginia E. Pitzer",
+        "Natalie Carvalho",
+        "Hardini Tri Indarti",
+        "Alindina Anjani",
+        "Asal Wahyuni Erlin Mulyadi",
+        "Ida Safitri Laksanawati",
+        "Julie E. Bines"
+      ],
+      "publishedAt": "2026-09-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129008",
+      "doi": "10.1016/j.vaccine.2026.129008",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129027",
+      "journalId": "vaccine",
+      "title": "Identification of vaccine candidates by immunization with a complex pool of recombinant VLPs",
+      "authors": [
+        "Yogesh Nepal",
+        "Garrett Wondra",
+        "David T. Jones",
+        "Alexandra Francian",
+        "Julianne Peabody",
+        "David S. Peabody",
+        "Bryce Chackerian"
+      ],
+      "publishedAt": "2026-09-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129027",
+      "doi": "10.1016/j.vaccine.2026.129027",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.128997",
+      "journalId": "vaccine",
+      "title": "Effectiveness of NmCV-5 vaccine against meningococcal meningitis in an outbreak setting in Niger: results from a case-control study",
+      "authors": [
+        "Laura V. Cooper",
+        "Medard Djedanem",
+        "Assan Abdoul Nasser",
+        "Khalidou Moussa",
+        "Kourouma Mamadou",
+        "Camara Ibrahima",
+        "Mahamadou Doutchi",
+        "Joaquin Baruch",
+        "Katya Fernandez",
+        "Anderson Latt",
+        "Clement Lingani",
+        "Andre Bita",
+        "Isha Berry",
+        "Todd Swarthout",
+        "Ousmane Guindo",
+        "Lorenzo Pezzoli",
+        "Elhadji Ibrahim Tassiou",
+        "Matthew Coldiron"
+      ],
+      "publishedAt": "2026-09-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.128997",
+      "doi": "10.1016/j.vaccine.2026.128997",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129010",
+      "journalId": "vaccine",
+      "title": "A novel inactivated vaccine for cross-protection against Actinobacillus pleuropneumoniae in pigs",
+      "authors": [
+        "Wenbin Wei",
+        "Ruicheng Yang",
+        "Zesong Wang",
+        "Shifan Feng",
+        "Yancheng Jin",
+        "Hongshuo Liu",
+        "Jiyang Fu",
+        "Yuanyuan Wang",
+        "Huanchun Chen",
+        "Xiangru Wang"
+      ],
+      "publishedAt": "2026-09-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129010",
+      "doi": "10.1016/j.vaccine.2026.129010",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129043",
+      "journalId": "vaccine",
+      "title": "Association between post-vaccination adverse events and subsequent COVID-19 booster uptake in the Netherlands",
+      "authors": [
+        "Anne J. Huiberts",
+        "Maud M.J. Smits",
+        "Christina E. Hoeve",
+        "Hester E. de Melker",
+        "Susan van den Hof",
+        "Mirjam J. Knol"
+      ],
+      "publishedAt": "2026-09-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129043",
+      "doi": "10.1016/j.vaccine.2026.129043",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.128993",
+      "journalId": "vaccine",
+      "title": "Implications for future pandemics from a living systematic review and critical evaluation of observational studies of the effectiveness of COVID-19 vaccination against the Omicron variant",
+      "authors": [
+        "Fatema Kazi",
+        "Chin Yang Shapland",
+        "Francesca Spiga",
+        "Gemma Villanueva",
+        "Rosie P. Cornish",
+        "Nicholas Henschke",
+        "Elise Cogo",
+        "Meghan Sebastianski",
+        "Mohsen Aarabi",
+        "Hanna Bergman",
+        "Brian Buckley",
+        "Gemma L. Clayton",
+        "Clare E. French",
+        "James Liu",
+        "Paul Madley-Dowd",
+        "Ferruccio Pelone",
+        "Jennifer Petkovic",
+        "Katrin Probyn",
+        "Rosella Saulle",
+        "Jelena Savović",
+        "Rebecca Wilson",
+        "Charles R. Beck",
+        "Julian P.T. Higgins"
+      ],
+      "publishedAt": "2026-09-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.128993",
+      "doi": "10.1016/j.vaccine.2026.128993",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129045",
+      "journalId": "vaccine",
+      "title": "Prevalence and determinants of vaccine hesitancy in the City of Buenos Aires, Argentina: A probabilistic household survey",
+      "authors": [
+        "Patricia Angeleri",
+        "Cristián Biscayart",
+        "Daniel Ferrante",
+        "Alejandro Macchia"
+      ],
+      "publishedAt": "2026-09-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129045",
+      "doi": "10.1016/j.vaccine.2026.129045",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.128977",
+      "journalId": "vaccine",
+      "title": "Clinical features and outcomes of pediatric breakthrough invasive pneumococcal disease (IPD) in vaccinated children in Calgary, Alberta, Canada, 2003–2024",
+      "authors": [
+        "Emily J. Doucette",
+        "Leah J. Ricketson",
+        "Luis Murguía-Favela",
+        "Nicola Wright",
+        "James D. Kellner"
+      ],
+      "publishedAt": "2026-09-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.128977",
+      "doi": "10.1016/j.vaccine.2026.128977",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129018",
+      "journalId": "vaccine",
+      "title": "‘Healthy ageing’ messaging in vaccine promotion among older adults: evaluation of vaccine intention in a survey using a social marketing methodology",
+      "authors": [
+        "Alexandra Addario",
+        "Boris Chapoton",
+        "Thomas Célarier",
+        "Nathalie Barth",
+        "Bienvenu Bongue",
+        "Gaëtan Gavazzi",
+        "Elisabeth Botelho-Nevers"
+      ],
+      "publishedAt": "2026-09-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129018",
+      "doi": "10.1016/j.vaccine.2026.129018",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129004",
+      "journalId": "vaccine",
+      "title": "Expanding adult immunization in low- and middle-income countries through pharmacist-provided vaccination",
+      "authors": [
+        "Lisa M. Koonin",
+        "Shane D. Velez",
+        "Joseph S. Bresee"
+      ],
+      "publishedAt": "2026-09-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129004",
+      "doi": "10.1016/j.vaccine.2026.129004",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129003",
+      "journalId": "vaccine",
+      "title": "Uptake of the RSVpreF vaccine during pregnancy: associations with socioeconomic status, prenatal care utilization, and maternal risk factors",
+      "authors": [
+        "Xiaofan Liu",
+        "Jonathan N. Cloughesy",
+        "Tianzhou Yu",
+        "Maddalena Ferranna"
+      ],
+      "publishedAt": "2026-09-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129003",
+      "doi": "10.1016/j.vaccine.2026.129003",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129050",
+      "journalId": "vaccine",
+      "title": "Letters and lymph: Jean de Carro and the transnational circulation of Jennerian vaccination, 1799–1810",
+      "authors": [
+        "José Tuells"
+      ],
+      "publishedAt": "2026-09-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129050",
+      "doi": "10.1016/j.vaccine.2026.129050",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.128952",
+      "journalId": "vaccine",
+      "title": "Baseline adverse birth outcomes in a prospective pregnancy cohort in Uganda: Evidence to inform maternal vaccine readiness",
+      "authors": [
+        "Hannah G. Davies",
+        "Gordon Rukundo",
+        "Cleophas Komugisha",
+        "Sam Kipyeko",
+        "Andrew Young",
+        "Jennifer Kisakye",
+        "Merryn Voysey",
+        "Robert Mboizi",
+        "Paul T. Heath",
+        "Musa Sekikubo",
+        "Kirsty Le Doare"
+      ],
+      "publishedAt": "2026-09-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.128952",
+      "doi": "10.1016/j.vaccine.2026.128952",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129029",
+      "journalId": "vaccine",
+      "title": "Seroefficacy of a 10-valent pneumococcal conjugate vaccine (Pneumosil®) compared with other pneumococcal conjugate vaccines in children",
+      "authors": [
+        "Oluwasefunmi Akeju",
+        "Shuo Feng",
+        "Ed Clarke",
+        "Adedapo O. Bashorun",
+        "Ikechukwu Adigweme",
+        "Nicola Pidduck",
+        "Merryn Voysey"
+      ],
+      "publishedAt": "2026-09-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129029",
+      "doi": "10.1016/j.vaccine.2026.129029",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129062",
+      "journalId": "vaccine",
+      "title": "Corrigendum to “Outpatient care intensity and influenza vaccination: evidence from Germany” [Vaccine 70 (2026) 128038]",
+      "authors": [
+        "D. Gensorowsky",
+        "B. Surmann",
+        "A.C. Meyer",
+        "A. Poshtiban",
+        "K. Braegelmann",
+        "O. Damm",
+        "T. Jelinek",
+        "J. Schelling",
+        "J. Witte"
+      ],
+      "publishedAt": "2026-09-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129062",
+      "doi": "10.1016/j.vaccine.2026.129062",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129038",
+      "journalId": "vaccine",
+      "title": "Influenza vaccination uptake among people living with HIV in Melbourne, 2015–2025: a repeated cross-sectional study",
+      "authors": [
+        "Amirpasha Rafizadeh",
+        "Danushi Wijekoon",
+        "Ei T. Aung",
+        "Ivette Aguirre",
+        "Phyu Mon Latt",
+        "Melanie Bissessor",
+        "Timothy Krulic",
+        "Joshua Murphy",
+        "Marcus Y. Chen",
+        "Nyi Nyi Soe",
+        "Eric P.F. Chow"
+      ],
+      "publishedAt": "2026-09-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129038",
+      "doi": "10.1016/j.vaccine.2026.129038",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129009",
+      "journalId": "vaccine",
+      "title": "2024–2025 BNT162b2 KP.2 COVID-19 full season vaccine effectiveness from vaccine registries linked to administrative claims in two states: A cohort study in non-immunocompromised adults",
+      "authors": [
+        "Tara Ahi",
+        "Kathleen M. Andersen",
+        "Jazmine S. Mateus",
+        "Tiange Yu",
+        "Anan Zhou",
+        "Rajeev M. Nepal",
+        "Santiago M.C. Lopez",
+        "Laura Puzniak"
+      ],
+      "publishedAt": "2026-09-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129009",
+      "doi": "10.1016/j.vaccine.2026.129009",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129037",
+      "journalId": "vaccine",
+      "title": "Clinicians' self-reported HPV vaccination recommendations for sexual and gender minority patients",
+      "authors": [
+        "Monica L. Kasting",
+        "Steven K. Sutton",
+        "Megan Davish",
+        "Gwendolyn P. Quinn",
+        "Kelly L. Donahue",
+        "Shannon M. Christy"
+      ],
+      "publishedAt": "2026-09-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129037",
+      "doi": "10.1016/j.vaccine.2026.129037",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129031",
+      "journalId": "vaccine",
+      "title": "Rotavirus vaccine coverage and urban–rural equity in India: Evidence from the sixth National Family Health Survey (NFHS-6)",
+      "authors": [
+        "Meghnil Chowdhury"
+      ],
+      "publishedAt": "2026-09-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129031",
+      "doi": "10.1016/j.vaccine.2026.129031",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129023",
+      "journalId": "vaccine",
+      "title": "Evaluating the cost-effectiveness of respiratory syncytial virus vaccination among risk-stratified older adults",
+      "authors": [
+        "David W. Hutton",
+        "Lisa A. Prosser",
+        "Ismael R. Ortega-Sanchez",
+        "Andrew J. Leidner",
+        "Fiona P. Havers",
+        "Mila M. Prill",
+        "Michael Whitaker",
+        "Lauren E. Roper",
+        "Jamison Pike",
+        "Michael Melgar",
+        "Amadea Britton"
+      ],
+      "publishedAt": "2026-09-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129023",
+      "doi": "10.1016/j.vaccine.2026.129023",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129025",
+      "journalId": "vaccine",
+      "title": "Protective and immunostimulatory effects of a vitellogenin functional domain-based vaccine in Atlantic salmon against Caligus rogercresseyi",
+      "authors": [
+        "Antonio Casuso",
+        "Adrian Rodríguez-Gabilondo",
+        "Yeny Leal",
+        "Cristian Gallardo-Escárate",
+        "Valentina Valenzuela-Muñoz"
+      ],
+      "publishedAt": "2026-09-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129025",
+      "doi": "10.1016/j.vaccine.2026.129025",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129002",
+      "journalId": "vaccine",
+      "title": "Biomarkers usefulness have a time frame to be respected",
+      "authors": [
+        "Alessandro Capucci",
+        "Alberto Donzelli"
+      ],
+      "publishedAt": "2026-09-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129002",
+      "doi": "10.1016/j.vaccine.2026.129002",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129032",
+      "journalId": "vaccine",
+      "title": "Erratum to “Multi-peptide subunit vaccination induced IFN-γ but lacked efficacy against Mycobacterium avium subsp. paratuberculosis in a goat challenge trial” [Vaccine 88 (2026) 128971]",
+      "authors": [
+        "Gitte Erbs",
+        "Kari Lybeck",
+        "Jeanne Toft Jakobsen",
+        "Lien Thi Minh Nguyen",
+        "Emilie Sølling Henriksen",
+        "Tim John Bull",
+        "Claus Aagaard",
+        "Stig Tollefsen",
+        "Gregers Jungersen"
+      ],
+      "publishedAt": "2026-09-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129032",
+      "doi": "10.1016/j.vaccine.2026.129032",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.128972",
+      "journalId": "vaccine",
+      "title": "Hepatitis B among hospital nurses worldwide: a meta-analysis of seroprevalence studies",
+      "authors": [
+        "Fang Li",
+        "Jiateng Wang",
+        "Wenqing Zhang"
+      ],
+      "publishedAt": "2026-09-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.128972",
+      "doi": "10.1016/j.vaccine.2026.128972",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/s0264-410x(26)00899-6",
+      "journalId": "vaccine",
+      "title": "Editorial Board",
+      "publishedAt": "2026-09-01",
+      "url": "https://doi.org/10.1016/s0264-410x(26)00899-6",
+      "doi": "10.1016/s0264-410x(26)00899-6",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129033",
+      "journalId": "vaccine",
+      "title": "Why COVID-19 vaccination struggled in the Democratic Republic of Congo: a qualitative study exploring organizational and sociocultural barriers, 2025",
+      "authors": [
+        "Benito Kazenza",
+        "Bijou Masokolo",
+        "Branly Mbunga",
+        "Landry Egbende",
+        "Severin Elemo",
+        "Josué Lukusa",
+        "Darius Makindu",
+        "Dalau NKamba",
+        "Daniel Isosho",
+        "Paul-Samson Lusamba",
+        "Eric Mafuta"
+      ],
+      "publishedAt": "2026-09-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129033",
+      "doi": "10.1016/j.vaccine.2026.129033",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129041",
+      "journalId": "vaccine",
+      "title": "Life-course vaccination requires life-course performance metrics",
+      "authors": [
+        "Charles S. Wiysonge",
+        "Ado M. Bwaka",
+        "Aschalew Teka Bekele",
+        "Balcha G. Masresha"
+      ],
+      "publishedAt": "2026-09-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129041",
+      "doi": "10.1016/j.vaccine.2026.129041",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.128984",
+      "journalId": "vaccine",
+      "title": "The marketing authorization of vaccines is not an exact science: the 20-valent pneumococcal conjugate vaccine (PCV-20) is an example",
+      "authors": [
+        "Philippe De Wals"
+      ],
+      "publishedAt": "2026-09-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.128984",
+      "doi": "10.1016/j.vaccine.2026.128984",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.129030",
+      "journalId": "vaccine",
+      "title": "Effectiveness of Omicron JN.1 vaccination against infection with JN.1-derived SARS-CoV-2 subvariants in a prospective cohort study in the Netherlands",
+      "authors": [
+        "Anne J. Huiberts",
+        "Dirk Eggink",
+        "Brechje de Gier",
+        "Thimon Karens",
+        "Hester E. de Melker",
+        "Susan J.M. Hahné",
+        "Diederick E. Grobbee",
+        "Janneke H.H.M. van de Wijgert",
+        "Susan van den Hof",
+        "Mirjam J. Knol"
+      ],
+      "publishedAt": "2026-09-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.129030",
+      "doi": "10.1016/j.vaccine.2026.129030",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.128858",
+      "journalId": "vaccine",
+      "title": "Ethical challenges in outbreak trial design: from Ebola to Nipah",
+      "authors": [
+        "Euzebiusz Jamrozik",
+        "Lucie Abeler-Dörner",
+        "Amol Chaudhari",
+        "Phaik Yeong Cheah",
+        "Robert Hinch",
+        "Richard Jarman",
+        "Tess Johnson",
+        "Michael Parker",
+        "Carolin Vegvari",
+        "Nina Wressnigg",
+        "Christophe Fraser"
+      ],
+      "publishedAt": "2026-08-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.128858",
+      "doi": "10.1016/j.vaccine.2026.128858",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.128896",
+      "journalId": "vaccine",
+      "title": "Adverse events and vaccine administration errors following RSV vaccination: Findings from the United States VAERS database, 2023–2025",
+      "authors": [
+        "Lotanna Ezeja",
+        "Oluchukwu M. Ezeala",
+        "Salisa C. Westrick",
+        "Jingjing Qian"
+      ],
+      "publishedAt": "2026-08-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.128896",
+      "doi": "10.1016/j.vaccine.2026.128896",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.128827",
+      "journalId": "vaccine",
+      "title": "Global misinformation, local consequences: conspiracy theory endorsement and a graded association with COVID-19 vaccine refusal across Nigeria",
+      "authors": [
+        "Peter Mac Asaga",
+        "Axel Kroeger",
+        "Andrew Yako",
+        "James Makpo"
+      ],
+      "publishedAt": "2026-08-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.128827",
+      "doi": "10.1016/j.vaccine.2026.128827",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.128857",
+      "journalId": "vaccine",
+      "title": "Evaluation of immunogenicity and efficacy of a Plasmodium vivax nanoparticle vaccine in mice",
+      "authors": [
+        "Francis Babila Ntumngia",
+        "Surendra Kumar Kolli",
+        "Gregory P. Howard",
+        "Pradeep Annamalai Subramani",
+        "Samantha J. Barnes",
+        "Madison M. Ogbondah",
+        "Pooya Mahdavi",
+        "Julia Lu",
+        "Justin Nicholas",
+        "Sai Lata De",
+        "Brian B. Barnes",
+        "Rhoel R. Dinglasan",
+        "Chris J. Janse",
+        "Hai-Quan Mao",
+        "John H. Adams"
+      ],
+      "publishedAt": "2026-08-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.128857",
+      "doi": "10.1016/j.vaccine.2026.128857",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.128968",
+      "journalId": "vaccine",
+      "title": "Rubella immunity and vaccination coverage among medical students in Catalonia: a multicentre seroprevalence study",
+      "authors": [
+        "Pau Benito",
+        "Marta Aldea",
+        "Pere Godoy",
+        "Diana Toledo",
+        "Irma Casas",
+        "Núria Soldevila",
+        "Rosa Bartolomé",
+        "Angela Domínguez"
+      ],
+      "publishedAt": "2026-08-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.128968",
+      "doi": "10.1016/j.vaccine.2026.128968",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.128822",
+      "journalId": "vaccine",
+      "title": "The role of interferon-gamma release assays in tuberculosis vaccine trials: strengths, limitations, and implications beyond trial design",
+      "authors": [
+        "Alemnew F. Dagnew",
+        "Alexander C. Schmidt",
+        "Amy Cinar",
+        "Alberto L. Garcia-Basteiro",
+        "Robert Noble",
+        "Puck T. Pelzer",
+        "Gavin J. Churchyard",
+        "Mark Hatherill",
+        "Richard G. White",
+        "Frank Cobelens"
+      ],
+      "publishedAt": "2026-08-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.128822",
+      "doi": "10.1016/j.vaccine.2026.128822",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.128790",
+      "journalId": "vaccine",
+      "title": "Young adults at risk of emerging serotype 4 invasive pneumococcal disease vs. other serotypes in Andalusia (Spain), 2022 to 2024: optimising conjugated vaccines strategies",
+      "authors": [
+        "Elvira Marín-Caba",
+        "Nicola Lorusso",
+        "Julio Sempere",
+        "José Juan Jiménez-Moleón",
+        "Mario Rivera-Izquierdo"
+      ],
+      "publishedAt": "2026-08-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.128790",
+      "doi": "10.1016/j.vaccine.2026.128790",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.128950",
+      "journalId": "vaccine",
+      "title": "Beyond seasonality: year-round RSV prevention for infants",
+      "authors": [
+        "Fani Ladomenou",
+        "Aikaterini Nikolaou",
+        "Ekaterini Siomou",
+        "Vasileios Giapros"
+      ],
+      "publishedAt": "2026-08-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.128950",
+      "doi": "10.1016/j.vaccine.2026.128950",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.128931",
+      "journalId": "vaccine",
+      "title": "Post-COVID-19 pandemic inequities in routine childhood immunization in Canada: racial disparities in uptake of polio, meningococcal conjugate, and varicella vaccines",
+      "authors": [
+        "Rose Darly Dalexis",
+        "Idrissa Beogo",
+        "Yan Xu",
+        "Mwali Muray",
+        "Taddele Cherinet Kibret",
+        "Jude Mary Cénat"
+      ],
+      "publishedAt": "2026-08-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.128931",
+      "doi": "10.1016/j.vaccine.2026.128931",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.128806",
+      "journalId": "vaccine",
+      "title": "Safety of influenza vaccine during the vaccination campaign 2021/2022 in Italy: a self-controlled case series study",
+      "authors": [
+        "Stefania Spila-Alegiani",
+        "Marco Massari",
+        "Maria Cutillo",
+        "Francesca Menniti-Ippolito",
+        "Roberto Da Cas",
+        "Flavia Mayer",
+        "Giuseppe Marano",
+        "Valeria Belleudi",
+        "Antonio Addis",
+        "Valeria Desiderio",
+        "Nadia Mores",
+        "Sara Lopes",
+        "Maria Balducci",
+        "Lucian Ejlli",
+        "Stefania Del Zotto",
+        "Elena Clagnan",
+        "Sarah Samez",
+        "Cristina Zappetti",
+        "Paola Rossi",
+        "Ester Sapigni",
+        "Aurora Puccini",
+        "Marco Villa",
+        "Claudio Visigalli",
+        "Gianluca Trifirò",
+        "Nicoletta Luxi",
+        "Cristina Morciano"
+      ],
+      "publishedAt": "2026-08-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.128806",
+      "doi": "10.1016/j.vaccine.2026.128806",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.128807",
+      "journalId": "vaccine",
+      "title": "HPV vaccine: Influencing peer recommendations through information provision at no-cost vaccine clinics",
+      "authors": [
+        "Samantha L. Ky",
+        "Evan G. Coblentz",
+        "Emma Swanson",
+        "Rhea Shah",
+        "Abigale Fritsch",
+        "Trexie M. Rudd",
+        "Shandey D. Malcolm",
+        "Monica L. Kasting"
+      ],
+      "publishedAt": "2026-08-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.128807",
+      "doi": "10.1016/j.vaccine.2026.128807",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.128853",
+      "journalId": "vaccine",
+      "title": "Influenza, pneumococcal, and herpes zoster vaccination in Italy: Knowledge, uptake, and determinants across the adult life course",
+      "authors": [
+        "Elena Levati",
+        "Riccardo Calvani",
+        "Stefano Cacciatore",
+        "Matteo Tosato",
+        "Vincenzo Galluzzo",
+        "Francesca Ciciarello",
+        "Sara Salini",
+        "Andrea Russo",
+        "Emanuele Marzetti",
+        "Francesco Landi"
+      ],
+      "publishedAt": "2026-08-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.128853",
+      "doi": "10.1016/j.vaccine.2026.128853",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.128927",
+      "journalId": "vaccine",
+      "title": "Protective titre of the WHO international standard for anti-chikungunya virus antibodies in a mouse model",
+      "authors": [
+        "Stuart D. Dowall",
+        "Stephen Findlay-Wilson",
+        "Victoria A. Graham",
+        "Daniel A. Yara",
+        "Amelia Warren",
+        "Linda Easterbrook",
+        "Jack Smith",
+        "Emma Kennedy",
+        "Francisco J. Salguero",
+        "Ines Ruedas-Torres",
+        "Lucy Crossley",
+        "Sarah Kempster",
+        "Neil Almond"
+      ],
+      "publishedAt": "2026-08-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.128927",
+      "doi": "10.1016/j.vaccine.2026.128927",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.128884",
+      "journalId": "vaccine",
+      "title": "Erratum to “Randomized trial showing persistence of hSBA titers elicited by a pentavalent meningococcal MenABCWY vaccine for up to 4 years following a primary series and safety and immunogenicity of a booster dose” [Vaccine 43 (2025) 126469]",
+      "authors": [
+        "James Peterson",
+        "Daniel Drazan",
+        "Beth Moughan",
+        "Jason D. Maguire",
+        "Lefteris Zolotas",
+        "Roger Maansson",
+        "Robert O'Neill",
+        "Paula Peyrani",
+        "Luis Jodar",
+        "William C. Gruber",
+        "Annaliesa S. Anderson",
+        "Johannes Beelsaar"
+      ],
+      "publishedAt": "2026-08-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.128884",
+      "doi": "10.1016/j.vaccine.2026.128884",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.128890",
+      "journalId": "vaccine",
+      "title": "Protocol for a phase 3, randomized, double-blind clinical trial evaluating the safety and immunogenicity of the MVA-BN® vaccine against mpox in children aged 4 to less than 24 months in the Democratic Republic of the Congo: Data to guide future paediatric vaccination strategies",
+      "authors": [
+        "Solange Milolo Tshilumba",
+        "Paulina Morales Ruiz",
+        "Trésor Zola Matuvanga",
+        "Gwen Lemey",
+        "Primo Kimbulu",
+        "Mahmoud Abu Azoum",
+        "Maha Salloum",
+        "Gustave Kasereka",
+        "Felly Mitashi",
+        "Freddy Bikioli",
+        "Dominique Muteba",
+        "Aurelie Bisumba",
+        "Pierre Van Damme",
+        "Hypolite Muhindo-Mavoko",
+        "Elke Jordan",
+        "Jean-Pierre Van geertruyden",
+        "Vivi Maketa",
+        "Patrick Mitashi",
+        "Ynke Larivière"
+      ],
+      "publishedAt": "2026-08-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.128890",
+      "doi": "10.1016/j.vaccine.2026.128890",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.128966",
+      "journalId": "vaccine",
+      "title": "Erratum to “Partner awareness and support for maternal RSV vaccination: a paired survey of pregnant women and co-residing partners in Japan” [Vaccine 88 (2026) 128946]",
+      "authors": [
+        "Aya Saitoh",
+        "Mayumi Takaku"
+      ],
+      "publishedAt": "2026-08-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.128966",
+      "doi": "10.1016/j.vaccine.2026.128966",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.128919",
+      "journalId": "vaccine",
+      "title": "Acute intraocular inflammation: Brighton Collaboration case definition and guidelines for data collection, analysis, and presentation of immunization safety data",
+      "authors": [
+        "Steven Yeh",
+        "Wanjiku Mathenge",
+        "Jean-Claude Mwanza",
+        "Supriya Shetty",
+        "Alice Taylor",
+        "Timothy Kaftan",
+        "Hammad Ali",
+        "Barbara Law"
+      ],
+      "publishedAt": "2026-08-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.128919",
+      "doi": "10.1016/j.vaccine.2026.128919",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.128973",
+      "journalId": "vaccine",
+      "title": "Country-level immunization recovery and DTP1 no-dose proxy burden after COVID-19: a descriptive ecological analysis of WUENIC, 2010–2024",
+      "authors": [
+        "Jinze Li",
+        "Ziqi Wang",
+        "Yuning Gong"
+      ],
+      "publishedAt": "2026-08-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.128973",
+      "doi": "10.1016/j.vaccine.2026.128973",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.128838",
+      "journalId": "vaccine",
+      "title": "Breakthrough varicella infection: a retrospective cohort study based on large-scale real-world data in Guangxi, China, 2014–2025",
+      "authors": [
+        "Jing Wang",
+        "Sha Li",
+        "Weiwen Zhou",
+        "Jun Huang",
+        "Ying Huang",
+        "Weitao He",
+        "Xiaoxin Nong",
+        "Chuanyi Ning",
+        "Guanghua Lan",
+        "Xiaoyun Zeng"
+      ],
+      "publishedAt": "2026-08-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.128838",
+      "doi": "10.1016/j.vaccine.2026.128838",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.128791",
+      "journalId": "vaccine",
+      "title": "On the implications of shifting Hepatitis B vaccine policy for surgical patients",
+      "authors": [
+        "George S. Corpuz",
+        "Angad S. Sidhu",
+        "Daniel J. Konig",
+        "Jennifer F. Waljee",
+        "William A. Wooden"
+      ],
+      "publishedAt": "2026-08-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.128791",
+      "doi": "10.1016/j.vaccine.2026.128791",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.128914",
+      "journalId": "vaccine",
+      "title": "Immunogenicity and safety of serum-free rabies vaccine for human use with simulated post-exposure schedules: A randomized, double-blind, active-controlled phase III clinical trial",
+      "authors": [
+        "Yulin Jing",
+        "Xiaoqiang Chang",
+        "Zhongqiang Jin",
+        "Fei Yang",
+        "Yanbei Cai",
+        "Kun Chen",
+        "Shuo Liu",
+        "Lin Huang",
+        "Jing Li"
+      ],
+      "publishedAt": "2026-08-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.128914",
+      "doi": "10.1016/j.vaccine.2026.128914",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.128983",
+      "journalId": "vaccine",
+      "title": "Over-induction of innate immune responses suppresses T cell response to mRNA SARS-CoV-2 vaccination",
+      "authors": [
+        "Carina J.X. Tay",
+        "Clara W.T. Koh",
+        "Justin S.G. Ooi",
+        "Hui’ En Li",
+        "Alicia Y.H. Kang",
+        "Siti Namirah Binte Roslan",
+        "Nurul Elyana Osman",
+        "Sze Min Ong",
+        "Delicia S.Q. Ooi",
+        "Elizabeth Huiwen Tham",
+        "Lynette P. Shek",
+        "Kuan Rong Chan",
+        "Youjia Zhong"
+      ],
+      "publishedAt": "2026-08-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.128983",
+      "doi": "10.1016/j.vaccine.2026.128983",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.128882",
+      "journalId": "vaccine",
+      "title": "Vaccine effectiveness of mRNA-1345 against RSV-associated hospitalization and medically attended acute respiratory illness among US veterans, 2025–2026",
+      "authors": [
+        "Kevin W. McConeghy",
+        "Elissa H. Wilker",
+        "Frank DeVone",
+        "Benjamin Skov",
+        "Tianyu Sun",
+        "Emily Patry",
+        "E. Claire Newbern",
+        "Andre B. Araujo",
+        "Parinaz Ghaswalla",
+        "Chris Clarke",
+        "Jennifer R. Tufts",
+        "Yasin Abul",
+        "Stefan Gravenstein"
+      ],
+      "publishedAt": "2026-08-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.128882",
+      "doi": "10.1016/j.vaccine.2026.128882",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.128967",
+      "journalId": "vaccine",
+      "title": "Switching the default: a formative evaluation of pre-booked appointments on COVID-19 vaccination uptake and effects on intended uptake",
+      "authors": [
+        "Jet G. Sanders",
+        "Floor Kroese",
+        "Sumit Mehra",
+        "Marijn Stok",
+        "Aylin Munyasya",
+        "Manon R. Haverkate",
+        "Niek Mouter",
+        "Susan J.M. Hahné",
+        "Susan van den Hof",
+        "Marijn de Bruin",
+        "Mattijs S. Lambooij"
+      ],
+      "publishedAt": "2026-08-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.128967",
+      "doi": "10.1016/j.vaccine.2026.128967",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1016/j.vaccine.2026.128965",
+      "journalId": "vaccine",
+      "title": "Qualification of a high-throughput luminescence-based Serum Bactericidal Activity assay to assess the functionality of human sera against five Shigella serotypes",
+      "authors": [
+        "Giuseppe Boccadifuoco",
+        "Giulia Fantoni",
+        "Federica Verdirosa",
+        "Chiara Petri",
+        "Sabrina Lashchuk",
+        "Francesca Mancini",
+        "Pietro Piu",
+        "Wayne Hogrefe",
+        "Justine Sunshine",
+        "Francesca Micoli",
+        "Paul W. Rhyne",
+        "Cristina Alaimo",
+        "Omar Rossi",
+        "Eleonora Molesti",
+        "Emanuele Montomoli",
+        "Alessandro Manenti"
+      ],
+      "publishedAt": "2026-08-01",
+      "url": "https://doi.org/10.1016/j.vaccine.2026.128965",
+      "doi": "10.1016/j.vaccine.2026.128965",
+      "fetchedAt": "2026-09-01T07:01:33.553Z",
+      "source": "crossref"
+    }
+  ]
+}

@@ -1,0 +1,1473 @@
+{
+  "journalId": "bmj",
+  "fetchedAt": "2026-09-01T07:01:30.638Z",
+  "articles": [
+    {
+      "id": "doi:10.1136/bmj-2026-100710",
+      "journalId": "bmj",
+      "title": "Third of sexual misconduct allegations against doctors are from colleagues",
+      "authors": [
+        "Adrian O’Dowd"
+      ],
+      "publishedAt": "2026-08-28",
+      "url": "https://doi.org/10.1136/bmj-2026-100710",
+      "doi": "10.1136/bmj-2026-100710",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-635470",
+      "journalId": "bmj",
+      "title": "Schizophrenia: advances in pathophysiology, management, and precision medicine",
+      "abstract": "Abstract Schizophrenia is a common and severe mental condition with onset usually in late adolescence and young adulthood. Schizophrenia is caused by a combination of multiple genetic and environmental factors with significant neurodevelopmental implications. Advances in the clinical management of schizophrenia include biological and non-biological treatments. Drug interventions can ameliorate positive symptoms and prevent the progression of disease due to relapses. Non-biological approaches such as psychosocial and cognitive interventions can help functional improvement, relapse prevention, and early stage psychosis management, and new interventions such as neuromodulation and digital health interventions are still under investigation. Despite these advances, novel therapeutic strategies, particularly drugs, are hampered by a biologically heterogeneous population of patients with schizophrenia, a condition defined only by clinical operational criteria. Reconsidering the construct of schizophrenia from the viewpoint of mechanism driven precision medicine will be important, with stratification of patients on the basis of their biological characteristics. The first step towards this goal is to accumulate objective biomarkers for schizophrenia. On the basis of the framework of precision medicine, further advancement in the management of schizophrenia is expected.",
+      "authors": [
+        "Akira Sawa",
+        "Joshua Chiappelli",
+        "Olivia P Hamrah",
+        "Nicola G Cascella"
+      ],
+      "publishedAt": "2026-08-28",
+      "url": "https://doi.org/10.1136/bmj-2026-635470",
+      "doi": "10.1136/bmj-2026-635470",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100713",
+      "journalId": "bmj",
+      "title": "Measles deaths in US: First American fatalities from the disease in 2026 amid RFK Jr row over MMR jab",
+      "authors": [
+        "Luke Taylor"
+      ],
+      "publishedAt": "2026-08-28",
+      "url": "https://doi.org/10.1136/bmj-2026-100713",
+      "doi": "10.1136/bmj-2026-100713",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100707",
+      "journalId": "bmj",
+      "title": "Building a stronger NHS: an open letter from past and present presidents and chairs of the Royal College of General Practitioners",
+      "authors": [
+        "Victoria Tzortziou Brown",
+        "Sam Everington",
+        "Kamila Hawthorne",
+        "Martin Marshall",
+        "Helen Stokes-Lampard",
+        "Maureen Baker",
+        "Clare Gerada",
+        "Steve Field",
+        "Mayur Lakhani",
+        "David Haslam",
+        "Mike Pringle",
+        "John Toby",
+        "Denis Pereira-Gray",
+        "John Hasler",
+        "Richard Vautrey",
+        "Amanda Howe",
+        "Terry Kemple",
+        "Iona Heath",
+        "Roger Neighbour"
+      ],
+      "publishedAt": "2026-08-28",
+      "url": "https://doi.org/10.1136/bmj-2026-100707",
+      "doi": "10.1136/bmj-2026-100707",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100711",
+      "journalId": "bmj",
+      "title": "Shingles vaccine is linked to lower risk of heart disease and stroke, study suggests",
+      "authors": [
+        "Gareth Iacobucci"
+      ],
+      "publishedAt": "2026-08-28",
+      "url": "https://doi.org/10.1136/bmj-2026-100711",
+      "doi": "10.1136/bmj-2026-100711",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100681",
+      "journalId": "bmj",
+      "title": "Rohingya refugees remain trapped in a deadly limbo nine years after fleeing persecution",
+      "authors": [
+        "Elisabeth Mahase"
+      ],
+      "publishedAt": "2026-08-28",
+      "url": "https://doi.org/10.1136/bmj-2026-100681",
+      "doi": "10.1136/bmj-2026-100681",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100700",
+      "journalId": "bmj",
+      "title": "Maternity unit faces media storm over “how to give birth in a car” classes",
+      "authors": [
+        "Matt Limb"
+      ],
+      "publishedAt": "2026-08-28",
+      "url": "https://doi.org/10.1136/bmj-2026-100700",
+      "doi": "10.1136/bmj-2026-100700",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100705",
+      "journalId": "bmj",
+      "title": "Cosmic radiation and breast cancer: Flight attendant’s disease was triggered by high altitude working conditions, court rules",
+      "authors": [
+        "Barbara Casassus"
+      ],
+      "publishedAt": "2026-08-28",
+      "url": "https://doi.org/10.1136/bmj-2026-100705",
+      "doi": "10.1136/bmj-2026-100705",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100715",
+      "journalId": "bmj",
+      "title": "First successful AI assisted brain tumour surgery saves UK patient’s sight",
+      "authors": [
+        "Adrian O’Dowd"
+      ],
+      "publishedAt": "2026-08-28",
+      "url": "https://doi.org/10.1136/bmj-2026-100715",
+      "doi": "10.1136/bmj-2026-100715",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100670",
+      "journalId": "bmj",
+      "title": "Social and structural inequalities should be central to schizophrenia management",
+      "authors": [
+        "J Das-Munshi",
+        "J Grant-Rowles",
+        "J Stansfield",
+        "J B Kirkbride"
+      ],
+      "publishedAt": "2026-08-28",
+      "url": "https://doi.org/10.1136/bmj-2026-100670",
+      "doi": "10.1136/bmj-2026-100670",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100708",
+      "journalId": "bmj",
+      "title": "Ebola: WHO declares Uganda free of virus, but doctors express reservations about new vaccine trial",
+      "authors": [
+        "Henry Wasswa"
+      ],
+      "publishedAt": "2026-08-28",
+      "url": "https://doi.org/10.1136/bmj-2026-100708",
+      "doi": "10.1136/bmj-2026-100708",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100697",
+      "journalId": "bmj",
+      "title": "Vexatious complaints are being weaponised to discourage debate",
+      "authors": [
+        "Louella Vaughan",
+        "Partha Kar"
+      ],
+      "publishedAt": "2026-08-28",
+      "url": "https://doi.org/10.1136/bmj-2026-100697",
+      "doi": "10.1136/bmj-2026-100697",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100682",
+      "journalId": "bmj",
+      "title": "What are the real risks of covid vaccines and miscarriage?",
+      "authors": [
+        "Katharine Lang"
+      ],
+      "publishedAt": "2026-08-28",
+      "url": "https://doi.org/10.1136/bmj-2026-100682",
+      "doi": "10.1136/bmj-2026-100682",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100651",
+      "journalId": "bmj",
+      "title": "Afghanistan to Gaza: Protecting women’s health through conflict and instability",
+      "authors": [
+        "Ayesha Ahmad",
+        "Mubarik Igal",
+        "Lamba Saboor",
+        "Rodney Reynolds"
+      ],
+      "publishedAt": "2026-08-28",
+      "url": "https://doi.org/10.1136/bmj-2026-100651",
+      "doi": "10.1136/bmj-2026-100651",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100692",
+      "journalId": "bmj",
+      "title": "Gaza: Israel refuses to open criminal investigation into MSF staff killed by military",
+      "authors": [
+        "Elisabeth Mahase"
+      ],
+      "publishedAt": "2026-08-27",
+      "url": "https://doi.org/10.1136/bmj-2026-100692",
+      "doi": "10.1136/bmj-2026-100692",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100170",
+      "journalId": "bmj",
+      "title": "Lifeline: A masterclass in scientific communication—providing hope for public health",
+      "authors": [
+        "Zaynah Khan"
+      ],
+      "publishedAt": "2026-08-27",
+      "url": "https://doi.org/10.1136/bmj-2026-100170",
+      "doi": "10.1136/bmj-2026-100170",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100698",
+      "journalId": "bmj",
+      "title": "Pancreatic cancer: US approves “breakthrough” drug that may double survival time",
+      "authors": [
+        "Gareth Iacobucci"
+      ],
+      "publishedAt": "2026-08-27",
+      "url": "https://doi.org/10.1136/bmj-2026-100698",
+      "doi": "10.1136/bmj-2026-100698",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100695",
+      "journalId": "bmj",
+      "title": "Psychiatrist leaders apologise for failures of care for survivors of childhood sexual abuse",
+      "authors": [
+        "Adrian O’Dowd"
+      ],
+      "publishedAt": "2026-08-27",
+      "url": "https://doi.org/10.1136/bmj-2026-100695",
+      "doi": "10.1136/bmj-2026-100695",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100696",
+      "journalId": "bmj",
+      "title": "UK salmonella outbreak: Cases rise as another death is recorded",
+      "authors": [
+        "Adrian O’Dowd"
+      ],
+      "publishedAt": "2026-08-27",
+      "url": "https://doi.org/10.1136/bmj-2026-100696",
+      "doi": "10.1136/bmj-2026-100696",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100685",
+      "journalId": "bmj",
+      "title": "Before we redraw the training map, we need to agree the destination",
+      "authors": [
+        "Asif Qasim"
+      ],
+      "publishedAt": "2026-08-27",
+      "url": "https://doi.org/10.1136/bmj-2026-100685",
+      "doi": "10.1136/bmj-2026-100685",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100649",
+      "journalId": "bmj",
+      "title": "Follow the tariff to the teaching workforce",
+      "authors": [
+        "Marie Jasim"
+      ],
+      "publishedAt": "2026-08-27",
+      "url": "https://doi.org/10.1136/bmj-2026-100649",
+      "doi": "10.1136/bmj-2026-100649",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100694",
+      "journalId": "bmj",
+      "title": "Dolly Parton’s major contributions to vaccines and public health",
+      "authors": [
+        "Chris Baraniuk"
+      ],
+      "publishedAt": "2026-08-27",
+      "url": "https://doi.org/10.1136/bmj-2026-100694",
+      "doi": "10.1136/bmj-2026-100694",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100652",
+      "journalId": "bmj",
+      "title": "We must respect patient data",
+      "authors": [
+        "Mair A Crouch"
+      ],
+      "publishedAt": "2026-08-27",
+      "url": "https://doi.org/10.1136/bmj-2026-100652",
+      "doi": "10.1136/bmj-2026-100652",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100650",
+      "journalId": "bmj",
+      "title": "The acute medic taking on the Ironman challenge",
+      "authors": [
+        "Kathy Oxtoby"
+      ],
+      "publishedAt": "2026-08-26",
+      "url": "https://doi.org/10.1136/bmj-2026-100650",
+      "doi": "10.1136/bmj-2026-100650",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100690",
+      "journalId": "bmj",
+      "title": "Giardia: UK cases of diarrhoea causing parasite reach 10 year high",
+      "authors": [
+        "Gareth Iacobucci"
+      ],
+      "publishedAt": "2026-08-26",
+      "url": "https://doi.org/10.1136/bmj-2026-100690",
+      "doi": "10.1136/bmj-2026-100690",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100440",
+      "journalId": "bmj",
+      "title": "A “monstrous” conflict of interest: Kim Fox, ivabradine, and European Society of Cardiology clinical practice guidelines",
+      "authors": [
+        "Laura Spinney"
+      ],
+      "publishedAt": "2026-08-26",
+      "url": "https://doi.org/10.1136/bmj-2026-100440",
+      "doi": "10.1136/bmj-2026-100440",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100689",
+      "journalId": "bmj",
+      "title": "“Rain rot”: first case of this sexually transmitted skin infection is detected in UK",
+      "authors": [
+        "Gareth Iacobucci"
+      ],
+      "publishedAt": "2026-08-26",
+      "url": "https://doi.org/10.1136/bmj-2026-100689",
+      "doi": "10.1136/bmj-2026-100689",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100679",
+      "journalId": "bmj",
+      "title": "ADHD and autism: 207% rise in complaints to NHS services as patients spend up to £4000 for private treatment",
+      "authors": [
+        "Gareth Iacobucci"
+      ],
+      "publishedAt": "2026-08-26",
+      "url": "https://doi.org/10.1136/bmj-2026-100679",
+      "doi": "10.1136/bmj-2026-100679",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100666",
+      "journalId": "bmj",
+      "title": "The NHS must adapt as extreme heat becomes inevitable",
+      "authors": [
+        "Matthew R D Lee"
+      ],
+      "publishedAt": "2026-08-26",
+      "url": "https://doi.org/10.1136/bmj-2026-100666",
+      "doi": "10.1136/bmj-2026-100666",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100138",
+      "journalId": "bmj",
+      "title": "Doctors’ union backs cuts to medical school places as training system buckles",
+      "authors": [
+        "Zaynah Khan"
+      ],
+      "publishedAt": "2026-08-26",
+      "url": "https://doi.org/10.1136/bmj-2026-100138",
+      "doi": "10.1136/bmj-2026-100138",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100096",
+      "journalId": "bmj",
+      "title": "Sixty seconds on ... slang in clinical settings",
+      "authors": [
+        "Nilay Sah"
+      ],
+      "publishedAt": "2026-08-26",
+      "url": "https://doi.org/10.1136/bmj-2026-100096",
+      "doi": "10.1136/bmj-2026-100096",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100684",
+      "journalId": "bmj",
+      "title": "Vaping is best for helping adult smokers quit, Cochrane review finds",
+      "authors": [
+        "Gareth Iacobucci"
+      ],
+      "publishedAt": "2026-08-26",
+      "url": "https://doi.org/10.1136/bmj-2026-100684",
+      "doi": "10.1136/bmj-2026-100684",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100126",
+      "journalId": "bmj",
+      "title": "News in brief",
+      "publishedAt": "2026-08-26",
+      "url": "https://doi.org/10.1136/bmj-2026-100126",
+      "doi": "10.1136/bmj-2026-100126",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100687",
+      "journalId": "bmj",
+      "title": "Nurse consultants covering doctors’ shifts: controversy deepens at Birkenhead hospital",
+      "authors": [
+        "Chris Baraniuk"
+      ],
+      "publishedAt": "2026-08-26",
+      "url": "https://doi.org/10.1136/bmj-2026-100687",
+      "doi": "10.1136/bmj-2026-100687",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100683",
+      "journalId": "bmj",
+      "title": "Jason Arday: Britain needs to be honest about race in academia",
+      "authors": [
+        "Sam Seidu",
+        "Partha Kar",
+        "Anton Emmanuel"
+      ],
+      "publishedAt": "2026-08-26",
+      "url": "https://doi.org/10.1136/bmj-2026-100683",
+      "doi": "10.1136/bmj-2026-100683",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100554",
+      "journalId": "bmj",
+      "title": "Medical education cannot depend on goodwill alone",
+      "authors": [
+        "Iain D Beardsell"
+      ],
+      "publishedAt": "2026-08-25",
+      "url": "https://doi.org/10.1136/bmj-2026-100554",
+      "doi": "10.1136/bmj-2026-100554",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100663",
+      "journalId": "bmj",
+      "title": "Cervical screening: HPV home testing kits to be offered to millions of women",
+      "authors": [
+        "Catherine Wang"
+      ],
+      "publishedAt": "2026-08-25",
+      "url": "https://doi.org/10.1136/bmj-2026-100663",
+      "doi": "10.1136/bmj-2026-100663",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100629",
+      "journalId": "bmj",
+      "title": "New chapter for social care reform in England?",
+      "authors": [
+        "Mary Daly"
+      ],
+      "publishedAt": "2026-08-25",
+      "url": "https://doi.org/10.1136/bmj-2026-100629",
+      "doi": "10.1136/bmj-2026-100629",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100665",
+      "journalId": "bmj",
+      "title": "France recalls 40 000 faulty condoms",
+      "authors": [
+        "Barbara Casassus"
+      ],
+      "publishedAt": "2026-08-25",
+      "url": "https://doi.org/10.1136/bmj-2026-100665",
+      "doi": "10.1136/bmj-2026-100665",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100526",
+      "journalId": "bmj",
+      "title": "Chronic traumatic encephalopathy in former NFL players",
+      "authors": [
+        "Tobias Kurth",
+        "Richard D Riley"
+      ],
+      "publishedAt": "2026-08-25",
+      "url": "https://doi.org/10.1136/bmj-2026-100526",
+      "doi": "10.1136/bmj-2026-100526",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100418",
+      "journalId": "bmj",
+      "title": "Prevalence of chronic traumatic encephalopathy at death in National Football League players: retrospective population based cohort study, 2008-21",
+      "abstract": "Abstract Objectives To determine the range of possible prevalences of chronic traumatic encephalopathy (CTE) at death among National Football League (NFL) players and examine the association between CTE severity and risk of dementia. Design Retrospective population based cohort study. Setting NFL players from the era of hard-shell helmets (post-1949) in the US, including brain donors to the UNITE (Understanding Neurologic Injury and Traumatic Encephalopathy) and UCSF ADRC (University of California, San Francisco Alzheimer’s Disease Research Center) brain banks. Participants 1712 former NFL players who died during 2008-21, of whom 338 donated their brains for neuropathological evaluation. Personal information and causes of death according to the National Death Index (NDI) were obtained for all NFL players who died during the study period. Neuropathologists masked to clinical and playing histories assessed postmortem CTE diagnosis and stage IV CTE. Clinicians, masked to neuropathological status, reviewed donors’ medical records and informant based clinical histories, to adjudicate a dementia diagnosis. Main outcome measures The main outcome measures were the minimum (number of donors with CTE/total number of NFL deaths) and maximum (1-(number of donors without CTE/total number of NFL deaths)) CTE prevalence at death during the study period and the six years (2016-21) when brain donation was most frequent. To account for selection pressure of brain donation status, inverse probability weighting was used to estimate the association between stage IV CTE and study clinician diagnosed dementia. Results Among 1712 NFL players who died, 338 (19.7%) players’ brains were studied, 315 (93.2%) of whom had a diagnosis of CTE; thus, among all 1712 NFL players who died, the possible CTE prevalence at death ranged between 18.5% and 98.7%. The possible prevalence at death during 2016 to 2021, when brain donation was most frequent, ranged between 24.5% and 97.7%. Among brain donors, 104 (30.8%) had stage IV CTE, 202 (59.8%) had study clinician diagnosed dementia (dementia onset: 63.4 years, standard deviation (SD) 12.5; death: 73.1 years, SD 10.5), and 63 (18.6%) had neurodegenerative disease listed as primary cause of death. In donors, stage IV CTE was associated with study clinician diagnosed dementia (risk ratio 1.44, 95% confidence interval 1.16 to 1.78; P&lt;0.001). Only 40.6% of donors (n=82) with study clinician diagnosed dementia had neurodegenerative disease listed as the primary or secondary cause of death. Conclusions At minimum, nearly a quarter of all former NFL players who died during 2016-21 had CTE neuropathology at death. Among NFL player brain donors, dementia diagnosed based on records before death was common and associated with stage IV CTE.",
+      "authors": [
+        "Daniel H Daneshvar",
+        "Christopher J Nowinski",
+        "Bobak Abdolmohammadi",
+        "Charlotte B Luster",
+        "Madeline Uretsky",
+        "Brett M Martin",
+        "Joseph N Palmisano",
+        "Jennifer Weuve",
+        "Michael D McClean",
+        "Jonathan D Cherry",
+        "Brigid Dwyer",
+        "Evan D Feigel",
+        "Michael J Mastrodicasa",
+        "Victor E Alvarez",
+        "Gil D Rabinovici",
+        "William W Seeley",
+        "Lea T Grinberg",
+        "John F Crary",
+        "Thor D Stein",
+        "Lee Goldstein",
+        "Douglas I Katz",
+        "Ross D Zafonte",
+        "Yorghos Tripodis",
+        "Robert C Cantu",
+        "Robert A Stern",
+        "Michael L Alosco",
+        "Ann C McKee",
+        "Jesse Mez"
+      ],
+      "publishedAt": "2026-08-25",
+      "url": "https://doi.org/10.1136/bmj-2026-100418",
+      "doi": "10.1136/bmj-2026-100418",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100645",
+      "journalId": "bmj",
+      "title": "The art of finding common ground: what US health programmes can teach a divided public health system",
+      "authors": [
+        "Lucinda Hiam"
+      ],
+      "publishedAt": "2026-08-25",
+      "url": "https://doi.org/10.1136/bmj-2026-100645",
+      "doi": "10.1136/bmj-2026-100645",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100644",
+      "journalId": "bmj",
+      "title": "New posts are a start towards resolving specialty training bottlenecks",
+      "authors": [
+        "Alexander Mafi"
+      ],
+      "publishedAt": "2026-08-24",
+      "url": "https://doi.org/10.1136/bmj-2026-100644",
+      "doi": "10.1136/bmj-2026-100644",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100553",
+      "journalId": "bmj",
+      "title": "Supporting patients with localised prostate cancer",
+      "authors": [
+        "Alexander R Houlder"
+      ],
+      "publishedAt": "2026-08-24",
+      "url": "https://doi.org/10.1136/bmj-2026-100553",
+      "doi": "10.1136/bmj-2026-100553",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100647",
+      "journalId": "bmj",
+      "title": "US kindergarten vaccinations drop to new low",
+      "authors": [
+        "Leslie Liang"
+      ],
+      "publishedAt": "2026-08-24",
+      "url": "https://doi.org/10.1136/bmj-2026-100647",
+      "doi": "10.1136/bmj-2026-100647",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100662",
+      "journalId": "bmj",
+      "title": "Three quarters of secondary school menus breach food standards, analysis finds",
+      "authors": [
+        "Adrian O’Dowd"
+      ],
+      "publishedAt": "2026-08-24",
+      "url": "https://doi.org/10.1136/bmj-2026-100662",
+      "doi": "10.1136/bmj-2026-100662",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-288178",
+      "journalId": "bmj",
+      "title": "Methodology standards for usual care as a comparator in patient centred, comparative, clinical effectiveness research",
+      "authors": [
+        "Nikolas J Koscielniak",
+        "Julianna Paris",
+        "Michael P Mead",
+        "Erin Holve"
+      ],
+      "publishedAt": "2026-08-24",
+      "url": "https://doi.org/10.1136/bmj-2026-288178",
+      "doi": "10.1136/bmj-2026-288178",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100661",
+      "journalId": "bmj",
+      "title": "Doctor struck off for plagiarism returns to medical register",
+      "authors": [
+        "Clare Dyer"
+      ],
+      "publishedAt": "2026-08-24",
+      "url": "https://doi.org/10.1136/bmj-2026-100661",
+      "doi": "10.1136/bmj-2026-100661",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100659",
+      "journalId": "bmj",
+      "title": "NHS clarifies “legitimate purposes” for which staff can access patient data",
+      "authors": [
+        "Chris Baraniuk"
+      ],
+      "publishedAt": "2026-08-24",
+      "url": "https://doi.org/10.1136/bmj-2026-100659",
+      "doi": "10.1136/bmj-2026-100659",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100642",
+      "journalId": "bmj",
+      "title": "Measles: Australia at risk of losing herd immunity, study suggests",
+      "authors": [
+        "Bianca Nogrady"
+      ],
+      "publishedAt": "2026-08-24",
+      "url": "https://doi.org/10.1136/bmj-2026-100642",
+      "doi": "10.1136/bmj-2026-100642",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100637",
+      "journalId": "bmj",
+      "title": "The Great ADHD Myth: What you need to know about Channel 4’s “most controversial show of the year”",
+      "authors": [
+        "Jane Feinmann"
+      ],
+      "publishedAt": "2026-08-21",
+      "url": "https://doi.org/10.1136/bmj-2026-100637",
+      "doi": "10.1136/bmj-2026-100637",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100620",
+      "journalId": "bmj",
+      "title": "Evidence based medicine is surprisingly new—and doesn’t have all the answers",
+      "authors": [
+        "Mun-Keat Looi"
+      ],
+      "publishedAt": "2026-08-21",
+      "url": "https://doi.org/10.1136/bmj-2026-100620",
+      "doi": "10.1136/bmj-2026-100620",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100287",
+      "journalId": "bmj",
+      "title": "Diagnosis and management of acute hyperkalaemia",
+      "abstract": "Abstract Hyperkalaemia is a common and potentially life threatening electrolyte abnormality because of its association with malignant cardiac arrhythmias and sudden cardiac arrest. This condition is frequently encountered across acute and chronic care settings and disproportionately affects patients with comorbid conditions like chronic kidney disease, heart failure, diabetes mellitus, and those receiving drugs that impair renal potassium excretion. The most frequent causes of hyperkalaemia include impaired renal potassium elimination, from chronic kidney disease or pharmacological inhibition of the renin-angiotensin-aldosterone system, and transcellular potassium shifts resulting from metabolic acidosis, tissue breakdown, insulin deficiency, or hypertonic states. Despite its prevalence and clinical importance, substantial variability exists in the approach to diagnosis and management of hyperkalaemia, reflecting differences in definitions, risk stratification, and therapeutic approaches across clinical settings. Management strategies have evolved in recent years with improved understanding of potassium physiology and the availability of newer potassium binding agents, necessitating an updated synthesis of the evidence. In this state of the art review, we summarise contemporary data on the epidemiology and pathophysiology of hyperkalaemia, identify key risk factors and diagnostic considerations, and review evidence based approaches to acute and chronic management, with particular attention to special populations and high risk clinical scenarios.",
+      "authors": [
+        "Megan A Rech",
+        "David E Zimmerman",
+        "Lance Ray",
+        "Dharati Desai",
+        "Jean W Hoffman",
+        "Gavin T Howington"
+      ],
+      "publishedAt": "2026-08-21",
+      "url": "https://doi.org/10.1136/bmj-2026-100287",
+      "doi": "10.1136/bmj-2026-100287",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100632",
+      "journalId": "bmj",
+      "title": "Why Trump’s order to split MMR vaccine is costly and dangerous",
+      "authors": [
+        "Carolyn Brown"
+      ],
+      "publishedAt": "2026-08-21",
+      "url": "https://doi.org/10.1136/bmj-2026-100632",
+      "doi": "10.1136/bmj-2026-100632",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100640",
+      "journalId": "bmj",
+      "title": "Moderna’s new mRNA melanoma jab is making headlines, but experts urge caution",
+      "authors": [
+        "Chris Baraniuk"
+      ],
+      "publishedAt": "2026-08-21",
+      "url": "https://doi.org/10.1136/bmj-2026-100640",
+      "doi": "10.1136/bmj-2026-100640",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100631",
+      "journalId": "bmj",
+      "title": "Weekly type 2 diabetes insulin jab approved by NICE",
+      "authors": [
+        "Gareth Iacobucci"
+      ],
+      "publishedAt": "2026-08-21",
+      "url": "https://doi.org/10.1136/bmj-2026-100631",
+      "doi": "10.1136/bmj-2026-100631",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100641",
+      "journalId": "bmj",
+      "title": "Salmonella: Vulnerable people should avoid runny eggs when dining out, officials say",
+      "authors": [
+        "Chris Baraniuk"
+      ],
+      "publishedAt": "2026-08-21",
+      "url": "https://doi.org/10.1136/bmj-2026-100641",
+      "doi": "10.1136/bmj-2026-100641",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100277",
+      "journalId": "bmj",
+      "title": "Violaceous rash on the face, upper body, and thighs",
+      "authors": [
+        "Jianv Wang",
+        "Lin Wang"
+      ],
+      "publishedAt": "2026-08-20",
+      "url": "https://doi.org/10.1136/bmj-2026-100277",
+      "doi": "10.1136/bmj-2026-100277",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100625",
+      "journalId": "bmj",
+      "title": "Trump administration’s new adolescent sex education policy pushes the conservative agenda",
+      "authors": [
+        "Anna Bernstein"
+      ],
+      "publishedAt": "2026-08-20",
+      "url": "https://doi.org/10.1136/bmj-2026-100625",
+      "doi": "10.1136/bmj-2026-100625",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100601",
+      "journalId": "bmj",
+      "title": "Trust, in vaccines and AI, is earned only with evidence",
+      "authors": [
+        "Juliet Dobson"
+      ],
+      "publishedAt": "2026-08-20",
+      "url": "https://doi.org/10.1136/bmj-2026-100601",
+      "doi": "10.1136/bmj-2026-100601",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100539",
+      "journalId": "bmj",
+      "title": "Head position after endovascular treatment for large vessel occlusion stroke: does it matter?",
+      "authors": [
+        "Ahmad Nehme",
+        "Linxin Li"
+      ],
+      "publishedAt": "2026-08-20",
+      "url": "https://doi.org/10.1136/bmj-2026-100539",
+      "doi": "10.1136/bmj-2026-100539",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100538",
+      "journalId": "bmj",
+      "title": "Psychosurgery . . . and other stories",
+      "publishedAt": "2026-08-20",
+      "url": "https://doi.org/10.1136/bmj-2026-100538",
+      "doi": "10.1136/bmj-2026-100538",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100623",
+      "journalId": "bmj",
+      "title": "French youth social media ban is blocked by court",
+      "authors": [
+        "Alessio Cozzolino"
+      ],
+      "publishedAt": "2026-08-20",
+      "url": "https://doi.org/10.1136/bmj-2026-100623",
+      "doi": "10.1136/bmj-2026-100623",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100609",
+      "journalId": "bmj",
+      "title": "The UK drought is a warning: Climate change is a food and public health emergency",
+      "authors": [
+        "Tafadzwanashe Mabhaudhi"
+      ],
+      "publishedAt": "2026-08-20",
+      "url": "https://doi.org/10.1136/bmj-2026-100609",
+      "doi": "10.1136/bmj-2026-100609",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100630",
+      "journalId": "bmj",
+      "title": "Vaping is causing health harms in children, review suggests",
+      "authors": [
+        "Chris Baraniuk"
+      ],
+      "publishedAt": "2026-08-20",
+      "url": "https://doi.org/10.1136/bmj-2026-100630",
+      "doi": "10.1136/bmj-2026-100630",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100619",
+      "journalId": "bmj",
+      "title": "Employers still allow physician assistants to treat “undifferentiated patients” over a year after Leng review",
+      "authors": [
+        "Adrian O’Dowd"
+      ],
+      "publishedAt": "2026-08-20",
+      "url": "https://doi.org/10.1136/bmj-2026-100619",
+      "doi": "10.1136/bmj-2026-100619",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100363",
+      "journalId": "bmj",
+      "title": "Head positioning after endovascular therapy for acute stroke due to large vessel occlusion (HeadSOAR): multicentre randomised controlled trial",
+      "abstract": "Abstract Objective To determine whether an elevated head position (30-40°) improves functional outcomes compared with a flat head position (0-10°) in patients with acute ischaemic stroke caused by anterior circulation large vessel occlusion who have achieved successful reperfusion after endovascular thrombectomy. Design Multicentre, prospective, randomised, open label, blinded endpoint clinical trial. Setting 67 comprehensive stroke centres in China, between 16 November 2023 and 23 January 2025. Participants 1368 adults (aged ≥18 years) with acute ischaemic stroke caused by anterior circulation large vessel occlusion who achieved successful endovascular reperfusion, defined as an expanded thrombolysis in cerebral infarction score ≥2b after endovascular thrombectomy. Interventions Participants were randomly assigned (1:1) to maintain either an elevated head position (30-40°, n=685) or a flat head position (0-10°, n=683) for 72 hours after endovascular thrombectomy. Main outcome measures The primary outcome was functional status at 90 days after randomisation, assessed by shift analysis of scores on the modified Rankin scale (range 0-6). The primary safety outcome was all cause mortality at 90 days after randomisation. Efficacy analyses used the randomised, full analysis set, and safety analyses used the safety population (identical to the randomised population). Adjusted models included age, baseline National Institutes of Health Stroke Scale score (NIHSS), baseline Alberta Stroke Programme Early Computed Tomography Score, occlusion site, and time from last known well (ie, the last time when the patient was known to be at their usual neurological baseline before the current stroke event) to randomisation. Results In the population of 1368 randomised patients, the median age was 68 years, 565 participants (41.3%) were women, and 1358 (99.3%) completed the 90 day follow-up. The median baseline NIHSS score was 15, the median 90 day modified Rankin scale score was 3 (interquartile range (IQR) 1-5) in the head elevation group versus 3 (IQR 1-5) in the flat head position group (adjusted generalised odds ratio for a lower level of disability 1.12, 95% confidence interval (CI) 0.97 to 1.29, P=0.14). All cause mortality at 90 days occurred in 125 (18.3%) of 682 patients in the elevated head position group and 137 (20.3%) of 676 patients in the flat head position group (adjusted risk ratio 0.86, 95% CI 0.69 to 1.07, P=0.18). Conclusions 72 hours of head elevation did not significantly improve 90 day functional outcomes versus flat head positioning in patients who had acute ischaemic stroke from large vessel occlusion with successful reperfusion after thrombectomy. The smaller than expected difference in results between the two groups leaves open the possibility of a modest but clinically meaningful benefit of head elevation in these patients. Trial registration ClinicalTrials.gov NCT06115707 .",
+      "authors": [
+        "Zhengzhou Yuan",
+        "Jianhua Peng",
+        "Long Gu",
+        "Fayun Hu",
+        "Gaoming Li",
+        "Jinglun Li",
+        "Chong Zheng",
+        "Changwei Guo",
+        "Bin Wang",
+        "Hongliang Zeng",
+        "Weizheng Xie",
+        "Kecheng Guo",
+        "Tianqi Tu",
+        "Guoyong Zeng",
+        "Tao Hao",
+        "Xiangping Cheng",
+        "Boyu Chen",
+        "Haoyue Wang",
+        "Jian Wang",
+        "Bin Han",
+        "Shuchun Huang",
+        "Hao Zhu",
+        "Xiurong Zhu",
+        "Tao Qiu",
+        "Yunbo Chen",
+        "Zhou Yu",
+        "Wei Rao",
+        "Junfeng Li",
+        "Li Yao",
+        "Xiangrong Sun",
+        "Dengxing Li",
+        "Yunfei Li",
+        "Wei Li",
+        "Zhaokun Li",
+        "Ye Xiong",
+        "Maojun Jiang",
+        "Chaoqun Li",
+        "Qin Liu",
+        "Zhibing Ai",
+        "Chao Li",
+        "Wenlong Zhao",
+        "Chaoxiong Shen",
+        "Zhizhou Hu",
+        "Zhi Song",
+        "Xin Zhang",
+        "Xiu Chen",
+        "Yuan Yang",
+        "Renliang Meng",
+        "Li Jiang",
+        "Shuang Qiu",
+        "Duolao Wang",
+        "Zhenhua Zhou",
+        "Thanh N Nguyen",
+        "Mayank Goyal",
+        "Raul G Nogueira",
+        "Jeffrey L Saver",
+        "Wenjie Zi",
+        "Yong Jiang"
+      ],
+      "publishedAt": "2026-08-20",
+      "url": "https://doi.org/10.1136/bmj-2026-100363",
+      "doi": "10.1136/bmj-2026-100363",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100533",
+      "journalId": "bmj",
+      "title": "Another step for psychedelics . . . and other research",
+      "authors": [
+        "Tom Nolan"
+      ],
+      "publishedAt": "2026-08-20",
+      "url": "https://doi.org/10.1136/bmj-2026-100533",
+      "doi": "10.1136/bmj-2026-100533",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100628",
+      "journalId": "bmj",
+      "title": "Covid-19: 40% of affected healthcare workers had long covid, and a quarter still had symptoms after a year",
+      "authors": [
+        "Adrian O’Dowd"
+      ],
+      "publishedAt": "2026-08-20",
+      "url": "https://doi.org/10.1136/bmj-2026-100628",
+      "doi": "10.1136/bmj-2026-100628",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100589",
+      "journalId": "bmj",
+      "title": "We can, but should we? Red flags for hasty, low integrity AI integration into healthcare",
+      "authors": [
+        "Jon Tilburt",
+        "Victor M. Montori"
+      ],
+      "publishedAt": "2026-08-20",
+      "url": "https://doi.org/10.1136/bmj-2026-100589",
+      "doi": "10.1136/bmj-2026-100589",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100605",
+      "journalId": "bmj",
+      "title": "Commercial self-testing is misleading and overdiagnosing healthy people",
+      "authors": [
+        "Angela Raffle",
+        "Frank Sullivan",
+        "Margaret McCartney"
+      ],
+      "publishedAt": "2026-08-19",
+      "url": "https://doi.org/10.1136/bmj-2026-100605",
+      "doi": "10.1136/bmj-2026-100605",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100320",
+      "journalId": "bmj",
+      "title": "Opioid prescribing after Joint Commission hospital accreditation inspections: quasi-experimental analysis",
+      "abstract": "Abstract Objective To assess the association between hospital accreditation inspections, which have historically included systematic evaluations of inpatient pain management practices, and opioid prescribing at hospital discharge. Design Quasi-experimental analysis. Setting US hospitals, stratified by hospital teaching status. Participants 233 744 hospital admissions for Medicare beneficiaries with no Part D claim for opioids in the 90 days before hospital admission who were admitted near the dates of Joint Commission hospital accreditation visits. Main outcome measure The primary outcome was opioid prescribing to Medicare beneficiaries with no opioid claim in the 90 days before hospital admission during accreditation visits, leveraging the clinically arbitrary timing of these inspections for quasi-experimental analysis. Weekly per beneficiary rates of opioid prescription at discharge were compared with rates in the ±3 weeks surrounding the inspection to assess whether opioid prescribing at discharge increased during inspection weeks, when inpatient pain management practices are scrutinised. Results Overall, 21 156 hospital admissions at 90 teaching hospitals and 212 588 at 2400 non-teaching hospitals during 2008-18 were analysed. Patient characteristics were similar between inspection and surrounding non-inspection weeks for both hospital types. The adjusted odds of post-discharge opioid prescription was, however, 19% higher during inspection versus non-inspection weeks at teaching hospitals (1.19, 95% confidence interval (CI) 1.05 to 1.34, P=0.007). Non-teaching hospitals showed no statistically significant change in opioid prescribing during inspection versus non-inspection weeks (adjusted odds ratio 1.02, 95% CI 0.98 to 1.07, P=0.36). Conclusion Opioid prescribing at hospital discharge was higher among Medicare beneficiaries admitted to teaching hospitals during weeks of unannounced Joint Commission inspections compared with surrounding non-inspection weeks, raising the possibility that heightened focus on pain management may influence clinicians’ decisions to prescribe opioids.",
+      "authors": [
+        "David C Cron",
+        "Christopher M Worsham",
+        "Charles F Bray",
+        "Anupam B Jena"
+      ],
+      "publishedAt": "2026-08-19",
+      "url": "https://doi.org/10.1136/bmj-2026-100320",
+      "doi": "10.1136/bmj-2026-100320",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100579",
+      "journalId": "bmj",
+      "title": "Medical news in brief: mRNA flu jab wins approval, new GLP-1 pill greenlit for UK, scheme to end rotation system launched, and other stories",
+      "publishedAt": "2026-08-19",
+      "url": "https://doi.org/10.1136/bmj-2026-100579",
+      "doi": "10.1136/bmj-2026-100579",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100551",
+      "journalId": "bmj",
+      "title": "Prostate cancer screening: are we evaluating the right comparator?",
+      "authors": [
+        "Ethna McFerran"
+      ],
+      "publishedAt": "2026-08-19",
+      "url": "https://doi.org/10.1136/bmj-2026-100551",
+      "doi": "10.1136/bmj-2026-100551",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100564",
+      "journalId": "bmj",
+      "title": "Scarlett McNally: Surgery will keep grinding to a halt without more anaesthetists",
+      "authors": [
+        "Scarlett McNally"
+      ],
+      "publishedAt": "2026-08-19",
+      "url": "https://doi.org/10.1136/bmj-2026-100564",
+      "doi": "10.1136/bmj-2026-100564",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100479",
+      "journalId": "bmj",
+      "title": "András Barabás: Hungarian revolutionary who fled Soviet repression and became a renowned vascular surgeon",
+      "authors": [
+        "Anthony Barabás"
+      ],
+      "publishedAt": "2026-08-19",
+      "url": "https://doi.org/10.1136/bmj-2026-100479",
+      "doi": "10.1136/bmj-2026-100479",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100617",
+      "journalId": "bmj",
+      "title": "Industrial action is considered in Scotland as senior doctors enter formal dispute with government",
+      "authors": [
+        "Adrian O’Dowd"
+      ],
+      "publishedAt": "2026-08-19",
+      "url": "https://doi.org/10.1136/bmj-2026-100617",
+      "doi": "10.1136/bmj-2026-100617",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100598",
+      "journalId": "bmj",
+      "title": "Child lung health in London has improved since ULEZ was introduced, study claims",
+      "authors": [
+        "Chris Baraniuk"
+      ],
+      "publishedAt": "2026-08-19",
+      "url": "https://doi.org/10.1136/bmj-2026-100598",
+      "doi": "10.1136/bmj-2026-100598",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100481",
+      "journalId": "bmj",
+      "title": "Syed Muhammad Sultan: professor of psychiatry who helped modernise mental health services in Pakistan",
+      "authors": [
+        "Ashfaq Yusufzai"
+      ],
+      "publishedAt": "2026-08-19",
+      "url": "https://doi.org/10.1136/bmj-2026-100481",
+      "doi": "10.1136/bmj-2026-100481",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100480",
+      "journalId": "bmj",
+      "title": "Chris Cutting: one of the first consultants in the newly formed specialty of emergency medicine",
+      "authors": [
+        "Matt Limb"
+      ],
+      "publishedAt": "2026-08-19",
+      "url": "https://doi.org/10.1136/bmj-2026-100480",
+      "doi": "10.1136/bmj-2026-100480",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100552",
+      "journalId": "bmj",
+      "title": "Junk food suppliers have “shocking” major presence at UK’s biggest school food event",
+      "authors": [
+        "Sophie Borland"
+      ],
+      "publishedAt": "2026-08-19",
+      "url": "https://doi.org/10.1136/bmj-2026-100552",
+      "doi": "10.1136/bmj-2026-100552",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100614",
+      "journalId": "bmj",
+      "title": "Cyclospora: “Explosive diarrhoea” cases now spread to almost every US state",
+      "authors": [
+        "Chris Baraniuk"
+      ],
+      "publishedAt": "2026-08-19",
+      "url": "https://doi.org/10.1136/bmj-2026-100614",
+      "doi": "10.1136/bmj-2026-100614",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100478",
+      "journalId": "bmj",
+      "title": "Elizabeth Greenhall: family planning pioneer who set up sexual health clinics in secondary schools",
+      "authors": [
+        "Rebecca Wallersteiner"
+      ],
+      "publishedAt": "2026-08-19",
+      "url": "https://doi.org/10.1136/bmj-2026-100478",
+      "doi": "10.1136/bmj-2026-100478",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100407",
+      "journalId": "bmj",
+      "title": "Intravenous iron to treat anaemia before cardiac surgery (ITACS): international, double blind, placebo controlled randomised trial",
+      "abstract": "Abstract Objective To evaluate the effects of intravenous iron on red cell transfusion and recovery after cardiac surgery. Design International, multicentre, double blind, placebo controlled randomised trial (ITACS). Setting 33 hospitals across 10 countries. Participants were enrolled between July 2016 and December 2023. Participants 955 adults with anaemia undergoing elective cardiac surgery. Exclusion criteria included haemoglobinopathy or iron storage disorder, renal dialysis, and erythropoietin or intravenous iron given in the previous four weeks. Intervention A computer generated program randomised participants to intravenous iron 1000 mg or placebo 1-26 weeks before surgery. Participants, clinicians, and data collectors were masked to the intervention. Main outcome measures The number of days alive and at home up to 90 days after surgery (primary outcome), red cell transfusion requirements and complications (secondary outcomes). Results Of 2993 screened participants, 955 were enrolled and 921 of the eligible 939 modified intention-to-treat participants were assessed for the primary outcome. The median number of days alive and at home up to 90 days after surgery was 81.1 (interquartile range 74.8-83.7) in patients assigned to intravenous iron and 80.0 (69.5-83.6) in those receiving placebo (adjusted median difference 1.0 day, 95.4% confidence interval 0.0 to 2.1 days, P=0.041). Red cell transfusions were given to 262 patients (61.1%) in the iron group and 302 (68.2%) in the placebo group during their hospital stay (relative risk 0.90, 95% confidence interval 0.82 to 0.99, P=0.027). No differences were observed for major complications or length of hospital stay. Conclusion Among patients with anaemia undergoing elective cardiac surgery, preoperative intravenous iron was associated with a reduction in red cell transfusion and a small improvement in the number of days alive and at home in the first 90 days after surgery. Intravenous iron is an effective component of patient blood management in this setting. Trial registration ClinicalTrials.gov NCT02632760 .",
+      "authors": [
+        "Paul S Myles",
+        "Andrew A Klein",
+        "Julian A Smith",
+        "Sophia Wallace",
+        "Andrew Forbes",
+        "Silva Zavarsek",
+        "Joel A Symons",
+        "Robert A Baker",
+        "Erica M Wood",
+        "Zoe McQuilten",
+        "David McGiffin",
+        "Guy Christie-Taylor",
+        "Chong Kee Soon",
+        "Matthew T V Chan",
+        "Catherine Martin",
+        "Toby Richards",
+        "On behalf of the Australian and New Zealand College of Anaesthetists Clinical Trials Network and the ITACS investigators"
+      ],
+      "publishedAt": "2026-08-19",
+      "url": "https://doi.org/10.1136/bmj-2026-100407",
+      "doi": "10.1136/bmj-2026-100407",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100585",
+      "journalId": "bmj",
+      "title": "Helen Salisbury: Micromanagement and the GP Appointments Data dashboard",
+      "authors": [
+        "Helen Salisbury"
+      ],
+      "publishedAt": "2026-08-18",
+      "url": "https://doi.org/10.1136/bmj-2026-100585",
+      "doi": "10.1136/bmj-2026-100585",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100484",
+      "journalId": "bmj",
+      "title": "Interventions to help mothers stay smoke-free post partum",
+      "authors": [
+        "David M Tappin",
+        "Caroline Fairhurst"
+      ],
+      "publishedAt": "2026-08-18",
+      "url": "https://doi.org/10.1136/bmj-2026-100484",
+      "doi": "10.1136/bmj-2026-100484",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100592",
+      "journalId": "bmj",
+      "title": "Two years of NHS service is an equitable benchmark for international medical graduates to access specialty training",
+      "authors": [
+        "Ibrahim Toeima",
+        "Barrak Almoosawi",
+        "Zainab Mansoor"
+      ],
+      "publishedAt": "2026-08-18",
+      "url": "https://doi.org/10.1136/bmj-2026-100592",
+      "doi": "10.1136/bmj-2026-100592",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100563",
+      "journalId": "bmj",
+      "title": "Rammya Mathew: When evidence isn’t enough",
+      "authors": [
+        "Rammya Mathew"
+      ],
+      "publishedAt": "2026-08-18",
+      "url": "https://doi.org/10.1136/bmj-2026-100563",
+      "doi": "10.1136/bmj-2026-100563",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100242",
+      "journalId": "bmj",
+      "title": "Effectiveness of the BabyBreathe intervention for maintaining postpartum smoking cessation: multicentre pragmatic randomised controlled trial",
+      "abstract": "Abstract Objective To assess the effectiveness of an interpersonal and digital intervention, BabyBreathe, for maintaining postpartum smoking cessation. Design Multicentre pragmatic individually randomised controlled trial. Setting Community health visiting services in the UK. Participants 887 pregnant women and people who reported quitting smoking in the 12 months before, or during, pregnancy, with abstinence verified by exhaled carbon monoxide readings. A secure web based randomisation sequence, stratified by recruitment hub, partner smoking status, and quit timing (before or during pregnancy), was used to randomise participants (1:1) to receive the intervention or usual care. The trial was unblinded. Intervention BabyBreathe comprised in-person or remote smoking cessation maintenance interpersonal support at 28-32 weeks’ gestation and 10-14 days post partum. The BabyBreathe box, posted at the time of birth notification, contained theory driven advice for cessation maintenance, a sample of nicotine replacement gum, and motivational tools. Tailored motivational and educational text messages were provided. A website and app provided tailored cessation maintenance advice, social support, motivational tools, and gamification. Control was usual postpartum care. Main outcome measure The primary outcome was continuous smoking abstinence, verified by exhaled carbon monoxide concentration (≤7 parts per million (ppm)) 12 months post partum. Results Between 4 September 2021 and 3 August 2023, 887 participants were randomised: 442 to receive BabyBreathe and 445 to receive usual care. After one post-randomisation exclusion, 886 participants were included in an intention-to-treat analysis. The group difference in smoking abstinence at 12 months post partum was not significant (BabyBreathe 242/441 (54.9%) v usual care 222/445 (49.9%); odds ratio 1.23, 95% confidence interval (CI) 0.94 to 1.60, P=0.13, risk difference 4.8% (-1.7% to 11.2%), and number needed to treat (NNT) 21 (NNT to benefit 8.9 to ∞) and NNT to harm 59). A post hoc per protocol analysis favoured the intervention (BabyBreathe 200/347 (57.6%) v usual care 222/445 (49.9%); adjusted odds ratio 1.36, 95% CI 1.02 to 1.81, P=0.04), risk difference 7.2% (0.3% to 14.1%), and NNT 13.9 (7.1 to 333.3). No trial related adverse incidents occurred. Conclusions BabyBreathe did not statistically significantly increase sustained smoking abstinence post partum for people who quit smoking in pregnancy. A post hoc per protocol analysis, including only those who received interpersonal support as intended, showed statistically significantly greater benefit from BabyBreathe over usual care. A focus on fidelity and further targeting of BabyBreathe to groups with lower socioeconomic status may be warranted. Trial registration ISRCTN Registry NCT70307341 .",
+      "authors": [
+        "Caitlin Notley",
+        "Pippa Belderson",
+        "Lucy Clark",
+        "Tracey J Brown",
+        "Linda Bauld",
+        "Allan B Clark",
+        "Sharon Duneclift",
+        "Vicky Gilroy",
+        "Tess Harris",
+        "Wendy Hardeman",
+        "Richard Holland",
+        "Gregory Howard",
+        "Felix Naughton",
+        "Kieran Reynolds",
+        "Dan Smith",
+        "Susan Stirling",
+        "David Turner",
+        "Michael Ussher",
+        "On behalf of the BabyBreathe site research associates"
+      ],
+      "publishedAt": "2026-08-18",
+      "url": "https://doi.org/10.1136/bmj-2026-100242",
+      "doi": "10.1136/bmj-2026-100242",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100596",
+      "journalId": "bmj",
+      "title": "“Re-warding”—from LA hospital to art gallery",
+      "authors": [
+        "Alison Shepherd"
+      ],
+      "publishedAt": "2026-08-18",
+      "url": "https://doi.org/10.1136/bmj-2026-100596",
+      "doi": "10.1136/bmj-2026-100596",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100603",
+      "journalId": "bmj",
+      "title": "Patient died after delayed Advice and Guidance response to GP query, says safety watchdog",
+      "authors": [
+        "Chris Baraniuk"
+      ],
+      "publishedAt": "2026-08-18",
+      "url": "https://doi.org/10.1136/bmj-2026-100603",
+      "doi": "10.1136/bmj-2026-100603",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100606",
+      "journalId": "bmj",
+      "title": "UK salmonella outbreak leaves one dead and more than 200 ill",
+      "authors": [
+        "Chris Baraniuk"
+      ],
+      "publishedAt": "2026-08-18",
+      "url": "https://doi.org/10.1136/bmj-2026-100606",
+      "doi": "10.1136/bmj-2026-100606",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100573",
+      "journalId": "bmj",
+      "title": "Kambô: as DIY frog toxin kits are sold in the UK, what is the evidence and what are the risks?",
+      "authors": [
+        "Katharine Lang"
+      ],
+      "publishedAt": "2026-08-18",
+      "url": "https://doi.org/10.1136/bmj-2026-100573",
+      "doi": "10.1136/bmj-2026-100573",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100548",
+      "journalId": "bmj",
+      "title": "Prostate cancer “awareness paradox” for patients",
+      "authors": [
+        "Hannah J Royle"
+      ],
+      "publishedAt": "2026-08-18",
+      "url": "https://doi.org/10.1136/bmj-2026-100548",
+      "doi": "10.1136/bmj-2026-100548",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100590",
+      "journalId": "bmj",
+      "title": "Doctor who prescribed Ozempic and Wegovy to her partner has suspension extended",
+      "authors": [
+        "Clare Dyer"
+      ],
+      "publishedAt": "2026-08-17",
+      "url": "https://doi.org/10.1136/bmj-2026-100590",
+      "doi": "10.1136/bmj-2026-100590",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100582",
+      "journalId": "bmj",
+      "title": "NHS spends £240m a year storing patient records, as ongoing paper use drives high costs",
+      "authors": [
+        "Jacqui Wise"
+      ],
+      "publishedAt": "2026-08-17",
+      "url": "https://doi.org/10.1136/bmj-2026-100582",
+      "doi": "10.1136/bmj-2026-100582",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100572",
+      "journalId": "bmj",
+      "title": "Developments in AI designed viruses demonstrate why such research must be done in the open",
+      "authors": [
+        "Simon Clarke"
+      ],
+      "publishedAt": "2026-08-17",
+      "url": "https://doi.org/10.1136/bmj-2026-100572",
+      "doi": "10.1136/bmj-2026-100572",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100587",
+      "journalId": "bmj",
+      "title": "Doctors forced to complete Advice and Guidance referral scheme in their own time, RCP survey suggests",
+      "authors": [
+        "Adrian O’Dowd"
+      ],
+      "publishedAt": "2026-08-17",
+      "url": "https://doi.org/10.1136/bmj-2026-100587",
+      "doi": "10.1136/bmj-2026-100587",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100593",
+      "journalId": "bmj",
+      "title": "Eclipse related eye injuries are lower than in 1999, hospitals report",
+      "authors": [
+        "Catherine Wang"
+      ],
+      "publishedAt": "2026-08-17",
+      "url": "https://doi.org/10.1136/bmj-2026-100593",
+      "doi": "10.1136/bmj-2026-100593",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100555",
+      "journalId": "bmj",
+      "title": "Regulating AI in healthcare: a moving target",
+      "authors": [
+        "Mark Ball",
+        "Elvira Perez Vallejos"
+      ],
+      "publishedAt": "2026-08-17",
+      "url": "https://doi.org/10.1136/bmj-2026-100555",
+      "doi": "10.1136/bmj-2026-100555",
+      "fetchedAt": "2026-09-01T07:01:30.637Z",
+      "source": "crossref"
+    }
+  ]
+}
