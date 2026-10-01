@@ -1,59 +1,59 @@
 {
-  "lastCrawlAt": "2026-09-01T07:01:27.913Z",
+  "lastCrawlAt": "2026-10-01T08:04:02.017Z",
   "journals": {
     "nejm": {
-      "lastCrawlAt": "2026-09-01T07:01:27.913Z",
+      "lastCrawlAt": "2026-10-01T08:04:02.017Z",
       "rawCount": 100,
       "keptCount": 1
     },
     "lancet": {
-      "lastCrawlAt": "2026-09-01T07:01:27.913Z",
+      "lastCrawlAt": "2026-10-01T08:04:02.017Z",
       "rawCount": 100,
       "keptCount": 0
     },
     "jama": {
-      "lastCrawlAt": "2026-09-01T07:01:27.913Z",
-      "rawCount": 38,
+      "lastCrawlAt": "2026-10-01T08:04:02.017Z",
+      "rawCount": 40,
       "keptCount": 1
     },
     "bmj": {
-      "lastCrawlAt": "2026-09-01T07:01:27.913Z",
+      "lastCrawlAt": "2026-10-01T08:04:02.017Z",
       "rawCount": 100,
       "keptCount": 0
     },
     "influenza-other-resp-viruses": {
-      "lastCrawlAt": "2026-09-01T07:01:27.913Z",
-      "rawCount": 45,
+      "lastCrawlAt": "2026-10-01T08:04:02.017Z",
+      "rawCount": 42,
       "keptCount": 26
     },
     "vaccine": {
-      "lastCrawlAt": "2026-09-01T07:01:27.913Z",
+      "lastCrawlAt": "2026-10-01T08:04:02.017Z",
       "rawCount": 100,
       "keptCount": 1
     },
     "nature-medicine": {
-      "lastCrawlAt": "2026-09-01T07:01:27.913Z",
+      "lastCrawlAt": "2026-10-01T08:04:02.017Z",
       "rawCount": 100,
       "keptCount": 0
     },
     "lancet-infectious-diseases": {
-      "lastCrawlAt": "2026-09-01T07:01:27.913Z",
+      "lastCrawlAt": "2026-10-01T08:04:02.017Z",
       "rawCount": 100,
       "keptCount": 0
     },
     "lancet-respiratory-medicine": {
-      "lastCrawlAt": "2026-09-01T07:01:27.913Z",
-      "rawCount": 90,
+      "lastCrawlAt": "2026-10-01T08:04:02.017Z",
+      "rawCount": 88,
       "keptCount": 0
     },
     "lancet-public-health": {
-      "lastCrawlAt": "2026-09-01T07:01:27.913Z",
-      "rawCount": 49,
+      "lastCrawlAt": "2026-10-01T08:04:02.017Z",
+      "rawCount": 54,
       "keptCount": 0
     },
     "european-respiratory-journal": {
-      "lastCrawlAt": "2026-09-01T07:01:27.913Z",
-      "rawCount": 93,
+      "lastCrawlAt": "2026-10-01T08:04:02.017Z",
+      "rawCount": 85,
       "keptCount": 0
     }
   }

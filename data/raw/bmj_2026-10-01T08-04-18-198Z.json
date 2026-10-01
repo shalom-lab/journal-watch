@@ -1,0 +1,1486 @@
+{
+  "journalId": "bmj",
+  "fetchedAt": "2026-10-01T08:04:18.198Z",
+  "articles": [
+    {
+      "id": "doi:10.1136/bmj-2026-100947",
+      "journalId": "bmj",
+      "title": "AI in primary care: approach with healthy scepticism",
+      "authors": [
+        "Thomas Moreno-Stokoe"
+      ],
+      "publishedAt": "2026-09-30",
+      "url": "https://doi.org/10.1136/bmj-2026-100947",
+      "doi": "10.1136/bmj-2026-100947",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100858",
+      "journalId": "bmj",
+      "title": "Digital menstrual tracking risks creating more harm than benefit",
+      "authors": [
+        "Katharine M N Lee",
+        "Marina DiMarco",
+        "Madeleine Pape",
+        "Meredith Reiches",
+        "Patricia Homan",
+        "Sheree Bekker",
+        "Margo Mountjoy",
+        "Sarah S Richardson"
+      ],
+      "publishedAt": "2026-09-30",
+      "url": "https://doi.org/10.1136/bmj-2026-100858",
+      "doi": "10.1136/bmj-2026-100858",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101000",
+      "journalId": "bmj",
+      "title": "New Parkinson’s drug approved in US—but no clarity on when it might reach UK",
+      "authors": [
+        "Chris Baraniuk"
+      ],
+      "publishedAt": "2026-09-30",
+      "url": "https://doi.org/10.1136/bmj-2026-101000",
+      "doi": "10.1136/bmj-2026-101000",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101001",
+      "journalId": "bmj",
+      "title": "Could “cot cams” prevent another Lucy Letby, and what are doctors’ concerns?",
+      "authors": [
+        "Jacqui Wise"
+      ],
+      "publishedAt": "2026-09-30",
+      "url": "https://doi.org/10.1136/bmj-2026-101001",
+      "doi": "10.1136/bmj-2026-101001",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100709",
+      "journalId": "bmj",
+      "title": "Early national comparison of robotic versus conventional hip replacements for arthritis using National Joint Registry data: target trial emulation study",
+      "abstract": "Abstract Objectives To evaluate the early comparative effectiveness of robotic versus conventional total hip replacement (THR) in the UK. Design Target trial emulation study. Setting Public and private hospitals using data from the National Joint Registry of England, Wales, Northern Ireland, the Isle of Man, Guernsey, and Jersey. Participants 666 283 THRs performed between 2018 and 2024; 656 080 were conventional THRs and 10 203 were robotic THRs. Main outcome measures Five year THR implant survival (mean 2.5 year follow-up), all cause revision risk, cause specific revision risk, malpositioning revision risk, intraoperative complications, and patient survival up to five years. Kaplan-Meier survival analysis, Cox proportional hazards regression, and Fine and Gray models were used. Propensity score matching created comparable treatment groups to estimate the average treatment effect in the treated population. Results The five year implant survival of the matched conventional and robotic THR groups was 98.8% (95% confidence interval (CI) 98.6% to 99.0%) and 98.8% (CI 98.3% to 99.1%), respectively, with no difference in revision risk between groups (hazard ratio 0.96, 95% CI 0.75 to 1.22; P=0.73). Cause specific revision risk and intraoperative complication risks did not differ between groups. However, a significantly lower risk of revisions related to implant malposition (dislocation, leg length discrepancy, and malalignment) was observed in the robotic group (hazard ratio 0.53, 95% CI 0.30 to 0.93; P=0.03). The five year patient survival of the matched conventional and robotic THR groups was 96.3% (95% CI 95.8% to 96.8%) and 96.2% (95.2% to 97.0%), respectively, with no difference in all cause mortality risk (hazard ratio 1.12, 95% CI 0.95 to 1.34; P=0.17). Conclusions No significant differences were found in overall THR or patient survival, cause specific revision, or intraoperative complication risks between robotic and conventional groups. Robotic THR was associated with a lower revision risk from causes related to implant malpositioning. However, the possibility of unmeasured and residual confounding cannot be ruled out owing to the observational design. These results highlight the importance of careful evaluation of robotic technology in publicly funded healthcare systems because of the substantially higher capital and procedural costs.",
+      "authors": [
+        "Hasan R Mohammad",
+        "Andrew Judge",
+        "Xavier L Griffin",
+        "David W Murray"
+      ],
+      "publishedAt": "2026-09-30",
+      "url": "https://doi.org/10.1136/bmj-2026-100709",
+      "doi": "10.1136/bmj-2026-100709",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100999",
+      "journalId": "bmj",
+      "title": "Healthy Babies programme, modelled on Sure Start, to be expanded across England",
+      "authors": [
+        "Jacqui Wise"
+      ],
+      "publishedAt": "2026-09-30",
+      "url": "https://doi.org/10.1136/bmj-2026-100999",
+      "doi": "10.1136/bmj-2026-100999",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100691",
+      "journalId": "bmj",
+      "title": "Early national comparison of robotic versus conventional knee replacements for arthritis using National Joint Registry data: target trial emulation study",
+      "abstract": "Abstract Objective To evaluate the early comparative effectiveness of robotic versus conventional total knee replacement (TKR) and unicompartmental knee replacement (UKR) in the UK. Design Target trial emulation study. Setting Public and private hospitals using data from the National Joint Registry of England, Wales, Northern Ireland, the Isle of Man, Guernsey, and Jersey. Participants 697 145 knee replacement surgeries between 2018 and 2024: 675 034 were conventional (TKRs and UKRs) and 22 111 were robotic. Main outcome measures The main outcome was five year knee replacement survival (mean 2.5 years follow-up); all cause revision risk; cause specific revision risk; intraoperative complications; and revision complexity of robotic versus conventional (TKR and UKR) knee replacement. Kaplan-Meier and Cox regression analyses were used to compare implant survival and indications for revision surgery. Propensity score matching using target trial emulation framework was used to estimate the average treatment effect in the treated population. Results The five year implant survival of the matched conventional and robotic TKR groups was 98.5% (95% confidence interval (CI) 98.3% to 98.7%) and 98.6% (98.2% to 99.0%), respectively, with no between group difference in revision risk (hazard ratio 1.03, 95% CI 0.86 to 1.26; P=0.71). The five year implant survival of the matched conventional and robotic UKR groups was 97.8% (95% CI 97.2% to 98.3%) and 96.4% (92.4% to 98.3%), respectively, with no between group difference in revision risk (hazard ratio 1.03, 95% CI 0.75 to 1.42; P=0.86). Cause specific revision risk and intraoperative complication risks did not differ between groups for either TKR or UKR. Conclusions No statistically significant differences were detected in revision risk, cause specific risk, or intraoperative complication risk between the robotic and conventional groups. This was consistent for both TKR and UKR. The possibility of unmeasured and residual confounding cannot be ruled out, however, owing to the observational design of the study. These results highlight the importance of careful evaluation of robotic technology in publicly funded healthcare systems, given the substantially higher capital and procedural costs involved.",
+      "authors": [
+        "Hasan R Mohammad",
+        "Andrew Judge",
+        "Xavier L Griffin",
+        "David W Murray"
+      ],
+      "publishedAt": "2026-09-30",
+      "url": "https://doi.org/10.1136/bmj-2026-100691",
+      "doi": "10.1136/bmj-2026-100691",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100940",
+      "journalId": "bmj",
+      "title": "Abortion is common healthcare: education and governance must now follow",
+      "authors": [
+        "Adam Tyler"
+      ],
+      "publishedAt": "2026-09-30",
+      "url": "https://doi.org/10.1136/bmj-2026-100940",
+      "doi": "10.1136/bmj-2026-100940",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100946",
+      "journalId": "bmj",
+      "title": "Secret medical schools: How Afghanistan’s women are defying the training ban",
+      "authors": [
+        "Sally Howard",
+        "Geetanjali Krishna"
+      ],
+      "publishedAt": "2026-09-30",
+      "url": "https://doi.org/10.1136/bmj-2026-100946",
+      "doi": "10.1136/bmj-2026-100946",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100929",
+      "journalId": "bmj",
+      "title": "Give adolescents the skills to use social media safely",
+      "authors": [
+        "Vivian Zhang",
+        "Chunchun Yuan"
+      ],
+      "publishedAt": "2026-09-29",
+      "url": "https://doi.org/10.1136/bmj-2026-100929",
+      "doi": "10.1136/bmj-2026-100929",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100914",
+      "journalId": "bmj",
+      "title": "Age bans look decisive but risk weakening better regulation",
+      "authors": [
+        "Om Prakash"
+      ],
+      "publishedAt": "2026-09-29",
+      "url": "https://doi.org/10.1136/bmj-2026-100914",
+      "doi": "10.1136/bmj-2026-100914",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100992",
+      "journalId": "bmj",
+      "title": "GLP-1s in the media: Dutch news groups fined over positive coverage",
+      "authors": [
+        "Rosie Sikkel"
+      ],
+      "publishedAt": "2026-09-29",
+      "url": "https://doi.org/10.1136/bmj-2026-100992",
+      "doi": "10.1136/bmj-2026-100992",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100995",
+      "journalId": "bmj",
+      "title": "Burnham: New NHS style national care service will be funded by pension reform",
+      "authors": [
+        "Matthew Limb"
+      ],
+      "publishedAt": "2026-09-29",
+      "url": "https://doi.org/10.1136/bmj-2026-100995",
+      "doi": "10.1136/bmj-2026-100995",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100618",
+      "journalId": "bmj",
+      "title": "Recommendations for evaluating a single surrogate endpoint (REASSurE): consensus based, surrogate evaluation framework with explanation and elaboration",
+      "authors": [
+        "Wang Pok Lo",
+        "Stuart G Baker",
+        "Luca Bertolaccini",
+        "Sylwia Bujkiewicz",
+        "Catey Bunce",
+        "Marc Buyse",
+        "Oriana Ciani",
+        "Robin Christensen",
+        "Jane Daniels",
+        "Sara Gandini",
+        "Tamer A Gheita",
+        "Peter B Gilbert",
+        "Laura Jaeger",
+        "Dorcas Kareithi",
+        "Marissa Lassere",
+        "Nicholas T Longford",
+        "Anthony M Manyara",
+        "Koji Oba",
+        "Emily K Roberts",
+        "Rod S Taylor",
+        "Carlos J Toro-Huamanchumo",
+        "Steff Lewis",
+        "Hannah Ensor",
+        "Christopher J Weir"
+      ],
+      "publishedAt": "2026-09-29",
+      "url": "https://doi.org/10.1136/bmj-2026-100618",
+      "doi": "10.1136/bmj-2026-100618",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100983",
+      "journalId": "bmj",
+      "title": "Researchers with lived experience navigate unique ethical and emotional challenges",
+      "authors": [
+        "Daniel Beever",
+        "Wei Chern Gavin Fong",
+        "Kate Clement",
+        "Hywel C Williams"
+      ],
+      "publishedAt": "2026-09-29",
+      "url": "https://doi.org/10.1136/bmj-2026-100983",
+      "doi": "10.1136/bmj-2026-100983",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100991",
+      "journalId": "bmj",
+      "title": "Trump’s latest pick for FDA head backs president over vaccines and vapes",
+      "authors": [
+        "Janice Hopkins Tanne"
+      ],
+      "publishedAt": "2026-09-29",
+      "url": "https://doi.org/10.1136/bmj-2026-100991",
+      "doi": "10.1136/bmj-2026-100991",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100990",
+      "journalId": "bmj",
+      "title": "Data centres: Tech companies are putting health and the environment at risk by exploiting regulatory gaps",
+      "authors": [
+        "Julie McNamara"
+      ],
+      "publishedAt": "2026-09-29",
+      "url": "https://doi.org/10.1136/bmj-2026-100990",
+      "doi": "10.1136/bmj-2026-100990",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100986",
+      "journalId": "bmj",
+      "title": "“Forever chemicals”—why do Lancashire village residents have high levels in their blood, and what happens next?",
+      "authors": [
+        "Adrian O’Dowd"
+      ],
+      "publishedAt": "2026-09-29",
+      "url": "https://doi.org/10.1136/bmj-2026-100986",
+      "doi": "10.1136/bmj-2026-100986",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100973",
+      "journalId": "bmj",
+      "title": "Brain tumours: New rapid genomic test could “transform” NHS diagnosis",
+      "authors": [
+        "Matthew Limb"
+      ],
+      "publishedAt": "2026-09-28",
+      "url": "https://doi.org/10.1136/bmj-2026-100973",
+      "doi": "10.1136/bmj-2026-100973",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100671",
+      "journalId": "bmj",
+      "title": "Incorporating research integrity into systematic reviews",
+      "authors": [
+        "Juan VA Franco",
+        "Nicole Skoetz"
+      ],
+      "publishedAt": "2026-09-28",
+      "url": "https://doi.org/10.1136/bmj-2026-100671",
+      "doi": "10.1136/bmj-2026-100671",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100982",
+      "journalId": "bmj",
+      "title": "NHS trust suspends 10 staff over Noah Woods data breach",
+      "authors": [
+        "Jacqui Wise"
+      ],
+      "publishedAt": "2026-09-28",
+      "url": "https://doi.org/10.1136/bmj-2026-100982",
+      "doi": "10.1136/bmj-2026-100982",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100984",
+      "journalId": "bmj",
+      "title": "ADHD and autism: Two year minimum waits imposed in fresh NHS rationing drive",
+      "authors": [
+        "Jane Feinmann"
+      ],
+      "publishedAt": "2026-09-28",
+      "url": "https://doi.org/10.1136/bmj-2026-100984",
+      "doi": "10.1136/bmj-2026-100984",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100979",
+      "journalId": "bmj",
+      "title": "OpenAI hacked Australian government health website—and only notified authorities three months later",
+      "authors": [
+        "Felicity Nelson"
+      ],
+      "publishedAt": "2026-09-28",
+      "url": "https://doi.org/10.1136/bmj-2026-100979",
+      "doi": "10.1136/bmj-2026-100979",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100909",
+      "journalId": "bmj",
+      "title": "How do I gain leadership experience early in my career?",
+      "authors": [
+        "Abi Rimmer"
+      ],
+      "publishedAt": "2026-09-28",
+      "url": "https://doi.org/10.1136/bmj-2026-100909",
+      "doi": "10.1136/bmj-2026-100909",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100612",
+      "journalId": "bmj",
+      "title": "Development and evaluation of a quality assessment tool for equality, diversity, and inclusion (QUALITY-EDI) within healthcare research",
+      "authors": [
+        "Michael G Fadel",
+        "Hannah Kettley-Linsell",
+        "Piers R Boshier",
+        "Rebecca Barnes",
+        "Christopher Newby",
+        "Anukriti Panda",
+        "Caoimhe M Walsh",
+        "Warren Sims",
+        "Kelly Gleason",
+        "Suzanne Bull",
+        "Peter Buckle",
+        "Darshali A Vyas",
+        "Anthony Muchai Manyara",
+        "Tanvi Rai",
+        "Brian D Nicholson",
+        "Linda D Sharples",
+        "Amanda J Cross",
+        "Sally Hopewell",
+        "Jérémie F Cohen",
+        "Vivian Welch",
+        "Patrick M M Bossuyt",
+        "George B Hanna"
+      ],
+      "publishedAt": "2026-09-28",
+      "url": "https://doi.org/10.1136/bmj-2026-100612",
+      "doi": "10.1136/bmj-2026-100612",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100902",
+      "journalId": "bmj",
+      "title": "Social media companies cannot be trusted to apply external restrictions",
+      "authors": [
+        "Matthew A Sadlier",
+        "Rebecca Foljambe",
+        "Emily A J Sehmer"
+      ],
+      "publishedAt": "2026-09-28",
+      "url": "https://doi.org/10.1136/bmj-2026-100902",
+      "doi": "10.1136/bmj-2026-100902",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100972",
+      "journalId": "bmj",
+      "title": "Plans to end rough sleeping must focus on health exclusion and specialist services",
+      "authors": [
+        "Cat Tottie"
+      ],
+      "publishedAt": "2026-09-28",
+      "url": "https://doi.org/10.1136/bmj-2026-100972",
+      "doi": "10.1136/bmj-2026-100972",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100975",
+      "journalId": "bmj",
+      "title": "Galleri cancer test fails to meet main aim in NHS trial, but FDA still endorses it",
+      "authors": [
+        "Elisabeth Mahase"
+      ],
+      "publishedAt": "2026-09-25",
+      "url": "https://doi.org/10.1136/bmj-2026-100975",
+      "doi": "10.1136/bmj-2026-100975",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100961",
+      "journalId": "bmj",
+      "title": "When I use a word . . . Alumni of the Edinburgh Medical School 1726-2026: Erasmus Darwin versus William Withering",
+      "abstract": "In 1788, the Birmingham physician William Withering was consulted by an apothecary in Wellington, Shropshire, about the case of a woman, Mrs Houlston, whom Erasmus Darwin’s son, Robert Darwin, a medical practitioner in Shrewsbury, had attended the day before. Withering thought that Darwin’s prescription had been inappropriate and changed it. Robert reacted angrily, and a vituperative correspondence followed. Erasmus, Robert’s father, also medically qualified, may have been involved in the affair, by urging his son to attack Withering and by helping him to write his letters. Erasmus may have had good reason for wanting to damage Withering’s reputation. Although all three of them were alumni of the Edinburgh Medical School in the latter half of the 18 th century, albeit at different times, and although Erasmus had recommended Withering to both a post in Birmingham and membership of the Lunar Society, he may have become jealous of Withering’s success as a physician and botanist. The enmity between them had culminated in a dispute over the treatment of a patient in Staffordshire, whom Withering was asked to see after Erasmus had attended her, with little therapeutic success. Withering recommended digitalis, which seemed to have saved her life. Darwin reported the case in 1780, anonymously including it in a posthumous publication credited to another medical son, Charles, and without crediting Withering. In turn, Withering responded by criticising Darwin in his 1785 monograph An Account of the Foxglove . The rift between the two seems to have been irreparable.",
+      "authors": [
+        "Jeffrey K Aronson"
+      ],
+      "publishedAt": "2026-09-25",
+      "url": "https://doi.org/10.1136/bmj-2026-100961",
+      "doi": "10.1136/bmj-2026-100961",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100958",
+      "journalId": "bmj",
+      "title": "Tackling the continued decline in UK child health",
+      "authors": [
+        "Cecilia Cirelli",
+        "Rhian Thomas-Turner",
+        "Neena Modi"
+      ],
+      "publishedAt": "2026-09-25",
+      "url": "https://doi.org/10.1136/bmj-2026-100958",
+      "doi": "10.1136/bmj-2026-100958",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100784",
+      "journalId": "bmj",
+      "title": "Meet the new editorial scholar: Catherine Wang",
+      "authors": [
+        "Zaynah Khan"
+      ],
+      "publishedAt": "2026-09-25",
+      "url": "https://doi.org/10.1136/bmj-2026-100784",
+      "doi": "10.1136/bmj-2026-100784",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100957",
+      "journalId": "bmj",
+      "title": "Connecting healthcare and financial wellbeing services can help families, but it cannot compensate for inadequate income support",
+      "authors": [
+        "Anna Price",
+        "Anna Sarkadi",
+        "Claire Cameron"
+      ],
+      "publishedAt": "2026-09-25",
+      "url": "https://doi.org/10.1136/bmj-2026-100957",
+      "doi": "10.1136/bmj-2026-100957",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100976",
+      "journalId": "bmj",
+      "title": "NHS staff face immediate suspension if suspected of “snooping” on patient records",
+      "authors": [
+        "Elisabeth Mahase"
+      ],
+      "publishedAt": "2026-09-25",
+      "url": "https://doi.org/10.1136/bmj-2026-100976",
+      "doi": "10.1136/bmj-2026-100976",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100969",
+      "journalId": "bmj",
+      "title": "Drug deaths rise sharply in Scotland, with fifth of fatalities linked to nitazenes",
+      "authors": [
+        "Gareth Iacobucci"
+      ],
+      "publishedAt": "2026-09-25",
+      "url": "https://doi.org/10.1136/bmj-2026-100969",
+      "doi": "10.1136/bmj-2026-100969",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100815",
+      "journalId": "bmj",
+      "title": "Ken Davidson: played a key role in developing modern cardiac surgery in Scotland",
+      "authors": [
+        "Rebecca Wallersteiner"
+      ],
+      "publishedAt": "2026-09-24",
+      "url": "https://doi.org/10.1136/bmj-2026-100815",
+      "doi": "10.1136/bmj-2026-100815",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100924",
+      "journalId": "bmj",
+      "title": "Chris Whitty: Doctors must be trained in managing risk in patient care, CMO says",
+      "authors": [
+        "Tom Moberly"
+      ],
+      "publishedAt": "2026-09-24",
+      "url": "https://doi.org/10.1136/bmj-2026-100924",
+      "doi": "10.1136/bmj-2026-100924",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100966",
+      "journalId": "bmj",
+      "title": "Scientists rally behind Lancet staff over historic walkout",
+      "authors": [
+        "Matthew Limb"
+      ],
+      "publishedAt": "2026-09-24",
+      "url": "https://doi.org/10.1136/bmj-2026-100966",
+      "doi": "10.1136/bmj-2026-100966",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100814",
+      "journalId": "bmj",
+      "title": "Rodney Grahame: Rheumatologist and expert in Ehlers-Danlos syndromes and hypermobility spectrum disorders",
+      "authors": [
+        "Marcus Williamson"
+      ],
+      "publishedAt": "2026-09-24",
+      "url": "https://doi.org/10.1136/bmj-2026-100814",
+      "doi": "10.1136/bmj-2026-100814",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100964",
+      "journalId": "bmj",
+      "title": "Jehovah’s Witness ban on accepting blood components in transfusions is lifted",
+      "authors": [
+        "Tharanika Ahillan"
+      ],
+      "publishedAt": "2026-09-24",
+      "url": "https://doi.org/10.1136/bmj-2026-100964",
+      "doi": "10.1136/bmj-2026-100964",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100939",
+      "journalId": "bmj",
+      "title": "Why do professional exams keep going wrong?",
+      "authors": [
+        "John C McLachlan"
+      ],
+      "publishedAt": "2026-09-24",
+      "url": "https://doi.org/10.1136/bmj-2026-100939",
+      "doi": "10.1136/bmj-2026-100939",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100955",
+      "journalId": "bmj",
+      "title": "Gaza: Wasting in young children falls after ceasefire, but UN warns gains are “fragile”",
+      "authors": [
+        "Jacqui Wise"
+      ],
+      "publishedAt": "2026-09-24",
+      "url": "https://doi.org/10.1136/bmj-2026-100955",
+      "doi": "10.1136/bmj-2026-100955",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100959",
+      "journalId": "bmj",
+      "title": "Trump, Mounjaro, and medical misogyny articles win\n                    <i>BMJ</i>\n                    honours at prestigious awards",
+      "publishedAt": "2026-09-24",
+      "url": "https://doi.org/10.1136/bmj-2026-100959",
+      "doi": "10.1136/bmj-2026-100959",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100962",
+      "journalId": "bmj",
+      "title": "Surgeon suspended for nine months over antisemitic social media posts",
+      "authors": [
+        "Clare Dyer"
+      ],
+      "publishedAt": "2026-09-24",
+      "url": "https://doi.org/10.1136/bmj-2026-100962",
+      "doi": "10.1136/bmj-2026-100962",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100952",
+      "journalId": "bmj",
+      "title": "Trump again seeks NIH grant oversight as US researchers sue RFK Jr, Bhattacharya",
+      "authors": [
+        "Leslie Liang"
+      ],
+      "publishedAt": "2026-09-24",
+      "url": "https://doi.org/10.1136/bmj-2026-100952",
+      "doi": "10.1136/bmj-2026-100952",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100205",
+      "journalId": "bmj",
+      "title": "Dry conjunctivae",
+      "authors": [
+        "Elze Kancereviciute",
+        "Elisabeth De Smit"
+      ],
+      "publishedAt": "2026-09-24",
+      "url": "https://doi.org/10.1136/bmj-2026-100205",
+      "doi": "10.1136/bmj-2026-100205",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100908",
+      "journalId": "bmj",
+      "title": "Medical news in brief: GPs’ Wegovy warning, NICE rejects lenacapavir, deep fried food ban in schools, and other stories",
+      "publishedAt": "2026-09-24",
+      "url": "https://doi.org/10.1136/bmj-2026-100908",
+      "doi": "10.1136/bmj-2026-100908",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100813",
+      "journalId": "bmj",
+      "title": "Lesley Southgate: first female professor of general practice, who supported efforts to weed out poorly performing doctors",
+      "authors": [
+        "John Illman"
+      ],
+      "publishedAt": "2026-09-24",
+      "url": "https://doi.org/10.1136/bmj-2026-100813",
+      "doi": "10.1136/bmj-2026-100813",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100852",
+      "journalId": "bmj",
+      "title": "Extraordinary claims for new stroke treatment . . . and other research",
+      "authors": [
+        "Tom Nolan"
+      ],
+      "publishedAt": "2026-09-24",
+      "url": "https://doi.org/10.1136/bmj-2026-100852",
+      "doi": "10.1136/bmj-2026-100852",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100938",
+      "journalId": "bmj",
+      "title": "Whitty’s challenge: can the profession fix risk holding?",
+      "authors": [
+        "Kamran Abbasi"
+      ],
+      "publishedAt": "2026-09-24",
+      "url": "https://doi.org/10.1136/bmj-2026-100938",
+      "doi": "10.1136/bmj-2026-100938",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100611",
+      "journalId": "bmj",
+      "title": "INSPECT-SR tool for assessing trustworthiness of randomised controlled trials",
+      "authors": [
+        "Jack Wilkinson",
+        "Lisa Bero",
+        "Calvin Heal",
+        "Ella Flemyng",
+        "Georgios A Antoniou",
+        "Tony Aburrow",
+        "Zarko Alfirevic",
+        "Alison Avenell",
+        "Virginia Barbour",
+        "Vincenzo Berghella",
+        "Dorothy V M Bishop",
+        "Esmée M Bordewijk",
+        "Nicholas J L Brown",
+        "Jana Christopher",
+        "Mike Clarke",
+        "Darren Dahly",
+        "Jane Dennis",
+        "Patrick Dicker",
+        "Jo Dumville",
+        "Helen Frankish",
+        "Andrew Grey",
+        "Steph Grohmann",
+        "Lyle C Gurrin",
+        "Jill A Hayden",
+        "James A J Heathers",
+        "Kylie E Hunter",
+        "Ian Hussey",
+        "Lukas Jung",
+        "Emily Lam",
+        "Toby J Lasserson",
+        "Sarah Lensen",
+        "Tianjing Li",
+        "Wentao Li",
+        "Jianping Liu",
+        "Elizabeth Loder",
+        "Andreas Lundh",
+        "Gideon Meyerowitz-Katz",
+        "Ben W Mol",
+        "Florian Naudet",
+        "Anna Noel-Storr",
+        "Neil E O’Connell",
+        "Lisa Parker",
+        "Rita F Redberg",
+        "Barbara K Redman",
+        "Rachel Richardson",
+        "Anna Lene Seidler",
+        "Kyle Sheldrick",
+        "Emma Sydenham",
+        "Madelon van Wely",
+        "Colby J Vorland",
+        "Rui Wang",
+        "Stephanie Weibel",
+        "Matthias Wjst",
+        "Jamie J Kirkham"
+      ],
+      "publishedAt": "2026-09-24",
+      "url": "https://doi.org/10.1136/bmj-2026-100611",
+      "doi": "10.1136/bmj-2026-100611",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100853",
+      "journalId": "bmj",
+      "title": "The genetics of schizophrenia . . . and other stories",
+      "publishedAt": "2026-09-24",
+      "url": "https://doi.org/10.1136/bmj-2026-100853",
+      "doi": "10.1136/bmj-2026-100853",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100889",
+      "journalId": "bmj",
+      "title": "Social media legislation should focus on detoxification, not restriction",
+      "authors": [
+        "Owen Collerton"
+      ],
+      "publishedAt": "2026-09-24",
+      "url": "https://doi.org/10.1136/bmj-2026-100889",
+      "doi": "10.1136/bmj-2026-100889",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100911",
+      "journalId": "bmj",
+      "title": "We still do not know the answers to fundamental questions about menopause",
+      "authors": [
+        "Amani Meaidi"
+      ],
+      "publishedAt": "2026-09-23",
+      "url": "https://doi.org/10.1136/bmj-2026-100911",
+      "doi": "10.1136/bmj-2026-100911",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100900",
+      "journalId": "bmj",
+      "title": "Will centralisation improve the Scottish health system?",
+      "authors": [
+        "Ellen Stewart",
+        "David Blane"
+      ],
+      "publishedAt": "2026-09-23",
+      "url": "https://doi.org/10.1136/bmj-2026-100900",
+      "doi": "10.1136/bmj-2026-100900",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100688",
+      "journalId": "bmj",
+      "title": "Contemporary menopausal hormone therapy and thrombotic disease: nationwide nested case-control study",
+      "abstract": "Abstract Objectives To investigate associations between current use of menopausal hormone therapy and development of venous thromboembolism, ischaemic stroke, and myocardial infarction. Design Nationwide nested case-control study. Setting National Danish health registries. Participants 9807 women with venous thromboembolism, 18 460 women with ischaemic stroke, and 11 974 women with myocardial infarction were identified in a cohort of women of 50-69 years living in Denmark between 2003 and 2021 without a medical history of venous thrombosis, arterial thrombosis, cancer, liver disease, thrombophilia, oophorectomy, infertility treatment, endometriosis, or polyendocrine metabolic ovarian syndrome (PMOS, previously known as polycystic ovary syndrome). Cases were matched by birth year to a total of 49 035, 92 300, and 59 870 women without thrombotic disease, respectively. Main outcome measures Receiving a first time diagnosis of venous thromboembolism, ischaemic stroke, or myocardial infarction. Results Among women who had not used menopausal hormone therapy, incidence rates of venous thromboembolism, ischaemic stroke, and myocardial infarction per 10 000 person years were 15.8, 20.3, and 13.0, respectively. Compared with no current use, current use of oral oestrogen therapy (alone or combined with progestin) was associated with increased rates of venous thromboembolism (hazard ratio 1.6, 95% CI 1.5 to 1.8), ischaemic stroke (1.3, 1.2 to 1.4), and myocardial infarction (1.2, 1.1 to 1.3). The absolute risk increase per year was 0.09% (95% confidence interval (CI) 0.08 to 0.13%) for venous thromboembolism, 0.06% (0.04 to 0.08%) for ischaemic stroke, and 0.03% (0.01 to 0.04%) for myocardial infarction, corresponding to numbers needed to harm for one year of use of 1055 (95% CI 791 to 1266), 1642 (1232 to 2463), and 3846 (2564 to 7692), respectively. Use of oral forms of oestradiol was consistently associated with increased venous thromboembolic risk compared with no current use. Oral oestradiol doses &gt;1 mg/day used for more than one year was associated with increased risks of ischaemic stroke and myocardial infarction, with risks increasing with treatment duration (stroke hazard ratio 1.8, 95% CI 1.4 to 2.2 and myocardial infarction hazard ratio 1.8, 1.4 to 2.4 for &gt;5 years of use compared with no current use). Transdermal therapy was not associated with increased thrombotic rates compared with no current use, with the exception of increased risk of myocardial infarction with transdermal combined cyclic therapy (hazard ratio 2.1, 95% CI 1.1 to 4.1). Conclusions Compared with no current use of any hormone therapy, oral menopausal hormone therapy was associated with increased venous thromboembolic risk regardless of dosage and treatment duration, while prolonged use of high dose oral oestradiol (&gt;1 mg/day) showed elevated risks of ischaemic stroke and myocardial infarction. No increased thrombotic risks were observed with transdermal therapy.",
+      "authors": [
+        "Julie Berggreen",
+        "Nelsan Pourhadi",
+        "Hannah Wood-Kurland",
+        "Ellen Løkkegaard",
+        "Christian Torp-Pedersen",
+        "Amani Meaidi"
+      ],
+      "publishedAt": "2026-09-23",
+      "url": "https://doi.org/10.1136/bmj-2026-100688",
+      "doi": "10.1136/bmj-2026-100688",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100950",
+      "journalId": "bmj",
+      "title": "Wastewater surveillance: UKHSA expands programme to detect major health threats",
+      "authors": [
+        "Gareth Iacobucci"
+      ],
+      "publishedAt": "2026-09-23",
+      "url": "https://doi.org/10.1136/bmj-2026-100950",
+      "doi": "10.1136/bmj-2026-100950",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100901",
+      "journalId": "bmj",
+      "title": "Scarlett McNally: We need a more nuanced approach to fixing errors in the electronic patient record",
+      "authors": [
+        "Scarlett McNally"
+      ],
+      "publishedAt": "2026-09-23",
+      "url": "https://doi.org/10.1136/bmj-2026-100901",
+      "doi": "10.1136/bmj-2026-100901",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100828",
+      "journalId": "bmj",
+      "title": "Antidepressants and cardiac safety",
+      "authors": [
+        "Scott R Beach",
+        "Christopher M Celano",
+        "Matthew Gunther",
+        "Jeff C Huffman"
+      ],
+      "publishedAt": "2026-09-23",
+      "url": "https://doi.org/10.1136/bmj-2026-100828",
+      "doi": "10.1136/bmj-2026-100828",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100920",
+      "journalId": "bmj",
+      "title": "Eyelash extensions and mites",
+      "authors": [
+        "Jacqui Wise"
+      ],
+      "publishedAt": "2026-09-23",
+      "url": "https://doi.org/10.1136/bmj-2026-100920",
+      "doi": "10.1136/bmj-2026-100920",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100948",
+      "journalId": "bmj",
+      "title": "Advanced practitioners and doctor substitution: Dossier reveals “shocking” patient safety incidents",
+      "authors": [
+        "Jacqui Wise"
+      ],
+      "publishedAt": "2026-09-23",
+      "url": "https://doi.org/10.1136/bmj-2026-100948",
+      "doi": "10.1136/bmj-2026-100948",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100594",
+      "journalId": "bmj",
+      "title": "The person my clinicians never got to meet",
+      "authors": [
+        "Melanie Allsop"
+      ],
+      "publishedAt": "2026-09-23",
+      "url": "https://doi.org/10.1136/bmj-2026-100594",
+      "doi": "10.1136/bmj-2026-100594",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100941",
+      "journalId": "bmj",
+      "title": "Trust at centre of police investigation is sorry for “accidental loss” of maternity data",
+      "authors": [
+        "Jacqui Wise"
+      ],
+      "publishedAt": "2026-09-23",
+      "url": "https://doi.org/10.1136/bmj-2026-100941",
+      "doi": "10.1136/bmj-2026-100941",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100870",
+      "journalId": "bmj",
+      "title": "Daraxonrasib: How soon could the new drug for pancreatic cancer be available in the UK?",
+      "authors": [
+        "Katharine Lang"
+      ],
+      "publishedAt": "2026-09-23",
+      "url": "https://doi.org/10.1136/bmj-2026-100870",
+      "doi": "10.1136/bmj-2026-100870",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100933",
+      "journalId": "bmj",
+      "title": "Building futures: Charity ships in medical support for Ghana",
+      "authors": [
+        "Alison Shepherd"
+      ],
+      "publishedAt": "2026-09-23",
+      "url": "https://doi.org/10.1136/bmj-2026-100933",
+      "doi": "10.1136/bmj-2026-100933",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100600",
+      "journalId": "bmj",
+      "title": "QTc changes and early major adverse cardiovascular events associated with antidepressant treatment for major depressive disorder in adults: individual participant data network meta-regression of double blind randomised trials",
+      "abstract": "Abstract Objective To compare the effect of specific antidepressants with placebo on heart rate corrected QT interval (QTc) during the first eight weeks of treatment for major depressive disorder in adults, and to investigate whether antidepressant use is associated with early major cardiovascular adverse events (MACE). Design Individual participant data (IPD) network meta-regression and aggregate pairwise meta-analysis. Data sources Individual and aggregate level data from randomised controlled trials identified through Cochrane Central Register of Controlled Trials, CINAHL, Embase, LILACS, Medline, Medline In-Process, PsycINFO, the websites of regulatory agencies, and international registers. Methods IPD were harmonised to enhance comparability and analysed using network meta-regressions to explore the interplay with baseline QTc, age, sex assigned at birth, body mass index, serum potassium level, and estimated glomerular filtration rate. The primary outcome was changes in QTc Fridericia (QTcF) associated with specific antidepressants and placebo after taking into account modifiable and non-modifiable risk factors. Aggregate data on early MACE were analysed using pairwise meta-analysis comparing antidepressants with placebo. Eligibility criteria for selecting studies Double blind randomised trials of adults (≥18 years) with major depressive disorder diagnosed according to standardised, operationalised criteria. Results Of 130 unique randomised controlled trials identified, 35 (27%) included individual level data (8679 participants) on QTc with placebo and 10 antidepressants (amitriptyline, bupropion, duloxetine, escitalopram, fluoxetine, mirtazapine, paroxetine, trazodone, venlafaxine, vortioxetine). Compared with placebo, escitalopram and amitriptyline were associated with increased QTc intervals (8.7 milliseconds (ms), 95% credibility interval (CrI) 1.6 to 15.8, and 5.3 ms, 0.8 to 9.8, respectively). When risk factors were considered, amitriptyline and escitalopram were also associated with the highest QTc prolongations (58.8% and 21.3%, respectively), whereas venlafaxine and vortioxetine were often associated with the lowest QTc intervals (24.1% and 9.7%, respectively). Important variability of effects was observed, especially for escitalopram, fluoxetine, and mirtazapine. An aggregate analysis of 139 trials (52 398 participants) did not identify an association between antidepressant use and increased rates of early MACE and non-suicidal death compared with placebo (risk difference 0.01%, 95% CrI -0.01% to 0.02%). Conclusions The effect of specific antidepressants on QTc interval differed between adults with depression. No evidence associated antidepressant use with early MACE and non-suicidal sudden death. To support shared decision making and taking into account the trade-off between benefits and harms, individual modifiable and non-modifiable risk factors should be considered when choosing antidepressants. Systematic review registration Open Science Framework https://osf.io/c8k65/ .",
+      "authors": [
+        "Edoardo Giuseppe Ostinelli",
+        "Sofia Capocci",
+        "Zhenpeng Li",
+        "Claire Friederich",
+        "Giacomo Mugnai",
+        "Anton Pottegård",
+        "Flavio Luciano Ribichini",
+        "Andrea Cipriani"
+      ],
+      "publishedAt": "2026-09-23",
+      "url": "https://doi.org/10.1136/bmj-2026-100600",
+      "doi": "10.1136/bmj-2026-100600",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100868",
+      "journalId": "bmj",
+      "title": "Fireworks should be banned",
+      "authors": [
+        "Nicolas Faure"
+      ],
+      "publishedAt": "2026-09-23",
+      "url": "https://doi.org/10.1136/bmj-2026-100868",
+      "doi": "10.1136/bmj-2026-100868",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100937",
+      "journalId": "bmj",
+      "title": "Abortion: South Korea to approve mifepristone",
+      "authors": [
+        "Flynn Murphy"
+      ],
+      "publishedAt": "2026-09-22",
+      "url": "https://doi.org/10.1136/bmj-2026-100937",
+      "doi": "10.1136/bmj-2026-100937",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100862",
+      "journalId": "bmj",
+      "title": "Rammya Mathew: India can teach us about healthcare—but what exactly?",
+      "authors": [
+        "Rammya Mathew"
+      ],
+      "publishedAt": "2026-09-22",
+      "url": "https://doi.org/10.1136/bmj-2026-100862",
+      "doi": "10.1136/bmj-2026-100862",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100864",
+      "journalId": "bmj",
+      "title": "Recurrent missed appointments may be a sign of ADHD",
+      "authors": [
+        "Ulrich Müller-Sedgwick"
+      ],
+      "publishedAt": "2026-09-22",
+      "url": "https://doi.org/10.1136/bmj-2026-100864",
+      "doi": "10.1136/bmj-2026-100864",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100936",
+      "journalId": "bmj",
+      "title": "Men B outbreak: Genetic changes could explain severity of Kent cases, scientists say",
+      "authors": [
+        "Jacqui Wise"
+      ],
+      "publishedAt": "2026-09-22",
+      "url": "https://doi.org/10.1136/bmj-2026-100936",
+      "doi": "10.1136/bmj-2026-100936",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100935",
+      "journalId": "bmj",
+      "title": "Cut back on “short termism” and regulation to help save £460 per person a year, report says",
+      "authors": [
+        "Abi Rimmer"
+      ],
+      "publishedAt": "2026-09-22",
+      "url": "https://doi.org/10.1136/bmj-2026-100935",
+      "doi": "10.1136/bmj-2026-100935",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100931",
+      "journalId": "bmj",
+      "title": "ADHD and autism: PIP benefits for teens rising fastest in wealthier areas, analysis suggests",
+      "authors": [
+        "Gareth Iacobucci"
+      ],
+      "publishedAt": "2026-09-22",
+      "url": "https://doi.org/10.1136/bmj-2026-100931",
+      "doi": "10.1136/bmj-2026-100931",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100930",
+      "journalId": "bmj",
+      "title": "Martha’s rule to be expanded to all A&amp;Es in England",
+      "authors": [
+        "Catherine Wang"
+      ],
+      "publishedAt": "2026-09-22",
+      "url": "https://doi.org/10.1136/bmj-2026-100930",
+      "doi": "10.1136/bmj-2026-100930",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100861",
+      "journalId": "bmj",
+      "title": "Stained glass: the registrar bringing surgical dexterity to stained glass making",
+      "authors": [
+        "Kathy Oxtoby"
+      ],
+      "publishedAt": "2026-09-22",
+      "url": "https://doi.org/10.1136/bmj-2026-100861",
+      "doi": "10.1136/bmj-2026-100861",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100932",
+      "journalId": "bmj",
+      "title": "Afghanistan’s restrictions on women are becoming a public health emergency",
+      "authors": [
+        "Nadia Akseer",
+        "Ahmadwali Aminee",
+        "Husnia Sadat"
+      ],
+      "publishedAt": "2026-09-22",
+      "url": "https://doi.org/10.1136/bmj-2026-100932",
+      "doi": "10.1136/bmj-2026-100932",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100795",
+      "journalId": "bmj",
+      "title": "Importance of equity in configuration of NHS electronic patient records",
+      "authors": [
+        "Shaun Boustani",
+        "Chase Staras",
+        "Andrew J Wilson",
+        "Ann Griffin"
+      ],
+      "publishedAt": "2026-09-22",
+      "url": "https://doi.org/10.1136/bmj-2026-100795",
+      "doi": "10.1136/bmj-2026-100795",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100934",
+      "journalId": "bmj",
+      "title": "Trump: “Split vaccines into five doses to reduce autism”—the US president’s latest unevidenced claim",
+      "authors": [
+        "Leslie Liang",
+        "Mun-Keat Looi"
+      ],
+      "publishedAt": "2026-09-22",
+      "url": "https://doi.org/10.1136/bmj-2026-100934",
+      "doi": "10.1136/bmj-2026-100934",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100921",
+      "journalId": "bmj",
+      "title": "Helen Salisbury: What have you found out so far?",
+      "authors": [
+        "Helen Salisbury"
+      ],
+      "publishedAt": "2026-09-22",
+      "url": "https://doi.org/10.1136/bmj-2026-100921",
+      "doi": "10.1136/bmj-2026-100921",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100918",
+      "journalId": "bmj",
+      "title": "Mastectomy scandal: Twenty women had unnecessary procedure at trust, investigation finds",
+      "authors": [
+        "Emma Wilkinson"
+      ],
+      "publishedAt": "2026-09-21",
+      "url": "https://doi.org/10.1136/bmj-2026-100918",
+      "doi": "10.1136/bmj-2026-100918",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100927",
+      "journalId": "bmj",
+      "title": "Organ donation: “Sharp decline” prompts urgent NHS action plan",
+      "authors": [
+        "Jacqui Wise"
+      ],
+      "publishedAt": "2026-09-21",
+      "url": "https://doi.org/10.1136/bmj-2026-100927",
+      "doi": "10.1136/bmj-2026-100927",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100919",
+      "journalId": "bmj",
+      "title": "Dementia: Calls for national target for dementia diagnosis backed by clinicians",
+      "authors": [
+        "Emma Wilkinson"
+      ],
+      "publishedAt": "2026-09-21",
+      "url": "https://doi.org/10.1136/bmj-2026-100919",
+      "doi": "10.1136/bmj-2026-100919",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100916",
+      "journalId": "bmj",
+      "title": "Counterfeit medicines: Major raid uncovers racket, with fears for medical supply contamination",
+      "authors": [
+        "Kamala Thiagarajan"
+      ],
+      "publishedAt": "2026-09-21",
+      "url": "https://doi.org/10.1136/bmj-2026-100916",
+      "doi": "10.1136/bmj-2026-100916",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100922",
+      "journalId": "bmj",
+      "title": "Climate resilience requires health systems that work for women and marginalised communities",
+      "authors": [
+        "Carina Hirsch",
+        "Nabeeha Kazi Hutchins",
+        "Susannah H Mayhew"
+      ],
+      "publishedAt": "2026-09-21",
+      "url": "https://doi.org/10.1136/bmj-2026-100922",
+      "doi": "10.1136/bmj-2026-100922",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100746",
+      "journalId": "bmj",
+      "title": "Medicine needs critics: Why scepticism is both healthy and important",
+      "authors": [
+        "Shivali Fulchand"
+      ],
+      "publishedAt": "2026-09-21",
+      "url": "https://doi.org/10.1136/bmj-2026-100746",
+      "doi": "10.1136/bmj-2026-100746",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100923",
+      "journalId": "bmj",
+      "title": "AI patient complaints: GPs and hospitals get advice after wave of algorithm generated letters",
+      "authors": [
+        "Elisabeth Mahase"
+      ],
+      "publishedAt": "2026-09-21",
+      "url": "https://doi.org/10.1136/bmj-2026-100923",
+      "doi": "10.1136/bmj-2026-100923",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100749",
+      "journalId": "bmj",
+      "title": "Improving transparency of drug regulatory decisions",
+      "authors": [
+        "Maximilian Siebert",
+        "Ariadna Tibau"
+      ],
+      "publishedAt": "2026-09-21",
+      "url": "https://doi.org/10.1136/bmj-2026-100749",
+      "doi": "10.1136/bmj-2026-100749",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100925",
+      "journalId": "bmj",
+      "title": "American Diabetes Association boycotted in free speech row",
+      "authors": [
+        "Janice Hopkins Tanne"
+      ],
+      "publishedAt": "2026-09-21",
+      "url": "https://doi.org/10.1136/bmj-2026-100925",
+      "doi": "10.1136/bmj-2026-100925",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100838",
+      "journalId": "bmj",
+      "title": "Maternity reviews: we know what needs to change",
+      "authors": [
+        "Odiri Oteri"
+      ],
+      "publishedAt": "2026-09-21",
+      "url": "https://doi.org/10.1136/bmj-2026-100838",
+      "doi": "10.1136/bmj-2026-100838",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100811",
+      "journalId": "bmj",
+      "title": "Fragmentation of care worsens outcomes in cellulitis management",
+      "authors": [
+        "Elizabeth LA Cross",
+        "O Martin Williams",
+        "Edd Carlton",
+        "Fergus Hamilton"
+      ],
+      "publishedAt": "2026-09-18",
+      "url": "https://doi.org/10.1136/bmj-2026-100811",
+      "doi": "10.1136/bmj-2026-100811",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100846",
+      "journalId": "bmj",
+      "title": "Rick van Saene",
+      "authors": [
+        "Hans Rommes",
+        "Andy Petros",
+        "Durk Zandstra",
+        "Nia Taylor",
+        "Luciano Silvestri",
+        "Francisco Abecasis"
+      ],
+      "publishedAt": "2026-09-18",
+      "url": "https://doi.org/10.1136/bmj-2026-100846",
+      "doi": "10.1136/bmj-2026-100846",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100845",
+      "journalId": "bmj",
+      "title": "Peter Blakeman",
+      "authors": [
+        "Tom Blakeman",
+        "Joe Cosgrove",
+        "Laura Hipple",
+        "Namita Kumar"
+      ],
+      "publishedAt": "2026-09-18",
+      "url": "https://doi.org/10.1136/bmj-2026-100845",
+      "doi": "10.1136/bmj-2026-100845",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100842",
+      "journalId": "bmj",
+      "title": "John Campbell Anderson",
+      "authors": [
+        "Amy Anderson"
+      ],
+      "publishedAt": "2026-09-18",
+      "url": "https://doi.org/10.1136/bmj-2026-100842",
+      "doi": "10.1136/bmj-2026-100842",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100843",
+      "journalId": "bmj",
+      "title": "Myles David Buckingham Stephens",
+      "authors": [
+        "Lucy Lewis"
+      ],
+      "publishedAt": "2026-09-18",
+      "url": "https://doi.org/10.1136/bmj-2026-100843",
+      "doi": "10.1136/bmj-2026-100843",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100831",
+      "journalId": "bmj",
+      "title": "Kidney transplantation in older adults",
+      "authors": [
+        "Wisit Kaewput",
+        "Mumtaz Patel"
+      ],
+      "publishedAt": "2026-09-18",
+      "url": "https://doi.org/10.1136/bmj-2026-100831",
+      "doi": "10.1136/bmj-2026-100831",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100912",
+      "journalId": "bmj",
+      "title": "GPs in England postpone collective action as they seek “reset” with government",
+      "authors": [
+        "Gareth Iacobucci"
+      ],
+      "publishedAt": "2026-09-18",
+      "url": "https://doi.org/10.1136/bmj-2026-100912",
+      "doi": "10.1136/bmj-2026-100912",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100624",
+      "journalId": "bmj",
+      "title": "Survival benefit of deceased donor kidney transplantation versus continued dialysis: international target trial emulation",
+      "abstract": "Abstract Objective To quantify the survival benefit of deceased donor kidney transplantation versus continued dialysis according to patients’ characteristics (age, diabetes, cardiovascular disease), donor quality (standard criteria donor or expanded criteria donor) and donor retrieval type (donation after brain death or donation after circulatory death). Design Target trial emulation. Setting European Renal Association Registry data from five countries or regions: Catalonia (Spain), Denmark, France, Norway, and the UK. Participants Patients aged ≥20 years receiving dialysis and waitlisted for a first deceased donor kidney-only transplant between 2000 and 2019. Main outcome measures Five year patient survival following deceased donor kidney transplantation versus continued dialysis within monthly sequential trials. Flexible parametric spline models estimated adjusted five year patient survival across recipient age. Results Of 64 036 waitlisted patients receiving dialysis, 39 244 received a deceased donor kidney transplant: 16 897 (43.1%) from a standard criteria donor/donation after brain death donor, 4324 (11.0%) from a standard criteria donor/donation after circulatory death donor, 14 799 (37.7%) from an expanded criteria donor/donation after brain death donor, and 3224 (8.2%) from an expanded criteria donor/donation after circulatory death donor. Standard criteria donor/donation after brain death and standard criteria donor/donation after circulatory death transplantation showed higher estimated five year survival compared with continued dialysis regardless of recipient age. However, the survival benefit associated with expanded criteria donor/donation after brain death transplantation and, particularly, expanded criteria donor/donation after circulatory death transplantation decreased with increasing recipient age, albeit with greater statistical uncertainty among older patients. For example, among 75 year olds, estimated five year survival following expanded criteria donor/donation after circulatory death transplantation did not differ significantly from that with continued dialysis (59% (95% confidence interval 51% to 66%) versus 55% (54% to 55%); hazard ratio 0.97, 95% confidence interval 0.70 to 1.33), irrespective of diabetes or cardiovascular disease status. This group had a threefold higher early post-transplant mortality than those continuing dialysis. Conclusions Standard criteria donor kidney transplantation was consistently associated with a survival benefit compared with continued dialysis. By contrast, the survival benefit associated with expanded criteria donor transplantation declined with increasing recipient age, particularly for expanded criteria donor/donation after circulatory death transplantation, such that the oldest recipients had a smaller and more statistically uncertain estimated survival advantage over continued dialysis.",
+      "authors": [
+        "Rachel Hellemans",
+        "Nicholas C Chesnaye",
+        "Anneke Kramer",
+        "Edouard L Fu",
+        "Miha Arnol",
+        "Anders Åsberg",
+        "Claus Bistrup",
+        "Pietro Manuel Ferraro",
+        "Kristian Heldal",
+        "Jaakko Helve",
+        "Camille Legeai",
+        "James Medcalf",
+        "Dorothea Nitsch",
+        "Laia Oliveras",
+        "María José Pérez-Sáez",
+        "Belén Ponte",
+        "Emilie Savoye",
+        "Mårten Segelmark",
+        "Shaminie Shanmugaranjan",
+        "Søren S Sørensen",
+        "Roser Torra",
+        "Alberto Ortiz",
+        "Kitty J Jager",
+        "Vianda S Stel"
+      ],
+      "publishedAt": "2026-09-18",
+      "url": "https://doi.org/10.1136/bmj-2026-100624",
+      "doi": "10.1136/bmj-2026-100624",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100906",
+      "journalId": "bmj",
+      "title": "EU social media ban: Commission announces restrictions for under-13s",
+      "authors": [
+        "Alessio Cozzolino"
+      ],
+      "publishedAt": "2026-09-18",
+      "url": "https://doi.org/10.1136/bmj-2026-100906",
+      "doi": "10.1136/bmj-2026-100906",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100847",
+      "journalId": "bmj",
+      "title": "Andrew Gareth Millman",
+      "authors": [
+        "Adrian Millman"
+      ],
+      "publishedAt": "2026-09-18",
+      "url": "https://doi.org/10.1136/bmj-2026-100847",
+      "doi": "10.1136/bmj-2026-100847",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100848",
+      "journalId": "bmj",
+      "title": "Gunnar Reiman",
+      "authors": [
+        "Katrin Eagle"
+      ],
+      "publishedAt": "2026-09-18",
+      "url": "https://doi.org/10.1136/bmj-2026-100848",
+      "doi": "10.1136/bmj-2026-100848",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100839",
+      "journalId": "bmj",
+      "title": "UK maternity inquiries over 25 years—or 100?",
+      "authors": [
+        "Christopher Dye"
+      ],
+      "publishedAt": "2026-09-18",
+      "url": "https://doi.org/10.1136/bmj-2026-100839",
+      "doi": "10.1136/bmj-2026-100839",
+      "fetchedAt": "2026-10-01T08:04:18.197Z",
+      "source": "crossref"
+    }
+  ]
+}
