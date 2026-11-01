@@ -1,59 +1,60 @@
 {
-  "lastCrawlAt": "2026-10-01T08:04:02.017Z",
+  "lastCrawlAt": "2026-11-01T08:28:11.210Z",
   "journals": {
     "nejm": {
-      "lastCrawlAt": "2026-10-01T08:04:02.017Z",
+      "lastCrawlAt": "2026-11-01T08:28:11.210Z",
       "rawCount": 100,
       "keptCount": 1
     },
     "lancet": {
-      "lastCrawlAt": "2026-10-01T08:04:02.017Z",
+      "lastCrawlAt": "2026-11-01T08:28:11.210Z",
       "rawCount": 100,
       "keptCount": 0
     },
     "jama": {
-      "lastCrawlAt": "2026-10-01T08:04:02.017Z",
-      "rawCount": 40,
+      "lastCrawlAt": "2026-11-01T08:28:11.210Z",
+      "rawCount": 47,
       "keptCount": 1
     },
     "bmj": {
-      "lastCrawlAt": "2026-10-01T08:04:02.017Z",
+      "lastCrawlAt": "2026-11-01T08:28:11.210Z",
       "rawCount": 100,
       "keptCount": 0
     },
     "influenza-other-resp-viruses": {
-      "lastCrawlAt": "2026-10-01T08:04:02.017Z",
-      "rawCount": 42,
+      "lastCrawlAt": "2026-11-01T08:28:11.210Z",
+      "rawCount": 41,
       "keptCount": 26
     },
     "vaccine": {
-      "lastCrawlAt": "2026-10-01T08:04:02.017Z",
+      "lastCrawlAt": "2026-11-01T08:28:11.210Z",
       "rawCount": 100,
       "keptCount": 1
     },
     "nature-medicine": {
-      "lastCrawlAt": "2026-10-01T08:04:02.017Z",
+      "lastCrawlAt": "2026-11-01T08:28:11.210Z",
       "rawCount": 100,
       "keptCount": 0
     },
     "lancet-infectious-diseases": {
-      "lastCrawlAt": "2026-10-01T08:04:02.017Z",
+      "lastCrawlAt": "2026-11-01T08:28:11.210Z",
       "rawCount": 100,
       "keptCount": 0
     },
     "lancet-respiratory-medicine": {
-      "lastCrawlAt": "2026-10-01T08:04:02.017Z",
-      "rawCount": 88,
-      "keptCount": 0
+      "lastCrawlAt": "2026-11-01T08:28:11.210Z",
+      "rawCount": 0,
+      "keptCount": 0,
+      "error": "Crossref fetch failed for lancet-respiratory-medicine: HTTP 429"
     },
     "lancet-public-health": {
-      "lastCrawlAt": "2026-10-01T08:04:02.017Z",
-      "rawCount": 54,
+      "lastCrawlAt": "2026-11-01T08:28:11.210Z",
+      "rawCount": 65,
       "keptCount": 0
     },
     "european-respiratory-journal": {
-      "lastCrawlAt": "2026-10-01T08:04:02.017Z",
-      "rawCount": 85,
+      "lastCrawlAt": "2026-11-01T08:28:11.210Z",
+      "rawCount": 94,
       "keptCount": 0
     }
   }

@@ -1,0 +1,1397 @@
+{
+  "journalId": "bmj",
+  "fetchedAt": "2026-11-01T08:28:12.386Z",
+  "articles": [
+    {
+      "id": "doi:10.1136/bmj-2026-101299",
+      "journalId": "bmj",
+      "title": "BMJ contributor wins award for investigating India’s gender discrimination in organ donation",
+      "authors": [
+        "Jacqui Wise"
+      ],
+      "publishedAt": "2026-10-30",
+      "url": "https://doi.org/10.1136/bmj-2026-101299",
+      "doi": "10.1136/bmj-2026-101299",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101174",
+      "journalId": "bmj",
+      "title": "Rama Shanker Singh",
+      "authors": [
+        "Neil Singh"
+      ],
+      "publishedAt": "2026-10-30",
+      "url": "https://doi.org/10.1136/bmj-2026-101174",
+      "doi": "10.1136/bmj-2026-101174",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101298",
+      "journalId": "bmj",
+      "title": "Social media ban: Ofcom sets out age verification methods",
+      "authors": [
+        "Rosa Furneaux"
+      ],
+      "publishedAt": "2026-10-30",
+      "url": "https://doi.org/10.1136/bmj-2026-101298",
+      "doi": "10.1136/bmj-2026-101298",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101170",
+      "journalId": "bmj",
+      "title": "James Kemble",
+      "authors": [
+        "Nicola Lewis"
+      ],
+      "publishedAt": "2026-10-30",
+      "url": "https://doi.org/10.1136/bmj-2026-101170",
+      "doi": "10.1136/bmj-2026-101170",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101301",
+      "journalId": "bmj",
+      "title": "Thousands of patients automatically deleted from electronic referral service, watchdog warns",
+      "authors": [
+        "Abi Rimmer"
+      ],
+      "publishedAt": "2026-10-30",
+      "url": "https://doi.org/10.1136/bmj-2026-101301",
+      "doi": "10.1136/bmj-2026-101301",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101287",
+      "journalId": "bmj",
+      "title": "Healthwatch: Plans to abolish patient watchdog are scrapped in government U turn",
+      "authors": [
+        "Catherine Wang"
+      ],
+      "publishedAt": "2026-10-30",
+      "url": "https://doi.org/10.1136/bmj-2026-101287",
+      "doi": "10.1136/bmj-2026-101287",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101175",
+      "journalId": "bmj",
+      "title": "George Proud",
+      "authors": [
+        "Alan Craft"
+      ],
+      "publishedAt": "2026-10-30",
+      "url": "https://doi.org/10.1136/bmj-2026-101175",
+      "doi": "10.1136/bmj-2026-101175",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101247",
+      "journalId": "bmj",
+      "title": "Rapid expansion of data centres is massively increasing production of “forever chemicals”",
+      "authors": [
+        "John Puntis"
+      ],
+      "publishedAt": "2026-10-30",
+      "url": "https://doi.org/10.1136/bmj-2026-101247",
+      "doi": "10.1136/bmj-2026-101247",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101171",
+      "journalId": "bmj",
+      "title": "John Hicklin",
+      "authors": [
+        "Lucy-Anne Hicklin"
+      ],
+      "publishedAt": "2026-10-30",
+      "url": "https://doi.org/10.1136/bmj-2026-101171",
+      "doi": "10.1136/bmj-2026-101171",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101281",
+      "journalId": "bmj",
+      "title": "The optimum medical policy is a moving goalpost",
+      "authors": [
+        "Christopher M Worsham"
+      ],
+      "publishedAt": "2026-10-30",
+      "url": "https://doi.org/10.1136/bmj-2026-101281",
+      "doi": "10.1136/bmj-2026-101281",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101297",
+      "journalId": "bmj",
+      "title": "Doctor dies from Ebola in DRC as cases exceed 10 000",
+      "authors": [
+        "Chris Baraniuk"
+      ],
+      "publishedAt": "2026-10-30",
+      "url": "https://doi.org/10.1136/bmj-2026-101297",
+      "doi": "10.1136/bmj-2026-101297",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101173",
+      "journalId": "bmj",
+      "title": "Edward Lawrence",
+      "authors": [
+        "Edward Lawrence"
+      ],
+      "publishedAt": "2026-10-30",
+      "url": "https://doi.org/10.1136/bmj-2026-101173",
+      "doi": "10.1136/bmj-2026-101173",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101292",
+      "journalId": "bmj",
+      "title": "Climate change: Experts call on WHO to formally declare global health emergency",
+      "authors": [
+        "Jacqui Wise"
+      ],
+      "publishedAt": "2026-10-30",
+      "url": "https://doi.org/10.1136/bmj-2026-101292",
+      "doi": "10.1136/bmj-2026-101292",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101276",
+      "journalId": "bmj",
+      "title": "India caps mark-ups on 137 cancer drugs after court highlights 900% price difference",
+      "authors": [
+        "Ganapati Mudur"
+      ],
+      "publishedAt": "2026-10-29",
+      "url": "https://doi.org/10.1136/bmj-2026-101276",
+      "doi": "10.1136/bmj-2026-101276",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101286",
+      "journalId": "bmj",
+      "title": "Hundreds of GP websites crash after online provider enters administration",
+      "authors": [
+        "Jacqui Wise"
+      ],
+      "publishedAt": "2026-10-29",
+      "url": "https://doi.org/10.1136/bmj-2026-101286",
+      "doi": "10.1136/bmj-2026-101286",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101282",
+      "journalId": "bmj",
+      "title": "RCGP does U turn on policy that put assisted dying on par with arms dealers",
+      "authors": [
+        "Rosa Furneaux"
+      ],
+      "publishedAt": "2026-10-29",
+      "url": "https://doi.org/10.1136/bmj-2026-101282",
+      "doi": "10.1136/bmj-2026-101282",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101237",
+      "journalId": "bmj",
+      "title": "Endometriosis: earlier diagnosis without meaningful access to treatment is only half the solution",
+      "authors": [
+        "Araya Gautam"
+      ],
+      "publishedAt": "2026-10-29",
+      "url": "https://doi.org/10.1136/bmj-2026-101237",
+      "doi": "10.1136/bmj-2026-101237",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101277",
+      "journalId": "bmj",
+      "title": "Strongman politics, women’s health according to Trump, and how to save the world",
+      "authors": [
+        "Jocalyn Clark"
+      ],
+      "publishedAt": "2026-10-29",
+      "url": "https://doi.org/10.1136/bmj-2026-101277",
+      "doi": "10.1136/bmj-2026-101277",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101222",
+      "journalId": "bmj",
+      "title": "Stop rewarding audits and start rewarding the solution of important problems",
+      "authors": [
+        "Stephen J Davison"
+      ],
+      "publishedAt": "2026-10-29",
+      "url": "https://doi.org/10.1136/bmj-2026-101222",
+      "doi": "10.1136/bmj-2026-101222",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101279",
+      "journalId": "bmj",
+      "title": "Budget 2026: NHS gets AI productivity review and winter pressure fund—but little else for health and social care",
+      "authors": [
+        "Jacqui Wise"
+      ],
+      "publishedAt": "2026-10-29",
+      "url": "https://doi.org/10.1136/bmj-2026-101279",
+      "doi": "10.1136/bmj-2026-101279",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101156",
+      "journalId": "bmj",
+      "title": "Should doctors be on social media?",
+      "authors": [
+        "Stephanie Santos Paulo"
+      ],
+      "publishedAt": "2026-10-28",
+      "url": "https://doi.org/10.1136/bmj-2026-101156",
+      "doi": "10.1136/bmj-2026-101156",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101054",
+      "journalId": "bmj",
+      "title": "Corticosteroid injections to treat tendinopathy",
+      "authors": [
+        "John W Orchard"
+      ],
+      "publishedAt": "2026-10-28",
+      "url": "https://doi.org/10.1136/bmj-2026-101054",
+      "doi": "10.1136/bmj-2026-101054",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101256",
+      "journalId": "bmj",
+      "title": "Thirlwall inquiry: recommendations made on shaky ground",
+      "authors": [
+        "Kieran Walshe",
+        "Naomi Fulop",
+        "Dawn Goodwin"
+      ],
+      "publishedAt": "2026-10-28",
+      "url": "https://doi.org/10.1136/bmj-2026-101256",
+      "doi": "10.1136/bmj-2026-101256",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100807",
+      "journalId": "bmj",
+      "title": "Efficacy and cost effectiveness of high volume injections with and without corticosteroid compared with sham for midportion Achilles tendinopathy (Inject trial): randomised controlled trial",
+      "abstract": "Abstract Objective To test the efficacy and cost effectiveness of high volume injections with and without corticosteroid versus sham injection for midportion Achilles tendinopathy. Design Single centred, participant and assessor masked, three arm randomised controlled trial (Inject trial). Setting Community. Participants From 5 December 2019 and 24 July 2022, 192 adults (18 years or older) diagnosed with midportion Achilles tendinopathy were randomly assigned (1:1:1) to sham (n=64), high volume injection without corticosteroid (n=63), or high volume injection with corticosteroid (n=65). Interventions Participants were allocated to sham injection (2-3 mL 0.5% bupivacaine hydrochloride), high volume injection with corticosteroid (50 mL saline and 0.5% bupivacaine with 25 mg hydrocortisone in the first 10 mL), or high volume injection with no corticosteroid (same solution but without hydrocortisone). They received the same exercise programme, education, and activity modification advice. Main outcome measures The primary clinical outcome was pain and disability using the validated VISA-A and the primary endpoint was at 52 weeks. The economic outcome was cost per quality-adjusted life-years from a societal perspective. Results VISA-A data were obtained from 181 (94%) of 192 participants at 12 months. No clear differences were noted between sham and high volume injection either with (-3.5 (98.33% confidence interval -12.0 to 5.0)) or without corticosteroid (4.0 (-4.2 to 12.3)), and between the two injections (-7.5 (-15.3 to 0.3)), at 12 months. The point estimate was closest to the target difference for the comparison between injections and favoured the arm without steroid. The only differences observed on VISA-A at intermediate time points were a benefit for high volume with corticosteroid versus sham at six weeks (9.2 (1.5 to 16.9)) but worse outcomes for high volume injection with corticosteroid versus high volume injection with no corticosteroid at 26 weeks (-8.6 (-16.4 to -0.7)). The health economic analysis found high volume injection with corticosteroid to be less costly than the sham with similar effectiveness based on quality-adjusted life-years (&gt;0.90 probability of being cost effective at $AUD50 000 and $100 000 willingness-to-pay thresholds). No serious trial related adverse events were recorded. Conclusion High volume injections with or without corticosteroids did not improve pain or disability compared with sham at 12 months. Although high volume injections with corticosteroid showed short term clinical benefit and potential reduction in healthcare costs over a year, they were associated with worse longer term clinical outcomes. The clinical data do not support routine use for high volume injections with corticosteroid for midportion Achilles tendinopathy. Trial registration Australian New Zealand Clinical Trials Registry NCT12619001455156",
+      "authors": [
+        "Peter Malliaras",
+        "David Connell",
+        "Anders Ploug Boesen",
+        "Rebecca S Kearney",
+        "Hylton B Menz",
+        "Dylan Morrissey",
+        "Shannon E Munteanu",
+        "Karin Gravare Silbernagel",
+        "Martin Underwood",
+        "Andrew Forbes",
+        "Terry P Haines"
+      ],
+      "publishedAt": "2026-10-28",
+      "url": "https://doi.org/10.1136/bmj-2026-100807",
+      "doi": "10.1136/bmj-2026-100807",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101271",
+      "journalId": "bmj",
+      "title": "AI recommends vastly more expensive treatment than physicians, analysis suggests",
+      "authors": [
+        "Rosa Furneaux"
+      ],
+      "publishedAt": "2026-10-28",
+      "url": "https://doi.org/10.1136/bmj-2026-101271",
+      "doi": "10.1136/bmj-2026-101271",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101123",
+      "journalId": "bmj",
+      "title": "Impact of a large measles outbreak associated with transmission in the Americas and Canada’s loss of measles elimination status: descriptive cohort study",
+      "abstract": "Abstract Objective To describe the epidemiological characteristics, public health response, and evidence of international spread of a large measles outbreak that contributed to the loss of Canada’s measles elimination status. Design Descriptive analysis of the cohort of measles outbreak cases reported to Ontario’s public health surveillance system during the outbreak period: epidemiological week of 28 October 2024 to 6 October 2025. Setting Ontario, Canada. Participants Individuals meeting the outbreak case definition for confirmed or probable measles infection during the outbreak period. Exposure Exposure to measles virus associated with the Ontario outbreak and related transmission chains. Main outcome measures Demographic characteristics, vaccination status, admission to hospital, complications, pregnancy associated outcomes, mortality, and evidence of international spread based on measles virus genotyping and sequencing. Cases were identified using an outbreak-specific case definition incorporating epidemiological, clinical, laboratory, and viral sequencing criteria. Phylogenetic analysis of measles virus sequences was used to assess evidence of onwards spread to other countries. Results The outbreak consisted of 2377 cases (2064 confirmed and 313 probable) over 49 weeks and contributed to the loss of Canada’s measles elimination status. Most cases (2146/2377, 90.3%) occurred among members of historically under-vaccinated communities, with limited spillover into the broader population. Among the 2377 cases, approximately three quarters of cases (n=1736, 73.0%) occurred in individuals aged 19 years or younger, 2121 (89.2%) were unvaccinated, and 97 (4.1%) had unknown vaccination status. The outbreak was associated with 166 (7%) admissions to hospital, 13 (&lt;1%) admissions to intensive care unit, 51 (2.1%) infections during pregnancy, 10 (&lt;1%) congenital measles infections, one (&lt;1%) case of encephalitis, and one (&lt;1%) infant death. Sequencing identified a novel N450 distinct sequence identifier that was subsequently detected in countries including the United States of America, Mexico, and the Netherlands. The outbreak strain was designated a World Health Organization named strain (MVs/Ontario.CAN/47.24). Conclusions These findings highlight the risk of measles re-establishment in countries that have attained elimination and underscore the importance of culturally appropriate community engagement to build trust in immunisation and prevent future outbreaks. This outbreak shows the fragility of measles elimination in the presence of long standing immunity gaps within interconnected communities across the Americas and the population-level protection that limited broader community transmission.",
+      "authors": [
+        "Sarah E Wilson",
+        "Gillian H Lim",
+        "Mehdi Aloosh",
+        "Adelle Chang On",
+        "Cara-Lee Coghill",
+        "Tara Harris",
+        "Maan Hasso",
+        "Miriam Klassen",
+        "Christine Navarro",
+        "Eleanor Paget",
+        "Kaitlin Patterson",
+        "Marina I Salvadori",
+        "Ninh Tran",
+        "John Tuinema",
+        "Daniel Warshafsky",
+        "Joanne Hiebert"
+      ],
+      "publishedAt": "2026-10-28",
+      "url": "https://doi.org/10.1136/bmj-2026-101123",
+      "doi": "10.1136/bmj-2026-101123",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101206",
+      "journalId": "bmj",
+      "title": "The label “corridor care” is hiding the true scale of the NHS hospital crisis",
+      "authors": [
+        "Asif Qasim"
+      ],
+      "publishedAt": "2026-10-28",
+      "url": "https://doi.org/10.1136/bmj-2026-101206",
+      "doi": "10.1136/bmj-2026-101206",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101265",
+      "journalId": "bmj",
+      "title": "Jackdaw: The false promises of another gas field",
+      "authors": [
+        "Ola Løkken Nordrum"
+      ],
+      "publishedAt": "2026-10-28",
+      "url": "https://doi.org/10.1136/bmj-2026-101265",
+      "doi": "10.1136/bmj-2026-101265",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101267",
+      "journalId": "bmj",
+      "title": "Disproportionate employer referrals of ethnic minorities and IMGs could be eliminated this year, GMC claims",
+      "authors": [
+        "Jacqui Wise"
+      ],
+      "publishedAt": "2026-10-28",
+      "url": "https://doi.org/10.1136/bmj-2026-101267",
+      "doi": "10.1136/bmj-2026-101267",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101229",
+      "journalId": "bmj",
+      "title": "Management of chronic pain secondary to temporomandibular disorders: a systematic review and network meta-analysis of randomised trials",
+      "publishedAt": "2026-10-28",
+      "url": "https://doi.org/10.1136/bmj-2026-101229",
+      "doi": "10.1136/bmj-2026-101229",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101195",
+      "journalId": "bmj",
+      "title": "The educator championing doctors’ wellbeing during medical training",
+      "authors": [
+        "Kathy Oxtoby"
+      ],
+      "publishedAt": "2026-10-28",
+      "url": "https://doi.org/10.1136/bmj-2026-101195",
+      "doi": "10.1136/bmj-2026-101195",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101264",
+      "journalId": "bmj",
+      "title": "AI bots swamped UK government consultation on vape restrictions, analysis suggests",
+      "authors": [
+        "Rosa Furneaux"
+      ],
+      "publishedAt": "2026-10-28",
+      "url": "https://doi.org/10.1136/bmj-2026-101264",
+      "doi": "10.1136/bmj-2026-101264",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101233",
+      "journalId": "bmj",
+      "title": "Resetting global health: sovereignty must strengthen rights, not replace them",
+      "publishedAt": "2026-10-28",
+      "url": "https://doi.org/10.1136/bmj-2026-101233",
+      "doi": "10.1136/bmj-2026-101233",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101269",
+      "journalId": "bmj",
+      "title": "Surgeon who put brandy in his coffee after botching operation is suspended for 12 months",
+      "authors": [
+        "Clare Dyer"
+      ],
+      "publishedAt": "2026-10-28",
+      "url": "https://doi.org/10.1136/bmj-2026-101269",
+      "doi": "10.1136/bmj-2026-101269",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101204",
+      "journalId": "bmj",
+      "title": "Recommitting to the eradication of measles",
+      "authors": [
+        "Jennifer B Nuzzo"
+      ],
+      "publishedAt": "2026-10-28",
+      "url": "https://doi.org/10.1136/bmj-2026-101204",
+      "doi": "10.1136/bmj-2026-101204",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101041",
+      "journalId": "bmj",
+      "title": "European desflurane ban shows how environmental regulation could influence medical practice",
+      "authors": [
+        "Jasper M Kampman",
+        "Ans Kolk",
+        "Nicolaas H Sperna Weiland"
+      ],
+      "publishedAt": "2026-10-27",
+      "url": "https://doi.org/10.1136/bmj-2026-101041",
+      "doi": "10.1136/bmj-2026-101041",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101190",
+      "journalId": "bmj",
+      "title": "Splints after flexor tendon repair",
+      "authors": [
+        "Özge Buket Arslan",
+        "Çiğdem Öksüz"
+      ],
+      "publishedAt": "2026-10-27",
+      "url": "https://doi.org/10.1136/bmj-2026-101190",
+      "doi": "10.1136/bmj-2026-101190",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101250",
+      "journalId": "bmj",
+      "title": "Ebola: First people vaccinated in phase 2/3 Bundibugyo jab trial as health worker killed",
+      "authors": [
+        "Chris Baraniuk"
+      ],
+      "publishedAt": "2026-10-27",
+      "url": "https://doi.org/10.1136/bmj-2026-101250",
+      "doi": "10.1136/bmj-2026-101250",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100953",
+      "journalId": "bmj",
+      "title": "Comparative effectiveness of three splints for rehabilitation after finger flexor tendon repair (FIRST): randomised controlled trial",
+      "abstract": "Abstract Objective To compare the clinical effectiveness of three splints after repair of zone 1 and 2 flexor tendons: forearm based (long), Manchester short (short), and relative motion flexion (mini) splints. Design Prospective, randomised, parallel group, pragmatic, superiority, clinical trial. Setting 26 UK hospitals. Participants 430 participants (aged =16 years) requiring rehabilitation after primary repair of zone 1 and 2 flexor tendons in one or two fingers of the hand according to British Society for Surgery of the Hand guidelines. Interventions Participants were randomly assigned 1:1:1 to the long, short, or mini splint. Splints were worn continuously for five weeks and intermittently for a further week at night and in vulnerable situations such as public environments. Masking participants was not possible owing to the nature of the intervention. Main outcome measures The primary outcome was the mean post-randomisation score on the patient-rated wrist and hand evaluation (PRWHE) instrument at 6, 12, 26, and 52 weeks, analysed by intention to treat. Results 430 participants were randomised to the long splint (n=143), short splint (n=140), or mini splint (n=147) and 403 were included in the intention-to-treat analysis. Adherence, defined as wearing the splint for a minimum of five weeks, was 83% (118/143) for the long splint, 76% (106/140) for the short splint, and 78% (115/147) for the mini splint. Mean post-randomisation PRWHE scores were 24.5 (standard deviation 15.5) in the long splint group, 23.5 (16.7) in the short splint group, and 22.4 (15.0) in the mini splint group, with adjusted between group differences of 0.3 (98.3% confidence interval -4.0 to 4.6, P=0.88) for the long versus short splint, 2.3 (-1.9 to 6.5, P=0.19) for the long versus mini splint, and 2.0 (-2.2 to 6.3, P=0.25) for the short versus mini splint. Serious adverse event rates occurred in 10% (14/143) of participants in the long splint group, 11% (15/140) in the short splint group, and 11% (16/147) in the mini splint group. Conclusion This trial found no statistically significant difference in clinical effectiveness between the long, short, and mini splint. Apart from some small differences, secondary outcomes were comparable across all three groups. Trial registration ISRCTN Registry NCT10236011 .",
+      "authors": [
+        "Emma Bamford",
+        "Hannah Berntsson",
+        "Suzanne Beale",
+        "Freya Marks",
+        "Lauren Desoysa",
+        "Joseph Dias",
+        "Sienna Hamer-Kiwacz",
+        "Charlotte Head",
+        "Daniel Hind",
+        "Nick Johnson",
+        "Amanda Loban",
+        "Kaye Malloy",
+        "Emma Morvan",
+        "Ines Rombach",
+        "Anna Selby",
+        "Chris Turtle",
+        "Stephen Walters",
+        "Tracey Young",
+        "Avril Drummond"
+      ],
+      "publishedAt": "2026-10-27",
+      "url": "https://doi.org/10.1136/bmj-2026-100953",
+      "doi": "10.1136/bmj-2026-100953",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101244",
+      "journalId": "bmj",
+      "title": "Trump orders renaming AI as “super intelligence” in PubMed",
+      "authors": [
+        "Luke Taylor"
+      ],
+      "publishedAt": "2026-10-27",
+      "url": "https://doi.org/10.1136/bmj-2026-101244",
+      "doi": "10.1136/bmj-2026-101244",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101255",
+      "journalId": "bmj",
+      "title": "Endometriosis and fibroid tablet use soars after NICE recommendations",
+      "authors": [
+        "Chris Baraniuk"
+      ],
+      "publishedAt": "2026-10-27",
+      "url": "https://doi.org/10.1136/bmj-2026-101255",
+      "doi": "10.1136/bmj-2026-101255",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101257",
+      "journalId": "bmj",
+      "title": "UNAIDS rejects controversial “sunsetting” plan",
+      "authors": [
+        "Jacqui Wise"
+      ],
+      "publishedAt": "2026-10-27",
+      "url": "https://doi.org/10.1136/bmj-2026-101257",
+      "doi": "10.1136/bmj-2026-101257",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101220",
+      "journalId": "bmj",
+      "title": "Active verification of AI input in articles",
+      "authors": [
+        "Zaur Gasimov"
+      ],
+      "publishedAt": "2026-10-27",
+      "url": "https://doi.org/10.1136/bmj-2026-101220",
+      "doi": "10.1136/bmj-2026-101220",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101245",
+      "journalId": "bmj",
+      "title": "A ceasefire in name only: Gaza’s healthcare system still faces catastrophic destruction and shortages",
+      "authors": [
+        "Alaa Alshurafa"
+      ],
+      "publishedAt": "2026-10-27",
+      "url": "https://doi.org/10.1136/bmj-2026-101245",
+      "doi": "10.1136/bmj-2026-101245",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101252",
+      "journalId": "bmj",
+      "title": "Chair of government’s national scheme for obesity treatments was paid nearly £80 000 by GLP-1 drug firms",
+      "authors": [
+        "Sophie Borland"
+      ],
+      "publishedAt": "2026-10-27",
+      "url": "https://doi.org/10.1136/bmj-2026-101252",
+      "doi": "10.1136/bmj-2026-101252",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101002",
+      "journalId": "bmj",
+      "title": "Abortion bans: US doctors are training with plastic cups and fruit",
+      "authors": [
+        "Anika Nayak"
+      ],
+      "publishedAt": "2026-10-27",
+      "url": "https://doi.org/10.1136/bmj-2026-101002",
+      "doi": "10.1136/bmj-2026-101002",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101242",
+      "journalId": "bmj",
+      "title": "Consultants’ strike: Senior doctors in England announce industrial action",
+      "authors": [
+        "Chris Baraniuk"
+      ],
+      "publishedAt": "2026-10-26",
+      "url": "https://doi.org/10.1136/bmj-2026-101242",
+      "doi": "10.1136/bmj-2026-101242",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101191",
+      "journalId": "bmj",
+      "title": "Trump’s aid cuts risk killing women around the world",
+      "authors": [
+        "Rebecca L Root"
+      ],
+      "publishedAt": "2026-10-26",
+      "url": "https://doi.org/10.1136/bmj-2026-101191",
+      "doi": "10.1136/bmj-2026-101191",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101241",
+      "journalId": "bmj",
+      "title": "Doctors leaders slam all male panel at London Breast Meeting",
+      "authors": [
+        "Gareth Iacobucci",
+        "John Ely"
+      ],
+      "publishedAt": "2026-10-26",
+      "url": "https://doi.org/10.1136/bmj-2026-101241",
+      "doi": "10.1136/bmj-2026-101241",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101198",
+      "journalId": "bmj",
+      "title": "Fair regulation cannot depend on universal good faith",
+      "authors": [
+        "Thomas J Murphy"
+      ],
+      "publishedAt": "2026-10-26",
+      "url": "https://doi.org/10.1136/bmj-2026-101198",
+      "doi": "10.1136/bmj-2026-101198",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100785",
+      "journalId": "bmj",
+      "title": "Advances in the management of renal cell carcinoma",
+      "abstract": "Abstract Renal cell carcinoma (RCC) is the most common form of kidney cancer, with 435 000 patients newly diagnosed worldwide each year. In addition to morphology and histology, molecular subtyping has advanced the diagnostic classification of RCC. Contemporary diagnosis relies on cross sectional imaging in the form of computed tomography or magnetic resonance imaging and selective biopsy. For localised disease, nephrectomy remains the standard of care, with partial nephrectomy being an option for smaller tumours. Ablation or stereotactic radiation is appropriate for selected patients. Adjuvant pembrolizumab provides improved disease-free and overall survival in high risk clear cell RCC. In metastatic disease, the introduction of immune checkpoint inhibitor based combinations has extended overall survival, providing a durable response in some patients. Despite these advances, primary and secondary resistance, along with the lack of predictive and prognostic biomarkers, remain a challenge.",
+      "authors": [
+        "Akeem R Lewis",
+        "Timothy D Lyon",
+        "Sounak Gupta",
+        "Yousef Zakharia",
+        "Bradley C Leibovich",
+        "Brian A Costello"
+      ],
+      "publishedAt": "2026-10-26",
+      "url": "https://doi.org/10.1136/bmj-2026-100785",
+      "doi": "10.1136/bmj-2026-100785",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101246",
+      "journalId": "bmj",
+      "title": "Children bear brunt of NHS waiting times in England, report finds",
+      "authors": [
+        "Rosa Furneaux"
+      ],
+      "publishedAt": "2026-10-26",
+      "url": "https://doi.org/10.1136/bmj-2026-101246",
+      "doi": "10.1136/bmj-2026-101246",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101226",
+      "journalId": "bmj",
+      "title": "Financial incentives may have a role in driving care quality, but they must be meticulously designed",
+      "authors": [
+        "Graham Martin",
+        "Jane O’Hara",
+        "Mary Dixon-Woods"
+      ],
+      "publishedAt": "2026-10-26",
+      "url": "https://doi.org/10.1136/bmj-2026-101226",
+      "doi": "10.1136/bmj-2026-101226",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101224",
+      "journalId": "bmj",
+      "title": "Obesity: “Unambitious” rollout of weight loss jab must speed up and double bariatric surgeries, government is told",
+      "authors": [
+        "Elisabeth Mahase"
+      ],
+      "publishedAt": "2026-10-23",
+      "url": "https://doi.org/10.1136/bmj-2026-101224",
+      "doi": "10.1136/bmj-2026-101224",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101231",
+      "journalId": "bmj",
+      "title": "Five AI tools for prostate cancer screening are recommended by NICE",
+      "authors": [
+        "Rosa Furneaux"
+      ],
+      "publishedAt": "2026-10-23",
+      "url": "https://doi.org/10.1136/bmj-2026-101231",
+      "doi": "10.1136/bmj-2026-101231",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101218",
+      "journalId": "bmj",
+      "title": "The alternative realism of\n                    <i>The Pitt</i>",
+      "authors": [
+        "Lakshmi Krishnan"
+      ],
+      "publishedAt": "2026-10-23",
+      "url": "https://doi.org/10.1136/bmj-2026-101218",
+      "doi": "10.1136/bmj-2026-101218",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100635",
+      "journalId": "bmj",
+      "title": "Extreme weather events: A practical guide for clinicians",
+      "authors": [
+        "Courtney Howard",
+        "Enrique Barros",
+        "William Gagnon",
+        "Calae Philippe",
+        "Poornima Prabhakaran",
+        "Cecilia Sorensen"
+      ],
+      "publishedAt": "2026-10-23",
+      "url": "https://doi.org/10.1136/bmj-2026-100635",
+      "doi": "10.1136/bmj-2026-100635",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101213",
+      "journalId": "bmj",
+      "title": "Loneliness at work: We need to restore connectedness for resident doctors",
+      "authors": [
+        "Alexander Mafi"
+      ],
+      "publishedAt": "2026-10-23",
+      "url": "https://doi.org/10.1136/bmj-2026-101213",
+      "doi": "10.1136/bmj-2026-101213",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101199",
+      "journalId": "bmj",
+      "title": "Heatwaves linked with 50 000 deaths in Europe’s urban areas this summer, with climate change responsible for two thirds",
+      "authors": [
+        "Gareth Iacobucci"
+      ],
+      "publishedAt": "2026-10-23",
+      "url": "https://doi.org/10.1136/bmj-2026-101199",
+      "doi": "10.1136/bmj-2026-101199",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101230",
+      "journalId": "bmj",
+      "title": "Measles: “Stagnant” vaccine coverage has led to global resurgence, analysis finds",
+      "authors": [
+        "Rosa Furneaux"
+      ],
+      "publishedAt": "2026-10-23",
+      "url": "https://doi.org/10.1136/bmj-2026-101230",
+      "doi": "10.1136/bmj-2026-101230",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101225",
+      "journalId": "bmj",
+      "title": "Ebola: Nigeria announces first Bundibugyo case, as numbers continue to rise in Kenya and DRC",
+      "authors": [
+        "Henry Wasswa"
+      ],
+      "publishedAt": "2026-10-23",
+      "url": "https://doi.org/10.1136/bmj-2026-101225",
+      "doi": "10.1136/bmj-2026-101225",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101210",
+      "journalId": "bmj",
+      "title": "What happens when there is no duty of care?",
+      "authors": [
+        "Ramesh Gupta"
+      ],
+      "publishedAt": "2026-10-23",
+      "url": "https://doi.org/10.1136/bmj-2026-101210",
+      "doi": "10.1136/bmj-2026-101210",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101227",
+      "journalId": "bmj",
+      "title": "Competition for specialty training eases for UK graduates after law change",
+      "authors": [
+        "Gareth Iacobucci"
+      ],
+      "publishedAt": "2026-10-23",
+      "url": "https://doi.org/10.1136/bmj-2026-101227",
+      "doi": "10.1136/bmj-2026-101227",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101221",
+      "journalId": "bmj",
+      "title": "Shamonda: As first ever human case is recorded, what you need to know",
+      "authors": [
+        "Rosa Furneaux"
+      ],
+      "publishedAt": "2026-10-22",
+      "url": "https://doi.org/10.1136/bmj-2026-101221",
+      "doi": "10.1136/bmj-2026-101221",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101115",
+      "journalId": "bmj",
+      "title": "Leaning into fatty liver findings . . . and other research",
+      "authors": [
+        "Tom Nolan"
+      ],
+      "publishedAt": "2026-10-22",
+      "url": "https://doi.org/10.1136/bmj-2026-101115",
+      "doi": "10.1136/bmj-2026-101115",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101102",
+      "journalId": "bmj",
+      "title": "Water shortages: how can hospitals prepare and are water companies doing enough?",
+      "authors": [
+        "Canqi Li"
+      ],
+      "publishedAt": "2026-10-22",
+      "url": "https://doi.org/10.1136/bmj-2026-101102",
+      "doi": "10.1136/bmj-2026-101102",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101217",
+      "journalId": "bmj",
+      "title": "Doctor who “manhandled” female students faces GMC appeal",
+      "authors": [
+        "Clare Dyer"
+      ],
+      "publishedAt": "2026-10-22",
+      "url": "https://doi.org/10.1136/bmj-2026-101217",
+      "doi": "10.1136/bmj-2026-101217",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101219",
+      "journalId": "bmj",
+      "title": "AD-Smart: Alzheimer’s trial will test diabetes and ADHD drugs on patients",
+      "authors": [
+        "Gareth Iacobucci"
+      ],
+      "publishedAt": "2026-10-22",
+      "url": "https://doi.org/10.1136/bmj-2026-101219",
+      "doi": "10.1136/bmj-2026-101219",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100607",
+      "journalId": "bmj",
+      "title": "Plaques and fissures on the lips",
+      "authors": [
+        "Ming-Ming Zhou",
+        "Hong-Hui Xu"
+      ],
+      "publishedAt": "2026-10-22",
+      "url": "https://doi.org/10.1136/bmj-2026-100607",
+      "doi": "10.1136/bmj-2026-100607",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101181",
+      "journalId": "bmj",
+      "title": "Should GLP-1 drugs be so readily available without the systems to ensure their safe use?",
+      "authors": [
+        "Samantha J Robson"
+      ],
+      "publishedAt": "2026-10-22",
+      "url": "https://doi.org/10.1136/bmj-2026-101181",
+      "doi": "10.1136/bmj-2026-101181",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101152",
+      "journalId": "bmj",
+      "title": "How should I deal with a rude email from a colleague?",
+      "authors": [
+        "Abi Rimmer"
+      ],
+      "publishedAt": "2026-10-22",
+      "url": "https://doi.org/10.1136/bmj-2026-101152",
+      "doi": "10.1136/bmj-2026-101152",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101215",
+      "journalId": "bmj",
+      "title": "Chikungunya vaccine withdrawn after safety review",
+      "authors": [
+        "Elisabeth Mahase"
+      ],
+      "publishedAt": "2026-10-22",
+      "url": "https://doi.org/10.1136/bmj-2026-101215",
+      "doi": "10.1136/bmj-2026-101215",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101116",
+      "journalId": "bmj",
+      "title": "Fake honey . . . and other stories",
+      "publishedAt": "2026-10-22",
+      "url": "https://doi.org/10.1136/bmj-2026-101116",
+      "doi": "10.1136/bmj-2026-101116",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101216",
+      "journalId": "bmj",
+      "title": "Guinea-Bissau hepatitis B trial: controversial study cancelled after police raid researchers’ offices",
+      "authors": [
+        "Leslie Liang"
+      ],
+      "publishedAt": "2026-10-22",
+      "url": "https://doi.org/10.1136/bmj-2026-101216",
+      "doi": "10.1136/bmj-2026-101216",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101167",
+      "journalId": "bmj",
+      "title": "Global security crisis and COP31: a duty to accelerate phasing out fossil fuels",
+      "authors": [
+        "Juliet Dobson",
+        "Sophie Cook",
+        "Andy Haines",
+        "Mala Rao",
+        "Howard Frumkin",
+        "Kamran Abbasi"
+      ],
+      "publishedAt": "2026-10-22",
+      "url": "https://doi.org/10.1136/bmj-2026-101167",
+      "doi": "10.1136/bmj-2026-101167",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101202",
+      "journalId": "bmj",
+      "title": "For the sake of both health and security: phase out fossil fuels",
+      "authors": [
+        "Kamran Abbasi"
+      ],
+      "publishedAt": "2026-10-22",
+      "url": "https://doi.org/10.1136/bmj-2026-101202",
+      "doi": "10.1136/bmj-2026-101202",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101040",
+      "journalId": "bmj",
+      "title": "Increasing defence expenditure may cost us our security",
+      "authors": [
+        "Mohammed Abba-Aji",
+        "Nason Maani"
+      ],
+      "publishedAt": "2026-10-21",
+      "url": "https://doi.org/10.1136/bmj-2026-101040",
+      "doi": "10.1136/bmj-2026-101040",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100970",
+      "journalId": "bmj",
+      "title": "As conflict and the climate emergency converge, we must put women, children, and adolescents at the heart of integrated action",
+      "authors": [
+        "Rajat Khosla",
+        "Etienne V Langlois"
+      ],
+      "publishedAt": "2026-10-21",
+      "url": "https://doi.org/10.1136/bmj-2026-100970",
+      "doi": "10.1136/bmj-2026-100970",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100974",
+      "journalId": "bmj",
+      "title": "Conflict and climate are compounding challenges for women’s and children’s health",
+      "authors": [
+        "Tiziana Leone"
+      ],
+      "publishedAt": "2026-10-21",
+      "url": "https://doi.org/10.1136/bmj-2026-100974",
+      "doi": "10.1136/bmj-2026-100974",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101101",
+      "journalId": "bmj",
+      "title": "In South Asia the most vulnerable people are paying for a climate crisis created by high income countries",
+      "authors": [
+        "Elisabeth Mahase"
+      ],
+      "publishedAt": "2026-10-21",
+      "url": "https://doi.org/10.1136/bmj-2026-101101",
+      "doi": "10.1136/bmj-2026-101101",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101149",
+      "journalId": "bmj",
+      "title": "NHS summer situation report: Amid “twin crisis” with winter, how did the health service cope in 2026’s heatwaves?",
+      "authors": [
+        "Gareth Iacobucci"
+      ],
+      "publishedAt": "2026-10-21",
+      "url": "https://doi.org/10.1136/bmj-2026-101149",
+      "doi": "10.1136/bmj-2026-101149",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101168",
+      "journalId": "bmj",
+      "title": "Water rarely starts wars, but wars increasingly damage water systems",
+      "authors": [
+        "Rohit Ramchandani",
+        "Saverio Bellizzi",
+        "Carmen H Logie",
+        "Osama Ali Maher",
+        "Kaveh Madani"
+      ],
+      "publishedAt": "2026-10-21",
+      "url": "https://doi.org/10.1136/bmj-2026-101168",
+      "doi": "10.1136/bmj-2026-101168",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101203",
+      "journalId": "bmj",
+      "title": "Covid inquiry: Care home failures had “devastating consequences”: Video 1",
+      "authors": [
+        "Gareth Iacobucci"
+      ],
+      "publishedAt": "2026-10-21",
+      "url": "https://doi.org/10.1136/bmj-2026-101203",
+      "doi": "10.1136/bmj-2026-101203",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100890",
+      "journalId": "bmj",
+      "title": "Green transition provides a crucial opportunity to finance universal health coverage",
+      "authors": [
+        "Judite Gonçalves",
+        "Fernando Postali",
+        "Moh Shadiqur Rahman",
+        "Christopher Millett"
+      ],
+      "publishedAt": "2026-10-21",
+      "url": "https://doi.org/10.1136/bmj-2026-100890",
+      "doi": "10.1136/bmj-2026-100890",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101113",
+      "journalId": "bmj",
+      "title": "Conflict and climate change are driving food shortages",
+      "authors": [
+        "Elizabeth J Z Robinson"
+      ],
+      "publishedAt": "2026-10-21",
+      "url": "https://doi.org/10.1136/bmj-2026-101113",
+      "doi": "10.1136/bmj-2026-101113",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101055",
+      "journalId": "bmj",
+      "title": "War and military mobilisation are drivers of climate change",
+      "authors": [
+        "Neta C Crawford"
+      ],
+      "publishedAt": "2026-10-21",
+      "url": "https://doi.org/10.1136/bmj-2026-101055",
+      "doi": "10.1136/bmj-2026-101055",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100872",
+      "journalId": "bmj",
+      "title": "Acetic acid chromoendoscopy for detection of neoplastic Barrett’s oesophagus: stepped wedge cluster randomised controlled trial (ACID-trial)",
+      "abstract": "Abstract Objective To assess the added value of acetic acid chromoendoscopy (AAC) for the detection of dysplasia and oesophageal adenocarcinoma during Barrett’s oesophagus surveillance endoscopies. Design Prospective, open label, stepped wedge cluster, randomised trial. Setting 18 Dutch community hospitals. Participants Patients undergoing surveillance for Barrett’s oesophagus were eligible, excluding those with known or previously treated dysplasia. Interventions Hospitals randomly shifted from surveillance without AAC (control) to AAC (intervention), with endoscopists trained before implementation. Targeted biopsies were obtained if lesions were present; random four quadrant biopsies were conducted. Main outcome measures The primary endpoint was the neoplasia detection rate, defined as the percentage of participants with low grade dysplasia, high grade dysplasia, and oesophageal adenocarcinoma in any biopsy, confirmed by an experienced gastrointestinal pathologist. The secondary endpoint was the neoplasia detection rate in targeted biopsies. Results 2267 participants were included, of whom 1438 (63%) were allocated to surveillance without AAC and 829 (37%) to surveillance with AAC; AAC was applied in 679 (82%) allocated participants. Overall, neoplasia was diagnosed in 163 (7.2%) participants (111 (4.9%) low grade dysplasia, 30 (1.3%) high grade dysplasia, and 22 (1.0%) oesophageal adenocarcinoma). AAC use did not increase the neoplasia detection rate (7.4% (50/679) with AAC versus 7.1% (113/1588) without AAC; odds ratio 0.97, 95% confidence interval 0.65 to 1.44; adjusted for calendar time and Barrett’s oesophagus length). Suspected lesions were detected in 95 (14.0%) participants receiving AAC versus 101 (6.4%) without AAC (P&lt;0.001), but the targeted neoplasia detection rate was not higher (2.1% (14/679) versus 1.8% (29/1588); odds ratio 1.05, 0.49 to 2.24). Conclusions Use of AAC did not improve detection of neoplasia in patients with Barrett’s oesophagus undergoing endoscopic surveillance in routine clinical practice. Trial registration www.onderzoekmetmensen.nl ; NL-OMON25059 (prospective registration; 4 Dec 2019).",
+      "authors": [
+        "I N Beaufort",
+        "L S Boer",
+        "A N Milne",
+        "Y A Alderlieste",
+        "J E Baars",
+        "P R Bos",
+        "J P W Burger",
+        "N C M van Heel",
+        "M Ledeboer",
+        "R J Lieverse",
+        "P C van de Meeberg",
+        "J J Meeuse",
+        "A H J Naber",
+        "H J M Pullens",
+        "R C H Scheffer",
+        "M Sikkema",
+        "M F J Stolk",
+        "R E Verbeek",
+        "M A M T Verhagen",
+        "W van de Vrie",
+        "M Willems",
+        "C H van Werkhoven",
+        "B L A M Weusten"
+      ],
+      "publishedAt": "2026-10-21",
+      "url": "https://doi.org/10.1136/bmj-2026-100872",
+      "doi": "10.1136/bmj-2026-100872",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-100913",
+      "journalId": "bmj",
+      "title": "Living with POTS during weather changes",
+      "authors": [
+        "Jennifer"
+      ],
+      "publishedAt": "2026-10-21",
+      "url": "https://doi.org/10.1136/bmj-2026-100913",
+      "doi": "10.1136/bmj-2026-100913",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101050",
+      "journalId": "bmj",
+      "title": "Joining the dots: why more and accurate media coverage of climate change matters",
+      "authors": [
+        "James Painter"
+      ],
+      "publishedAt": "2026-10-21",
+      "url": "https://doi.org/10.1136/bmj-2026-101050",
+      "doi": "10.1136/bmj-2026-101050",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101023",
+      "journalId": "bmj",
+      "title": "Measuring the impact of conflict on the climate",
+      "authors": [
+        "Benjamin Neimark"
+      ],
+      "publishedAt": "2026-10-21",
+      "url": "https://doi.org/10.1136/bmj-2026-101023",
+      "doi": "10.1136/bmj-2026-101023",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101158",
+      "journalId": "bmj",
+      "title": "Medical news in brief: Weekly insulin jab approved, doctors “bullied and harassed” at work, UK bans weight loss pill ads, and other stories",
+      "publishedAt": "2026-10-21",
+      "url": "https://doi.org/10.1136/bmj-2026-101158",
+      "doi": "10.1136/bmj-2026-101158",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101208",
+      "journalId": "bmj",
+      "title": "Brazilian butt lifts and vampire facials in England are targeted in government crackdown",
+      "authors": [
+        "Rosa Furneaux"
+      ],
+      "publishedAt": "2026-10-21",
+      "url": "https://doi.org/10.1136/bmj-2026-101208",
+      "doi": "10.1136/bmj-2026-101208",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101151",
+      "journalId": "bmj",
+      "title": "How to build a heatproof NHS",
+      "authors": [
+        "Abi Rimmer"
+      ],
+      "publishedAt": "2026-10-21",
+      "url": "https://doi.org/10.1136/bmj-2026-101151",
+      "doi": "10.1136/bmj-2026-101151",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101163",
+      "journalId": "bmj",
+      "title": "“Blue poo” could reveal links between gut and brain function, say scientists",
+      "authors": [
+        "Gareth Iacobucci"
+      ],
+      "publishedAt": "2026-10-21",
+      "url": "https://doi.org/10.1136/bmj-2026-101163",
+      "doi": "10.1136/bmj-2026-101163",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101184",
+      "journalId": "bmj",
+      "title": "Earth’s liveable limits breached further this year",
+      "authors": [
+        "Juliet Dobson"
+      ],
+      "publishedAt": "2026-10-21",
+      "url": "https://doi.org/10.1136/bmj-2026-101184",
+      "doi": "10.1136/bmj-2026-101184",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101071",
+      "journalId": "bmj",
+      "title": "Wildfires are putting firefighters at risk of cancer—scientists are working out how to help",
+      "authors": [
+        "Pragathi Ravi"
+      ],
+      "publishedAt": "2026-10-20",
+      "url": "https://doi.org/10.1136/bmj-2026-101071",
+      "doi": "10.1136/bmj-2026-101071",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101197",
+      "journalId": "bmj",
+      "title": "GLP-1s and criminality: US trial will test whether semaglutide can fight crime",
+      "authors": [
+        "Luke Taylor"
+      ],
+      "publishedAt": "2026-10-20",
+      "url": "https://doi.org/10.1136/bmj-2026-101197",
+      "doi": "10.1136/bmj-2026-101197",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101201",
+      "journalId": "bmj",
+      "title": "“Postcode lottery” for children in England accessing healthcare, report warns",
+      "authors": [
+        "Rosa Furneaux"
+      ],
+      "publishedAt": "2026-10-20",
+      "url": "https://doi.org/10.1136/bmj-2026-101201",
+      "doi": "10.1136/bmj-2026-101201",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101200",
+      "journalId": "bmj",
+      "title": "Migrants use significantly less NHS care than they effectively pay for, analysis finds",
+      "authors": [
+        "Rosa Furneaux"
+      ],
+      "publishedAt": "2026-10-20",
+      "url": "https://doi.org/10.1136/bmj-2026-101200",
+      "doi": "10.1136/bmj-2026-101200",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    },
+    {
+      "id": "doi:10.1136/bmj-2026-101130",
+      "journalId": "bmj",
+      "title": "Patients with cancer can benefit from support groups",
+      "authors": [
+        "Eric Watts"
+      ],
+      "publishedAt": "2026-10-20",
+      "url": "https://doi.org/10.1136/bmj-2026-101130",
+      "doi": "10.1136/bmj-2026-101130",
+      "fetchedAt": "2026-11-01T08:28:12.385Z",
+      "source": "crossref"
+    }
+  ]
+}
